@@ -1,0 +1,1087 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How To Food Like A Saigonese | Khám phá</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">How To Food Like A Saigonese</a>
+      <button class="nav-hamburger" id="hamburgerBtn" aria-label="Mở menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="khampha.html" class="active">Khám phá</a></li>
+        <li><a href="bando.html">Bản đồ</a></li>
+        <li><a href="goiy.html">Gợi ý</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('hinhanhquan/header-khampha.jpg');"></div>
+    <div class="page-hero-content">
+      <h1>Khám phá ẩm thực TP.HCM</h1>
+      <p>Dùng bộ lọc bên trái để tìm đúng quán ăn phù hợp với bạn</p>
+    </div>
+  </div>
+
+  <div class="khampha-wrapper">
+
+    <aside class="filter-sidebar">
+      <div class="filter-sidebar-title">
+        <span>🎛 Bộ lọc</span>
+        <button class="filter-reset-btn" id="resetBtn" onclick="resetFilters()">Đặt lại</button>
+      </div>
+      <div class="filter-group"><label class="filter-group-label" for="fsSearch">Tìm kiếm</label><input type="text" id="fsSearch" placeholder="Tên quán, món ăn..." /></div>
+      <div class="filter-divider"></div>
+      <div class="filter-group"><label class="filter-group-label" for="fsDistrict">Khu vực</label><select id='fsDistrict'>          <option value=''>Tất cả quận</option>
+          <option value='Bình Tân'>Bình Tân</option>
+          <option value='Bình Thạnh'>Bình Thạnh</option>
+          <option value='Gò Vấp'>Gò Vấp</option>
+          <option value='Phú Nhuận'>Phú Nhuận</option>
+          <option value='Quận 1'>Quận 1</option>
+          <option value='Quận 10'>Quận 10</option>
+          <option value='Quận 11'>Quận 11</option>
+          <option value='Quận 12'>Quận 12</option>
+          <option value='Quận 2'>Quận 2</option>
+          <option value='Quận 3'>Quận 3</option>
+          <option value='Quận 4'>Quận 4</option>
+          <option value='Quận 5'>Quận 5</option>
+          <option value='Quận 6'>Quận 6</option>
+          <option value='Quận 7'>Quận 7</option>
+          <option value='Quận 8'>Quận 8</option>
+          <option value='Quận 9'>Quận 9</option>
+          <option value='Tân Bình'>Tân Bình</option>
+          <option value='Tân Phú'>Tân Phú</option>
+          <option value='Thủ Đức'>Thủ Đức</option>
+        </select></div>
+      <div class="filter-group"><label class="filter-group-label" for="fsType">Loại quán</label><select id="fsType"><option value="">Tất cả loại quán</option><option value="Món Việt">Món Việt</option><option value="Món Hàn">Món Hàn</option><option value="Món Nhật">Món Nhật</option><option value="Món Âu">Món Âu</option><option value="Món Thái">Món Thái</option><option value="Món Ấn">Món Ấn</option><option value="Món Hoa">Món Hoa</option><option value="Pizza">Pizza</option><option value="Món Mỹ">Món Mỹ</option><option value="Món Chay">Món Chay</option><option value="Hải sản">Hải sản</option><option value="Món khác">Món khác</option></select></div>
+      <div class="filter-group"><label class="filter-group-label" for="fsBudget">Mức giá</label><select id="fsBudget"><option value="">Tất cả mức giá</option><option value="cheap">Dưới 100.000đ</option><option value="mid">100.000 - 300.000đ</option><option value="high">300.000 - 600.000đ</option><option value="premium">Trên 600.000đ</option></select></div>
+      <div class="filter-group"><label class="filter-group-label" for="fsRating">Đánh giá</label><select id="fsRating"><option value="">Tất cả đánh giá</option><option value="4.5">★★★★★ 4.5 trở lên</option><option value="4.0">★★★★☆ 4.0 trở lên</option></select></div>
+      <div class="filter-group"><label class="filter-group-label" for="fsHours">Giờ mở cửa</label><select id="fsHours"><option value="">Tất cả giờ</option><option value="sang">Buổi sáng (trước 11h)</option><option value="trua">Buổi trưa (11h - 14h)</option><option value="toi">Buổi tối (sau 17h)</option><option value="ngay">Cả ngày</option></select></div>
+    </aside>
+    <div class="khampha-cards-area">
+      <div class="khampha-result-bar"><span class="khampha-result-count" id="resultCount">Đang hiển thị tất cả quán</span></div>
+      <div class="khampha-cards-grid" id="cardsGrid">
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.6" data-hours="sang" data-name="bếp mẹ ỉn">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-1.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-1.html">Bếp mẹ ỉn</a></h3>
+            <p class="card-desc">Một góc nhỏ dành cho những ai muốn tìm về hương vị Việt giữa nhịp sống phố thị. Tô phở nóng hổi, đĩa cơm thơm ...</p>
+            <div class="card-footer"><span class="price">150k – 300k</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.5" data-hours="sang" data-name="de tham restaurant">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-2.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-2.html">De Tham Restaurant</a></h3>
+            <p class="card-desc">Mang nét mộc mạc của ẩm thực Việt, quán gây ấn tượng với những món ăn quen thuộc nhưng giàu sức gợi nhớ. Hương...</p>
+            <div class="card-footer"><span class="price">150k – 300k</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="high" data-rating="4.5" data-hours="trua" data-name="hoa túc">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-3.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-3.html">Hoa Túc</a></h3>
+            <p class="card-desc">Giữa không gian thanh lịch, ẩm thực Việt khoác lên mình diện mạo mới đầy tinh tế. Những nguyên liệu quen thuộc...</p>
+            <div class="card-footer"><span class="price">300k – 600k</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.4" data-hours="sang" data-name="phở việt nam">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-4.webp" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-4.html">Phở Việt Nam</a></h3>
+            <p class="card-desc">Một tô phở nóng hổi mở ra bản hòa âm của hương thơm và vị giác: nước dùng đậm đà, bánh phở mềm mại cùng thịt b...</p>
+            <div class="card-footer"><span class="price">100k – 200k</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="high" data-rating="4.4" data-hours="sang" data-name="cocotte">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-5.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-5.html">Cocotte</a></h3>
+            <p class="card-desc">Mang tinh thần của những quán bistro Pháp ấm cúng, Cocotte là nơi các món ăn được thưởng thức trong bầu không ...</p>
+            <div class="card-footer"><span class="price">200k – 400k</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.3" data-hours="sang" data-name="phin saigon vietnamese food & coffee">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-6.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-6.html">Phin Saigon Vietnamese Food & Coffee</a></h3>
+            <p class="card-desc">Ẩn mình trong con hẻm nhỏ giữa lòng Sài Gòn, quán mang dáng vẻ thân thuộc của một gian bếp gia đình. Những tô ...</p>
+            <div class="card-footer"><span class="price">50k – 120k</span><span class="stars">★ 4.3</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="premium" data-rating="4.5" data-hours="trua" data-name="vietnam house restaurant">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-7.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-7.html">Vietnam House Restaurant</a></h3>
+            <p class="card-desc">Trong không gian thanh lịch mang dấu ấn kiến trúc cổ điển, những hương vị Việt quen thuộc được khoác lên diện ...</p>
+            <div class="card-footer"><span class="price">800k – 1500k</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="cheap" data-rating="4.2" data-hours="sang" data-name="hanoi corner">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-8.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-8.html">Hanoi Corner</a></h3>
+            <p class="card-desc">Mang một chút hồn Hà Nội đến giữa lòng Sài Gòn, Hanoi Corner gợi nhớ những bữa ăn miền Bắc qua bún chả thơm mù...</p>
+            <div class="card-footer"><span class="price">50k – 100k</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.2" data-hours="sang" data-name="mana station – tiệm ăn món việt">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-9.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-9.html">MANA Station – Tiệm Ăn Món Việt</a></h3>
+            <p class="card-desc">MANA Station đưa những hương vị ba miền về chung một bàn ăn, từ bún bò Huế cay thơm đến mì Quảng đậm đà và các...</p>
+            <div class="card-footer"><span class="price">100k – 200k</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Hàn" data-budget="mid" data-rating="4.1" data-hours="sang" data-name="hanuri korean fast food">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-10.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Hàn</span></div>
+            <h3 class="card-title"><a href="quan-10.html">Hanuri Korean Fast Food</a></h3>
+            <p class="card-desc">Hanuri mang đến không khí trẻ trung của những quán ăn Hàn Quốc quen thuộc với giới trẻ. Cơm trộn nhiều màu sắc...</p>
+            <div class="card-footer"><span class="price">50k – 110k</span><span class="stars">★ 4.1</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Hàn" data-budget="cheap" data-rating="4.1" data-hours="sang" data-name="hankki deli cao thắng">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-11.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Hàn</span></div>
+            <h3 class="card-title"><a href="quan-11.html">Hankki Deli Cao Thắng</a></h3>
+            <p class="card-desc">Lấy cảm hứng từ ẩm thực đường phố Hàn Quốc, Hankki Deli tập trung vào những món ăn nhanh gọn nhưng đầy sức hấp...</p>
+            <div class="card-footer"><span class="price">50k – 100k</span><span class="stars">★ 4.1</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Hàn" data-budget="mid" data-rating="4" data-hours="sang" data-name="clover korean house food">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-12.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Hàn</span></div>
+            <h3 class="card-title"><a href="quan-12.html">Clover Korean House Food</a></h3>
+            <p class="card-desc">Clover là điểm hẹn cho những ai yêu thích các món Hàn Quốc mang phong cách đời thường. Từ tô canh nóng đến phầ...</p>
+            <div class="card-footer"><span class="price">100k – 200k</span><span class="stars">★ 4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Bình Thạnh" data-type="Món Hàn" data-budget="mid" data-rating="4.9" data-hours="sang" data-name="dooboo korean kitchen">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-13.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Bình Thạnh</span><span class="badge badge-type">Món Hàn</span></div>
+            <h3 class="card-title"><a href="quan-13.html">DOOBOO Korean Kitchen</a></h3>
+            <p class="card-desc">Gà chiên vàng giòn, cơm nóng và những tô canh kim chi đậm vị tạo nên sức hấp dẫn của DOOBOO. Vị cay nồng của g...</p>
+            <div class="card-footer"><span class="price">70k – 150k</span><span class="stars">★ 4.9</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Hàn" data-budget="mid" data-rating="4.8" data-hours="sang" data-name="korea house – quán ăn hàn quốc">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-14.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Hàn</span></div>
+            <h3 class="card-title"><a href="quan-14.html">Korea House – Quán Ăn Hàn Quốc</a></h3>
+            <p class="card-desc">Thực đơn phong phú từ kimbap, tokbokki đến cơm trộn và gà sốt giúp Korea House trở thành lựa chọn linh hoạt ch...</p>
+            <div class="card-footer"><span class="price">100k – 200k</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Hàn" data-budget="mid" data-rating="4.8" data-hours="trua" data-name="bặp đến đây (밥덴데이)">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-15.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Hàn</span></div>
+            <h3 class="card-title"><a href="quan-15.html">Bặp Đến Đây (밥덴데이)</a></h3>
+            <p class="card-desc">Một bàn ăn tại Bặp Đến Đây gợi lên hình ảnh bữa cơm Hàn Quốc đầy đặn với canh nóng, thịt nướng và nhiều món ph...</p>
+            <div class="card-footer"><span class="price">200k – 300k</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="mid" data-rating="4.7" data-hours="trua" data-name="the olive steakhouse">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-16.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-16.html">The Olive Steakhouse</a></h3>
+            <p class="card-desc">Nằm trên tầng hai của một tòa nhà cũ giữa phố Đồng Khởi, The Olive mang nét quyến rũ kín đáo của một quán stea...</p>
+            <div class="card-footer"><span class="price">150k – 300k</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="high" data-rating="4.7" data-hours="trua" data-name="ciao bella">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-17.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-17.html">Ciao Bella</a></h3>
+            <p class="card-desc">Ciao Bella mang đến bầu không khí của một nhà hàng Ý gần gũi, nơi pasta, pizza và các món ăn truyền thống được...</p>
+            <div class="card-footer"><span class="price">200k – 400k</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="high" data-rating="4.6" data-hours="trua" data-name="chiik steak & pasta">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-18.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-18.html">CHIIK Steak & Pasta</a></h3>
+            <p class="card-desc">Những phần steak được chế biến theo độ chín yêu cầu kết hợp cùng pasta và món ăn kèm tạo nên bữa ăn đậm chất Â...</p>
+            <div class="card-footer"><span class="price">200k – 400k</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="premium" data-rating="4.9" data-hours="toi" data-name="b3 steakhouse">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-19.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-19.html">B3 Steakhouse</a></h3>
+            <p class="card-desc">B3 Steakhouse là điểm hẹn dành cho những người yêu thích thịt bò chất lượng cao và phong cách phục vụ chỉn chu...</p>
+            <div class="card-footer"><span class="price">500k – 1000k</span><span class="stars">★ 4.9</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Pizza" data-budget="mid" data-rating="4.5" data-hours="toi" data-name="pizza chất">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-20.webp" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Pizza</span></div>
+            <h3 class="card-title"><a href="quan-20.html">Pizza Chất</a></h3>
+            <p class="card-desc">Pizza Chất mang đến cảm giác thân thuộc của một tiệm bánh nhỏ, nơi pizza được nướng nóng và phục vụ trong phon...</p>
+            <div class="card-footer"><span class="price">100k – 150k</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Pizza" data-budget="high" data-rating="4.5" data-hours="sang" data-name="pizza 4ps">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-21.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Pizza</span></div>
+            <h3 class="card-title"><a href="quan-21.html">Pizza 4P's</a></h3>
+            <p class="card-desc">Pizza 4P's kết hợp tinh thần pizza Ý với những sáng tạo mang dấu ấn Nhật Bản, nổi bật ở phô mai tươi và các lo...</p>
+            <div class="card-footer"><span class="price">250k – 450k</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Pizza" data-budget="mid" data-rating="4.4" data-hours="sang" data-name="amano local eatery">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-22.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Pizza</span></div>
+            <h3 class="card-title"><a href="quan-22.html">Amano Local Eatery</a></h3>
+            <p class="card-desc">Amano Local Eatery kết hợp phong cách pizza Napoli với những biến tấu sáng tạo mang dấu ấn địa phương. Từ past...</p>
+            <div class="card-footer"><span class="price">200k – 300k</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Pizza" data-budget="mid" data-rating="4.4" data-hours="trua" data-name="olivers pizza">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-23.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Pizza</span></div>
+            <h3 class="card-title"><a href="quan-23.html">Oliver's Pizza</a></h3>
+            <p class="card-desc">Oliver's Pizza mang phong cách pizza La Mã với những miếng bánh hình chữ nhật, lớp đế giòn nhẹ và topping đa d...</p>
+            <div class="card-footer"><span class="price">100k – 200k</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Nhật" data-budget="mid" data-rating="4.3" data-hours="trua" data-name="sushi 79 – hồ xuân hương">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-24.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Nhật</span></div>
+            <h3 class="card-title"><a href="quan-24.html">Sushi 79 – Hồ Xuân Hương</a></h3>
+            <p class="card-desc">Sushi 79 hướng đến những món Nhật gần gũi với mức giá dễ tiếp cận, từ sushi nhiều màu sắc đến các phần cơm và ...</p>
+            <div class="card-footer"><span class="price">100k – 200k</span><span class="stars">★ 4.3</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Nhật" data-budget="mid" data-rating="4.2" data-hours="trua" data-name="shoday ramen">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-25.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Nhật</span></div>
+            <h3 class="card-title"><a href="quan-25.html">Shoday Ramen</a></h3>
+            <p class="card-desc">Một tô ramen nóng hổi là sự kết hợp của sợi mì dai, nước dùng đậm vị và những lát thịt mềm thơm. Shoday Ramen ...</p>
+            <div class="card-footer"><span class="price">100k – 200k</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Nhật" data-budget="high" data-rating="4.2" data-hours="sang" data-name="fast sushi">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-26.webp" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Nhật</span></div>
+            <h3 class="card-title"><a href="quan-26.html">Fast Sushi</a></h3>
+            <p class="card-desc">Fast Sushi đem đến thực đơn phong phú từ sushi, sashimi đến những món cơm Nhật và mì mang phong cách hiện đại....</p>
+            <div class="card-footer"><span class="price">200k – 350k</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Nhật" data-budget="mid" data-rating="4.7" data-hours="ngay" data-name="yuzu omakase">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-27.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Nhật</span></div>
+            <h3 class="card-title"><a href="quan-27.html">Yuzu Omakase</a></h3>
+            <p class="card-desc">Yuzu Omakase biến bữa ăn thành hành trình được dẫn dắt bởi đầu bếp, với những món ăn lần lượt xuất hiện theo n...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Pizza" data-budget="high" data-rating="4.1" data-hours="sang" data-name="italianis pizza">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-28.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Pizza</span></div>
+            <h3 class="card-title"><a href="quan-28.html">Italiani's Pizza</a></h3>
+            <p class="card-desc">Mang tinh thần của ẩm thực Ý cổ điển, Italiani's Pizza hấp dẫn với những chiếc pizza phủ phô mai tan chảy và c...</p>
+            <div class="card-footer"><span class="price">200k – 400k</span><span class="stars">★ 4.1</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 3" data-type="Món Việt" data-budget="high" data-rating="4" data-hours="sang" data-name="cơm niêu sài gòn">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-29.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 3</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-29.html">Cơm Niêu Sài Gòn</a></h3>
+            <p class="card-desc">Nằm trong không gian biệt thự sân vườn xanh mát và hoài cổ giữa lòng Quận 3, Cơm Niêu Sài Gòn là biểu tượng ẩm...</p>
+            <div class="card-footer"><span class="price">150k – 350k</span><span class="stars">★ 4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Phú Nhuận" data-type="Món Hoa" data-budget="high" data-rating="4.9" data-hours="sang" data-name="san fu lou">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-30.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Phú Nhuận</span><span class="badge badge-type">Món Hoa</span></div>
+            <h3 class="card-title"><a href="quan-30.html">San Fu Lou</a></h3>
+            <p class="card-desc">San Fu Lou ghi dấu ấn với phong cách thiết kế kết hợp hoàn hảo giữa nét cổ điển Á Đông rực rỡ (điểm xuyết bằng...</p>
+            <div class="card-footer"><span class="price">200k – 400k</span><span class="stars">★ 4.9</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Bình Thạnh" data-type="Món Âu" data-budget="high" data-rating="4.8" data-hours="sang" data-name="blank lounge">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-31.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Bình Thạnh</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-31.html">Blank Lounge</a></h3>
+            <p class="card-desc">Blank Lounge nằm ở tầng 75 và 76 của tòa tháp Landmark 81, giữ kỷ lục là lounge và quán cà phê cao nhất Đông N...</p>
+            <div class="card-footer"><span class="price">200k – 600k</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 2" data-type="Món Âu" data-budget="high" data-rating="4.8" data-hours="trua" data-name="pendolasco">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-32.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 2</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-32.html">Pendolasco</a></h3>
+            <p class="card-desc">Là một trong những nhà hàng Ý lâu đời và uy tín nhất tại TP.HCM, Pendolasco mang đến không gian sân vườn xanh ...</p>
+            <div class="card-footer"><span class="price">300k – 600k</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="premium" data-rating="4.7" data-hours="trua" data-name="le corto">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-33.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-33.html">Le Corto</a></h3>
+            <p class="card-desc">Nằm yên bình trên con đường Nguyễn Siêu ngay trung tâm Quận 1, Le Corto là nhà hàng Pháp cao cấp do chính Chef...</p>
+            <div class="card-footer"><span class="price">800k – 1500k</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 3" data-type="Món Việt" data-budget="mid" data-rating="4.7" data-hours="sang" data-name="quán bụi">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-34.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 3</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-34.html">Quán Bụi</a></h3>
+            <p class="card-desc">Tọa lạc trong biệt thự hoài cổ yên bình, Quán Bụi mang đến không gian ẩm thực Đông Dương mộc mạc với nội thất ...</p>
+            <div class="card-footer"><span class="price">150k – 300k</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="high" data-rating="4.6" data-hours="sang" data-name="bếp nhà lục tỉnh">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-35.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-35.html">Bếp Nhà Lục Tỉnh</a></h3>
+            <p class="card-desc">Nằm ngay trung tâm Quận 1 nhưng Bếp Nhà Lục Tỉnh lại mở ra một khoảng trời Miền Tây sông nước rộng lớn, trữ tì...</p>
+            <div class="card-footer"><span class="price">200k – 400k</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Hoa" data-budget="high" data-rating="4.6" data-hours="sang" data-name="dim tu tac">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-36.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Hoa</span></div>
+            <h3 class="card-title"><a href="quan-36.html">Dim Tu Tac</a></h3>
+            <p class="card-desc">Nhà hàng Quảng Đông hiện đại sang trọng với thiết kế kết hợp hài hòa giữa nét cổ điển Á Đông và sự tinh tế đươ...</p>
+            <div class="card-footer"><span class="price">300k – 600k</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Hoa" data-budget="mid" data-rating="4.5" data-hours="sang" data-name="baozi">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-37.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Hoa</span></div>
+            <h3 class="card-title"><a href="quan-37.html">Baozi</a></h3>
+            <p class="card-desc">Baozi sở hữu phong cách thiết kế không gian hiện đại, phá cách đậm chất Neo-Asian với tông màu trầm ấm, ánh đè...</p>
+            <div class="card-footer"><span class="price">150k – 300k</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Bình Thạnh" data-type="Món khác" data-budget="premium" data-rating="4.8" data-hours="toi" data-name="noir . dining in the dark saigon">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-38.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Bình Thạnh</span><span class="badge badge-type">Món khác</span></div>
+            <h3 class="card-title"><a href="quan-38.html">NOIR . Dining in the Dark Saigon</a></h3>
+            <p class="card-desc">Trải nghiệm ẩm thực hoàn toàn khác biệt tại TP.HCM — bữa ăn diễn ra trong không gian tối đen như mực, tuyệt đố...</p>
+            <div class="card-footer"><span class="price">600k – 1000k</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 3" data-type="Món Hàn" data-budget="high" data-rating="4.4" data-hours="trua" data-name="bros bbq">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-39.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 3</span><span class="badge badge-type">Món Hàn</span></div>
+            <h3 class="card-title"><a href="quan-39.html">Bros BBQ</a></h3>
+            <p class="card-desc">Tái hiện nguyên vẹn mô hình quán nướng thùng phuy nhộn nhịp đặc trưng trên các con phố đường phố Seoul, Bros B...</p>
+            <div class="card-footer"><span class="price">250k – 450k</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Bình Thạnh" data-type="Món Nhật" data-budget="premium" data-rating="4.8" data-hours="toi" data-name="miwaku premium">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-40.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Bình Thạnh</span><span class="badge badge-type">Món Nhật</span></div>
+            <h3 class="card-title"><a href="quan-40.html">Miwaku Premium</a></h3>
+            <p class="card-desc">Tọa lạc tại tầng 79 tòa nhà Landmark 81, Miwaku Premium là một trong những nhà hàng cao nhất Việt Nam, sở hữu ...</p>
+            <div class="card-footer"><span class="price">1500k – 3500k</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Nhật" data-budget="high" data-rating="4.3" data-hours="trua" data-name="robata an yokocho">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-41.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Nhật</span></div>
+            <h3 class="card-title"><a href="quan-41.html">Robata An Yokocho</a></h3>
+            <p class="card-desc">Mang đậm không gian Izakaya (quán nhắm) truyền thống Nhật Bản với tone màu gỗ trầm, lồng đèn giấy đỏ và quầy b...</p>
+            <div class="card-footer"><span class="price">300k – 600k</span><span class="stars">★ 4.3</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="premium" data-rating="4.7" data-hours="trua" data-name="el gaucho argentinian steakhouse">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-42.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-42.html">El Gaucho Argentinian Steakhouse</a></h3>
+            <p class="card-desc">Thương hiệu bít tết Nam Mỹ đẳng cấp quốc tế với không gian sang trọng, cổ điển pha lẫn nét bụi bợm, phóng khoá...</p>
+            <div class="card-footer"><span class="price">1000k – 2500k</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 2" data-type="Món Âu" data-budget="high" data-rating="4.2" data-hours="trua" data-name="marcel gourmet burger">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-43.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 2</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-43.html">Marcel Gourmet Burger</a></h3>
+            <p class="card-desc">Mang đậm phong cách Modern Bistro của nước Pháp, Marcel Gourmet Burger nâng tầm món burger quen thuộc thành mộ...</p>
+            <div class="card-footer"><span class="price">200k – 350k</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Thái" data-budget="high" data-rating="4.2" data-hours="sang" data-name="tuktuk thai bistro">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-44.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Thái</span></div>
+            <h3 class="card-title"><a href="quan-44.html">TukTuk Thai Bistro</a></h3>
+            <p class="card-desc">TukTuk Thai Bistro mang đến làn gió mới cho ẩm thực Thái Lan tại Sài Gòn với phong cách Bistro hiện đại, thanh...</p>
+            <div class="card-footer"><span class="price">200k – 400k</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="premium" data-rating="4.9" data-hours="toi" data-name="anan saigon">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-45.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-45.html">Anan Saigon</a></h3>
+            <p class="card-desc">Nhà hàng nằm trong căn nhà ống thiết kế hiện đại ngay giữa Chợ Cũ Tôn Thất Đạm. Để vào quán, bạn phải bước qua...</p>
+            <div class="card-footer"><span class="price">1500k – 3500k</span><span class="stars">★ 4.9</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Ấn" data-budget="mid" data-rating="4" data-hours="trua" data-name="babas kitchen">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-46.jpeg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Ấn</span></div>
+            <h3 class="card-title"><a href="quan-46.html">Baba's Kitchen</a></h3>
+            <p class="card-desc">Tọa lạc tại khu phố tây sầm uất, Baba's Kitchen là điểm đến nổi tiếng bậc nhất dành cho những ai muốn khám phá...</p>
+            <div class="card-footer"><span class="price">150k – 300k</span><span class="stars">★ 4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="premium" data-rating="4.4" data-hours="toi" data-name="sol kitchen & bar">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-47.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-47.html">Sol Kitchen & Bar</a></h3>
+            <p class="card-desc">Mang phong cách thiết kế Địa Trung Hải khoáng đạt với tone màu trắng - mây tre chủ đạo kết hợp quầy bar hiện đ...</p>
+            <div class="card-footer"><span class="price">400k – 800k</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="mid" data-rating="4.8" data-hours="sang" data-name="maison marou flagship">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-48.jpg" alt="" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-48.html">Maison Marou Flagship</a></h3>
+            <p class="card-desc">Là nhà xưởng sản xuất và không gian thưởng thức socola thủ công hàng đầu Việt Nam, Maison Marou Flagship sở hữ...</p>
+            <div class="card-footer"><span class="price">100k – 250k</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.8" data-hours="sang" data-name="propaganda bistro">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-49.jpg" alt="Propaganda Bistro" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-49.html">Propaganda Bistro</a></h3>
+            <p class="card-desc">Nhà hàng mang phong cách hiện đại kết hợp nghệ thuật đường phố Việt Nam với những bức tranh tường rực rỡ, sắc ...</p>
+            <div class="card-footer"><span class="price">150k – 300k</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.7" data-hours="sang" data-name="secret garden - cơm niêm việt nam">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-50.jpg" alt="Secret Garden - Cơm Niêm Việt Nam" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-50.html">Secret Garden - Cơm Niêm Việt Nam</a></h3>
+            <p class="card-desc">Nằm trên tầng thượng của một chung cư cũ mang đậm nét hoài cổ, quán tái hiện không gian mộc mạc của làng quê N...</p>
+            <div class="card-footer"><span class="price">150k – 250k</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Mỹ" data-budget="high" data-rating="4.5" data-hours="trua" data-name="ụt ụt - the ox not burger">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-51.jpg" alt="Ụt Ụt - The Ox Not Burger" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Mỹ</span></div>
+            <h3 class="card-title"><a href="quan-51.html">Ụt Ụt - The Ox Not Burger</a></h3>
+            <p class="card-desc">Quán mang phong cách nhà hàng nướng kiểu Mỹ (American BBQ) sôi động, trẻ trung. Thịt được hun khói chậm nhiều ...</p>
+            <div class="card-footer"><span class="price">250k – 500k</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Chay" data-budget="high" data-rating="4.6" data-hours="sang" data-name="hum vegetarian, café & restaurant">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-52.jpg" alt="Hum Vegetarian, Café & Restaurant" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Chay</span></div>
+            <h3 class="card-title"><a href="quan-52.html">Hum Vegetarian, Café & Restaurant</a></h3>
+            <p class="card-desc">Nhà hàng món chay cao cấp nổi tiếng với không gian yên tĩnh, ngập tràn cây xanh và âm nhạc thiền định nhẹ nhàn...</p>
+            <div class="card-footer"><span class="price">150k – 330k</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Hải sản" data-budget="high" data-rating="4.6" data-hours="sang" data-name="crab shack">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-53.jpg" alt="Crab Shack" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Hải sản</span></div>
+            <h3 class="card-title"><a href="quan-53.html">Crab Shack</a></h3>
+            <p class="card-desc">Nhà hàng chuyên các món hải sản sốt phong cách Cajun và Singapore sôi động, hấp dẫn. Không gian rộng rãi, thiế...</p>
+            <div class="card-footer"><span class="price">300k – 600k</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 3" data-type="Món Âu" data-budget="premium" data-rating="4.5" data-hours="ngay" data-name="shri restaurant & lounge">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-54.jpg" alt="Shri Restaurant & Lounge" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 3</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-54.html">Shri Restaurant & Lounge</a></h3>
+            <p class="card-desc">Nhà hàng nằm trên tầng thượng tòa nhà cao cấp, mang lại tầm nhìn toàn cảnh thành phố lung linh về đêm. Không g...</p>
+            <div class="card-footer"><span class="price">500k – 1200k</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.5" data-hours="ngay" data-name="quán lủi">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-55.png" alt="Quán Lủi" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-55.html">Quán Lủi</a></h3>
+            <p class="card-desc">Quán ăn bình dân mang phong cách hoài cổ, chuyên phục vụ các món nhậu và món ăn gia đình đậm chất miền Nam. Kh...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.4" data-hours="ngay" data-name="mặn mòi">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-56.jpg" alt="Mặn Mòi" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-56.html">Mặn Mòi</a></h3>
+            <p class="card-desc">Nhà hàng tái hiện hương vị mâm cơm truyền thống ba miền Việt Nam trong không gian mang hơi thở hiện đại kết hợ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.4" data-hours="ngay" data-name="den long - home cooked vietnamese restaurant">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-57.jpg" alt="Den Long - Home Cooked Vietnamese Restaurant" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-57.html">Den Long - Home Cooked Vietnamese Restaurant</a></h3>
+            <p class="card-desc">Nằm trong một con hẻm nhỏ yên tĩnh, quán mang lại cảm giác ấm cúng như đang dùng bữa tại nhà với những món ăn ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 2" data-type="Món Âu" data-budget="mid" data-rating="4.3" data-hours="ngay" data-name="the deck saigon">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-58.jpg" alt="The Deck Saigon" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 2</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-58.html">The Deck Saigon</a></h3>
+            <p class="card-desc">Nhà hàng ven sông sang trọng nằm tại khu Thảo Điền, sở hữu không gian mở lãng mạn hướng thẳng ra sông Sài Gòn....</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.3</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 3" data-type="Món Âu" data-budget="mid" data-rating="4.3" data-hours="ngay" data-name="octobar">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-59.jpg" alt="Octobar" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 3</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-59.html">Octobar</a></h3>
+            <p class="card-desc">Quán ăn kết hợp lounge phong cách Địa Trung Hải đầy màu sắc và cá tính. Quán phục vụ các món tapas nhỏ gọn, độ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.3</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Gò Vấp" data-type="Món Việt" data-budget="mid" data-rating="4.2" data-hours="ngay" data-name="bánh canh ghẹ ngọc hương">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-60.jpg" alt="Bánh Canh Ghẹ Ngọc Hương" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Gò Vấp</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-60.html">Bánh Canh Ghẹ Ngọc Hương</a></h3>
+            <p class="card-desc">Quán ăn chuyên món bánh canh ghẹ nổi tiếng với nước dùng sánh mịn, thơm đậm vị ngọt từ hải sản tươi. Ghẹ chắc ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 3" data-type="Món Việt" data-budget="mid" data-rating="4.2" data-hours="ngay" data-name="chả cá lã vọng hà nội">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-61.jpg" alt="Chả Cá Lã Vọng Hà Nội" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 3</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-61.html">Chả Cá Lã Vọng Hà Nội</a></h3>
+            <p class="card-desc">Quán chuyên phục vụ đặc sản chả cá Lã Vọng trứ danh đất Bắc ngay giữa lòng Sài Gòn. Miếng cá lăng tẩm nghệ nướ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 10" data-type="Món Hàn" data-budget="mid" data-rating="4.1" data-hours="ngay" data-name="mì cay sasin">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-62.jpg" alt="Mì Cay Sasin" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 10</span><span class="badge badge-type">Món Hàn</span></div>
+            <h3 class="card-title"><a href="quan-62.html">Mì Cay Sasin</a></h3>
+            <p class="card-desc">Thương hiệu mì cay 7 cấp độ quen thuộc của giới trẻ, mang đến không gian năng động, trẻ trung và các món ăn đậ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.1</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Bình Thạnh" data-type="Món Việt" data-budget="mid" data-rating="4.1" data-hours="ngay" data-name="lẩu bò tươi sài gòn">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-63.jpg" alt="Lẩu Bò Tươi Sài Gòn" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Bình Thạnh</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-63.html">Lẩu Bò Tươi Sài Gòn</a></h3>
+            <p class="card-desc">Quán lẩu bò quen thuộc với không gian bình dân, rộng rãi và thoáng mát. Nước dùng hầm từ xương bò và thuốc bắc...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.1</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4" data-hours="ngay" data-name="bánh mì huỳnh hoa">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-64.jpg" alt="Bánh Mì Huỳnh Hoa" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-64.html">Bánh Mì Huỳnh Hoa</a></h3>
+            <p class="card-desc">Tiệm bánh mì nổi tiếng bậc nhất Sài Gòn với chiếc bánh mì "siêu nhân" ngập tràn các loại chả lụa, thịt nguội, ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.9" data-hours="sang" data-name="quán ốc đào">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-65.jpg" alt="Quán Ốc Đào" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-65.html">Quán Ốc Đào</a></h3>
+            <p class="card-desc">Quán ốc đêm đông đúc và nổi tiếng hàng đầu Sài Gòn. Quán có đủ loại ốc tươi sống được chế biến đậm đà như sốt ...</p>
+            <div class="card-footer"><span class="price">100k – 250k</span><span class="stars">★ 4.9</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Hải sản" data-budget="mid" data-rating="4.8" data-hours="ngay" data-name="lẩu nấm ashima">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-66.jpg" alt="Lẩu Nấm Ashima" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Hải sản</span></div>
+            <h3 class="card-title"><a href="quan-66.html">Lẩu Nấm Ashima</a></h3>
+            <p class="card-desc">Chuỗi nhà hàng lẩu nấm thiên nhiên cao cấp. Không gian thiết kế đậm chất Á Đông ấm cúng, sang trọng, chuyên ph...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.7" data-hours="ngay" data-name="hủ tiếu nam vang thành đạt">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-67.jpg" alt="Hủ Tiếu Nam Vang Thành Đạt" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-67.html">Hủ Tiếu Nam Vang Thành Đạt</a></h3>
+            <p class="card-desc">Thương hiệu hủ tiếu Nam Vang bán xuyên đêm cực nổi tiếng ở Sài Gòn. Tô hủ tiếu trộn sốt đậm đà, nước súp trong...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Chay" data-budget="mid" data-rating="4.7" data-hours="ngay" data-name="nhà hàng chay tib">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-68.jpg" alt="Nhà Hàng Chay Tib" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Chay</span></div>
+            <h3 class="card-title"><a href="quan-68.html">Nhà Hàng Chay Tib</a></h3>
+            <p class="card-desc">Nhà hàng chay mang phong cách hoài cổ, thanh lịch với không gian mang đậm dấu ấn Huế cổ kính. Món ăn thanh nhẹ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.6" data-hours="ngay" data-name="bún bò huế đông ba">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-69.jpg" alt="Bún Bò Huế Đông Ba" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-69.html">Bún Bò Huế Đông Ba</a></h3>
+            <p class="card-desc">Quán bún bò lâu đời chuẩn hương vị xứ Huế giữa trung tâm Quận 1. Nước dùng trong nhưng thơm lừng mùi mắm ruốc ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Hoa" data-budget="mid" data-rating="4.6" data-hours="ngay" data-name="mì cạch ký (mì khô thượng hải)">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-70.jpg" alt="Mì Cạch Ký (Mì Khô Thượng Hải)" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Hoa</span></div>
+            <h3 class="card-title"><a href="quan-70.html">Mì Cạch Ký (Mì Khô Thượng Hải)</a></h3>
+            <p class="card-desc">Quán mì gia truyền phong cách Chợ Lớn. Sợi mì trứng tự làm dai ngon đặc trưng, trộn cùng sốt đậm đà, ăn kèm xá...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món khác" data-budget="mid" data-rating="4.5" data-hours="ngay" data-name="cccp saigon">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-71.jpg" alt="CCCP Saigon" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món khác</span></div>
+            <h3 class="card-title"><a href="quan-71.html">CCCP Saigon</a></h3>
+            <p class="card-desc">Nhà hàng chuyên món Nga và Đông Âu, có không gian hoài cổ gợi nhớ những ngôi nhà thời Liên Xô. Thực đơn gồm sú...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Pizza" data-budget="mid" data-rating="4.5" data-hours="ngay" data-name="house of merlin">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-72.jpg" alt="House of Merlin" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Pizza</span></div>
+            <h3 class="card-title"><a href="quan-72.html">House of Merlin</a></h3>
+            <p class="card-desc">Quán cocktail và đồ ăn được thiết kế theo phong cách steampunk, lấy cảm hứng từ máy móc và công nghiệp thế kỷ ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 2" data-type="Món khác" data-budget="mid" data-rating="4.4" data-hours="ngay" data-name="okra foodbar">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-73.jpg" alt="OKRA FoodBar" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 2</span><span class="badge badge-type">Món khác</span></div>
+            <h3 class="card-title"><a href="quan-73.html">OKRA FoodBar</a></h3>
+            <p class="card-desc">Nhà hàng phục vụ món ăn sáng tạo kết hợp nhiều nền ẩm thực quốc tế. Quán chú trọng nguyên liệu địa phương, các...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Mỹ" data-budget="mid" data-rating="4.4" data-hours="ngay" data-name="solobox">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-74.jpg" alt="SOLOBOX" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Mỹ</span></div>
+            <h3 class="card-title"><a href="quan-74.html">SOLOBOX</a></h3>
+            <p class="card-desc">Nhà hàng có cách phục vụ độc đáo, trong đó món ăn được chuyển đến khách qua hệ thống giống máy bán hàng tự độn...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.3" data-hours="ngay" data-name="xóm chợ cũ">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-75.webp" alt="Xóm Chợ Cũ" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-75.html">Xóm Chợ Cũ</a></h3>
+            <p class="card-desc">Nhà hàng mang hương vị ẩm thực miền Trung, đặc biệt là các món đặc sản Quảng Ngãi. Không gian gần gũi, phù hợp...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.3</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Thủ Đức" data-type="Món Mỹ" data-budget="mid" data-rating="4.3" data-hours="ngay" data-name="tiệm nướng tàu lửa">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-76.webp" alt="Tiệm Nướng Tàu Lửa" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Thủ Đức</span><span class="badge badge-type">Món Mỹ</span></div>
+            <h3 class="card-title"><a href="quan-76.html">Tiệm Nướng Tàu Lửa</a></h3>
+            <p class="card-desc">Quán nướng và lẩu có chủ đề tàu hỏa, nằm gần đường ray. Thực khách có thể tự nướng thịt bằng than và trải nghi...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.3</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 3" data-type="Món Việt" data-budget="mid" data-rating="4.2" data-hours="ngay" data-name="đào liễu">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-77.jpeg" alt="Đào Liễu" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 3</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-77.html">Đào Liễu</a></h3>
+            <p class="card-desc">Quán ăn Việt Nam nhỏ nằm trong hẻm, nổi bật với không gian mang cảm giác như dùng bữa tại nhà. Quán hướng đến ...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.2" data-hours="ngay" data-name="an house craft beer & egg coffee">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-78.jpeg" alt="An House Craft Beer & Egg Coffee" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-78.html">An House Craft Beer & Egg Coffee</a></h3>
+            <p class="card-desc">Quán kết hợp ẩm thực Việt Nam với cà phê trứng và đồ uống thủ công. Nơi đây nổi bật nhờ những món đặc sản vùng...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 3" data-type="Món Việt" data-budget="mid" data-rating="4.1" data-hours="ngay" data-name="nhà anh">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-79.webp" alt="Nhà Anh" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 3</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-79.html">Nhà Anh</a></h3>
+            <p class="card-desc">Nhà hàng chuyên các món cơm nhà Việt Nam với hương vị thân thuộc. Không gian ấm cúng và thực đơn kết hợp món ă...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.1</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.1" data-hours="ngay" data-name="quán ân điển">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-80.webp" alt="Quán Ân Điển" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-80.html">Quán Ân Điển</a></h3>
+            <p class="card-desc">Quán ăn Việt Nam nhỏ, nằm trong hẻm ở khu vực trung tâm thành phố. Nơi đây tạo cảm giác bình dị, thân thiện và...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.1</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4" data-hours="ngay" data-name="con ốc quán">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-81.webp" alt="Con Ốc Quán" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-81.html">Con Ốc Quán</a></h3>
+            <p class="card-desc">Quán chuyên các món ốc và lẩu mang phong cách ẩm thực Việt Nam, đặc biệt là những món có vị chua cay. Đây là l...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4.9" data-hours="ngay" data-name="quán bấc">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-82.webp" alt="Quán Bấc" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-82.html">Quán Bấc</a></h3>
+            <p class="card-desc">Quán ăn Việt Nam quy mô nhỏ, nằm trong hẻm và hướng đến các bữa ăn giản dị với mức giá bình dân. Không gian kh...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.9</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 3" data-type="Món Âu" data-budget="mid" data-rating="4.8" data-hours="ngay" data-name="fluid saigon">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-83.jpeg" alt="Fluid Saigon" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 3</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-83.html">Fluid Saigon</a></h3>
+            <p class="card-desc">Nhà hàng theo phong cách ẩm thực kết hợp hiện đại, phục vụ các món nhỏ để thực khách chia sẻ. Quán gây chú ý n...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Âu" data-budget="mid" data-rating="4.8" data-hours="ngay" data-name="blanc. restaurant">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-84.jpg" alt="Blanc. Restaurant" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-84.html">Blanc. Restaurant</a></h3>
+            <p class="card-desc">Nhà hàng ẩm thực kết hợp cao cấp, nổi bật với trải nghiệm giao tiếp bằng ngôn ngữ ký hiệu cùng đội ngũ nhân vi...</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Hải sản" data-budget="mid" data-rating="4.7" data-hours="sang" data-name="únu art inspired eatery & bar">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-85.jpeg" alt="ÚNU Art inspired Eatery & Bar" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Hải sản</span></div>
+            <h3 class="card-title"><a href="quan-85.html">ÚNU Art inspired Eatery & Bar</a></h3>
+            <p class="card-desc">Nhà hàng kết hợp ẩm thực hiện đại với cảm hứng nghệ thuật, có không gian tinh tế và quầy bar phục vụ cocktail....</p>
+            <div class="card-footer"><span class="price">Liên hệ</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Thái" data-budget="high" data-rating="4.7" data-hours="ngay" data-name="lạc thái">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-86.jpeg" alt="Lạc Thái" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Thái</span></div>
+            <h3 class="card-title"><a href="quan-86.html">Lạc Thái</a></h3>
+            <p class="card-desc">Nhà hàng Thái Lan hoạt động lâu năm, nổi bật với sự kết hợp hài hòa giữa vị chua, cay, mặn, ngọt và các loại t...</p>
+            <div class="card-footer"><span class="price">200k – 400k</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Thái" data-budget="high" data-rating="4.6" data-hours="sang" data-name="tien tien thai cuisine">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-87.jpeg" alt="Tien Tien Thai Cuisine" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Thái</span></div>
+            <h3 class="card-title"><a href="quan-87.html">Tien Tien Thai Cuisine</a></h3>
+            <p class="card-desc">Nhà hàng chuyên món Thái với không gian chỉn chu, thực đơn tập trung vào các món truyền thống và gia vị đặc tr...</p>
+            <div class="card-footer"><span class="price">200k – 400k</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Thái" data-budget="mid" data-rating="4.5" data-hours="sang" data-name="somtam zaap">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-88.jpeg" alt="Somtam ZAAP" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Thái</span></div>
+            <h3 class="card-title"><a href="quan-88.html">Somtam ZAAP</a></h3>
+            <p class="card-desc">Nhà hàng chuyên ẩm thực Thái vùng Isan, nổi bật với món gỏi đu đủ, các món nướng và hương vị cay nồng đặc trưn...</p>
+            <div class="card-footer"><span class="price">150k – 300k</span><span class="stars">★ 4.5</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Ấn" data-budget="high" data-rating="4.6" data-hours="sang" data-name="tandoor indian restaurant">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-89.jpeg" alt="Tandoor Indian Restaurant" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Ấn</span></div>
+            <h3 class="card-title"><a href="quan-89.html">Tandoor Indian Restaurant</a></h3>
+            <p class="card-desc">Nhà hàng Ấn Độ lâu năm, phục vụ món cà ri, bánh mì naan và các món nướng lò đất truyền thống; có lựa chọn chay...</p>
+            <div class="card-footer"><span class="price">200k – 500k</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Ấn" data-budget="mid" data-rating="4.4" data-hours="sang" data-name="namaste india">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-90.jpeg" alt="Namaste India" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Ấn</span></div>
+            <h3 class="card-title"><a href="quan-90.html">Namaste India</a></h3>
+            <p class="card-desc">Quán Ấn Độ với thực đơn đa dạng từ cà ri, cơm Biryani đến các set cơm truyền thống, phù hợp người muốn khám ph...</p>
+            <div class="card-footer"><span class="price">120k – 250k</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Ấn" data-budget="mid" data-rating="4.4" data-hours="trua" data-name="halens indian curry">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-91.webp" alt="Halen's Indian Curry" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Ấn</span></div>
+            <h3 class="card-title"><a href="quan-91.html">Halen's Indian Curry</a></h3>
+            <p class="card-desc">Nhà hàng phục vụ các món Ấn Độ với gia vị đậm đà, nhiều lựa chọn cà ri, cơm Biryani và set cơm gồm món chính c...</p>
+            <div class="card-footer"><span class="price">120k – 250k</span><span class="stars">★ 4.4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Ấn" data-budget="mid" data-rating="4.3" data-hours="sang" data-name="natraj indian cuisine restaurant">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-92.jpeg" alt="Natraj Indian Cuisine Restaurant" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Ấn</span></div>
+            <h3 class="card-title"><a href="quan-92.html">Natraj Indian Cuisine Restaurant</a></h3>
+            <p class="card-desc">Nhà hàng chuyên món Bắc và Nam Ấn Độ, có các món cà ri, cơm gia vị, bánh dosa và những món nướng truyền thống.</p>
+            <div class="card-footer"><span class="price">150k – 300k</span><span class="stars">★ 4.3</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 2" data-type="Món Âu" data-budget="premium" data-rating="4.9" data-hours="ngay" data-name="la villa french restaurant">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-93.jpeg" alt="La Villa French Restaurant" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 2</span><span class="badge badge-type">Món Âu</span></div>
+            <h3 class="card-title"><a href="quan-93.html">La Villa French Restaurant</a></h3>
+            <p class="card-desc">Nhà hàng Pháp cao cấp trong không gian biệt thự, nổi bật với kỹ thuật chế biến tinh tế, nguyên liệu cao cấp và...</p>
+            <div class="card-footer"><span class="price">1500k – 3500k</span><span class="stars">★ 4.9</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Hoa" data-budget="premium" data-rating="4.6" data-hours="trua" data-name="kabin – saigon">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-94.jpeg" alt="Kabin – Saigon" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Hoa</span></div>
+            <h3 class="card-title"><a href="quan-94.html">Kabin – Saigon</a></h3>
+            <p class="card-desc">Nhà hàng Quảng Đông trong khách sạn, nổi bật với dimsum thủ công, món quay và các món ăn truyền thống được trì...</p>
+            <div class="card-footer"><span class="price">500k – 1000k</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 5" data-type="Món Hoa" data-budget="mid" data-rating="4.2" data-hours="ngay" data-name="shan dimsum">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-95.jpeg" alt="Shan Dimsum" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 5</span><span class="badge badge-type">Món Hoa</span></div>
+            <h3 class="card-title"><a href="quan-95.html">Shan Dimsum</a></h3>
+            <p class="card-desc">Quán chuyên dimsum kiểu Hong Kong và các món xào Trung Hoa, phù hợp cho bữa sáng, bữa trưa hoặc bữa tối nhẹ.</p>
+            <div class="card-footer"><span class="price">100k – 250k</span><span class="stars">★ 4.2</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 3" data-type="Món Nhật" data-budget="high" data-rating="4.1" data-hours="trua" data-name="indigo japanese restaurant">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-96.jpeg" alt="Indigo Japanese Restaurant" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 3</span><span class="badge badge-type">Món Nhật</span></div>
+            <h3 class="card-title"><a href="quan-96.html">Indigo Japanese Restaurant</a></h3>
+            <p class="card-desc">Nhà hàng Nhật phục vụ sushi, sashimi, tempura và các món cơm, mì; có không gian phù hợp cho nhóm nhỏ và bữa ăn...</p>
+            <div class="card-footer"><span class="price">200k – 400k</span><span class="stars">★ 4.1</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 2" data-type="Món Nhật" data-budget="cheap" data-rating="4.1" data-hours="sang" data-name="onigiriya en">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-97.webp" alt="Onigiriya En" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 2</span><span class="badge badge-type">Món Nhật</span></div>
+            <h3 class="card-title"><a href="quan-97.html">Onigiriya En</a></h3>
+            <p class="card-desc">Tiệm chuyên cơm nắm Nhật Bản, phục vụ các loại nhân truyền thống và biến tấu phù hợp khẩu vị Việt Nam; thích h...</p>
+            <div class="card-footer"><span class="price">50k – 100k</span><span class="stars">★ 4.1</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Việt" data-budget="mid" data-rating="4" data-hours="sang" data-name="hais restaurant">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-98.jpeg" alt="Hai's Restaurant" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Việt</span></div>
+            <h3 class="card-title"><a href="quan-98.html">Hai's Restaurant</a></h3>
+            <p class="card-desc">Nhà hàng Việt Nam phục vụ các món truyền thống, món cuốn, phở và các lựa chọn chay; thực đơn có cả đồ uống và ...</p>
+            <div class="card-footer"><span class="price">150k – 300k</span><span class="stars">★ 4</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 5" data-type="Hải sản" data-budget="premium" data-rating="4.7" data-hours="sang" data-name="nhà hàng bê vàng">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-99.jpeg" alt="Nhà hàng Bê Vàng" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 5</span><span class="badge badge-type">Hải sản</span></div>
+            <h3 class="card-title"><a href="quan-99.html">Nhà hàng Bê Vàng</a></h3>
+            <p class="card-desc">Nhà hàng quy mô lớn chuyên hải sản tươi sống, món Hoa, món Nhật, lẩu và các món thịt nướng, thích hợp cho nhóm...</p>
+            <div class="card-footer"><span class="price">300k – 800k</span><span class="stars">★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-district="Quận 1" data-type="Món Nhật" data-budget="premium" data-rating="4.6" data-hours="trua" data-name="yakiuo ishikawa saigon">
+          <div class="card-img-wrap"><img src="hinhanhquan/quan-100.jpeg" alt="Yakiuo Ishikawa Saigon" class="card-img" loading="lazy" /></div>
+          <div class="card-body">
+            <div class="card-meta-top"><span class="badge badge-district">Quận 1</span><span class="badge badge-type">Món Nhật</span></div>
+            <h3 class="card-title"><a href="quan-100.html">Yakiuo Ishikawa Saigon</a></h3>
+            <p class="card-desc">Nhà hàng Nhật có phong cách nướng hải sản kết hợp omakase, tập trung vào cá và hải sản thay cho mô hình nướng ...</p>
+            <div class="card-footer"><span class="price">800k – 2000k</span><span class="stars">★ 4.6</span></div>
+          </div>
+        </article>
+      </div><!-- end cardsGrid -->
+
+      <div class="empty-state hidden" id="emptyState"><div class="empty-state-icon">🍽</div><p>Không tìm thấy quán phù hợp. Thử thay đổi bộ lọc nhé!</p></div>
+    </div>
+  </div>
+  <footer class="footer"><p>© 2025 How To Food Like A Saigonese | Made with ❤️ bởi Nhóm 4 — Lớp 10.1</p></footer>
+  <script>
+    (function(){var b=document.getElementById('hamburgerBtn'),l=document.getElementById('navLinks');b.addEventListener('click',function(){var o=l.classList.toggle('open');b.setAttribute('aria-expanded',o);b.classList.toggle('active',o);});})();
+    var cards=Array.from(document.querySelectorAll('#cardsGrid .card')),emptyState=document.getElementById('emptyState'),resultCount=document.getElementById('resultCount');
+    var fsSearch=document.getElementById('fsSearch'),fsDistrict=document.getElementById('fsDistrict'),fsType=document.getElementById('fsType'),fsBudget=document.getElementById('fsBudget'),fsRating=document.getElementById('fsRating'),fsHours=document.getElementById('fsHours');
+    function applyFilters(){var q=fsSearch.value.toLowerCase().trim(),district=fsDistrict.value,type=fsType.value,budget=fsBudget.value,rating=parseFloat(fsRating.value)||0,hours=fsHours.value,shown=0;
+      cards.forEach(function(c){var ok=(!q||c.dataset.name.includes(q))&&(!district||c.dataset.district===district)&&(!type||c.dataset.type===type)&&(!budget||c.dataset.budget===budget)&&(!rating||parseFloat(c.dataset.rating)>=rating)&&(!hours||c.dataset.hours===hours||c.dataset.hours==='ngay');
+      c.classList.toggle('hidden',!ok);if(ok)shown++;});
+      emptyState.classList.toggle('hidden',shown>0);
+      resultCount.textContent=shown===cards.length?'Đang hiển thị tất cả quán':'Tìm thấy '+shown+' quán phù hợp';}
+    function resetFilters(){[fsSearch,fsDistrict,fsType,fsBudget,fsRating,fsHours].forEach(function(el){el.value='';});applyFilters();}
+    [fsSearch,fsDistrict,fsType,fsBudget,fsRating,fsHours].forEach(function(el){el.addEventListener('change',applyFilters);el.addEventListener('input',applyFilters);});
+  </script>
+</body>
+</html>

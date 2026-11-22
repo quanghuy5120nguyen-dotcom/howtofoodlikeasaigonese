@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>The Deck Saigon | How To Food Like A Saigonese</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <style>
+    .sp-body{max-width:860px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+    .sp-section{margin-bottom:2.5rem;}
+    .sp-section-title{font-size:1.15rem;font-weight:800;color:#1a1a1a;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid #f0ede8;display:flex;align-items:center;gap:.45rem;}
+    .sp-desc{color:#555;line-height:1.85;margin-bottom:.75rem;font-size:.975rem;}
+    .sp-empty{color:#aaa;font-size:.9rem;padding:.5rem 0;}
+    .sp-chips{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem;margin-top:1.25rem;}
+    @media(max-width:560px){.sp-chips{grid-template-columns:1fr;}}
+    .sp-chip{display:flex;align-items:flex-start;gap:.65rem;padding:.85rem 1rem;background:#faf9f7;border:1.5px solid #f0ede8;border-radius:10px;}
+    .sp-chip-icon{font-size:1.3rem;line-height:1;flex-shrink:0;margin-top:1px;}
+    .sp-chip-lbl{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#aaa;display:block;margin-bottom:2px;}
+    .sp-chip-val{font-size:.88rem;font-weight:600;color:#1a1a1a;display:block;line-height:1.4;}
+    .sp-chip-val.sp-price{color:#cf3b1b;}
+    .sp-map-btn{display:inline-flex;align-items:center;gap:.5rem;margin-top:.75rem;padding:.6rem 1.2rem;background:linear-gradient(135deg,#e8722a,#cf3b1b);color:#fff;border-radius:9px;font-size:.875rem;font-weight:700;text-decoration:none;}
+    .sp-minimap{width:100%;height:320px;border-radius:12px;overflow:hidden;border:1.5px solid #e8e0da;margin-top:.75rem;}
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">How To Food Like A Saigonese</a>
+      <button class="nav-hamburger" id="hamburgerBtn"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="khampha.html" class="active">Khám phá</a></li>
+        <li><a href="bando.html">Bản đồ</a></li>
+        <li><a href="goiy.html">Gợi ý</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="subpage-hero subpage-hero-gradient">
+    <div class="subpage-hero-overlay"></div>
+    <div class="subpage-hero-content">
+      <div class="subpage-badges">
+        <span class="subpage-badge">🍝 Món Âu</span>
+        <span class="subpage-badge">📍 Quận 2</span>
+        <span class="subpage-badge">⭐ 4.3 / 5</span>
+      </div>
+      <h1>The Deck Saigon</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="index.html">Trang chủ</a><span>›</span>
+      <a href="khampha.html">Khám phá</a><span>›</span>
+      The Deck Saigon
+    </nav>
+  </div>
+
+  <div class="sp-body">
+
+    <section class="sp-section" id="sec-cauchyen">
+      <h2 class="sp-section-title">📖 Câu chuyện quán</h2>
+      <p class="sp-desc">Nhà hàng ven sông sang trọng nằm tại khu Thảo Điền, sở hữu không gian mở lãng mạn hướng thẳng ra sông Sài Gòn. Đây là địa điểm lý tưởng để ngắm hoàng hôn và thưởng thức ẩm thực cao cấp.</p>
+      <div class="sp-chips">
+        <span class="sp-chip"><span class="sp-chip-icon">🕐</span><span class="sp-chip-lbl">Giờ mở cửa</span><span class="sp-chip-val">08:00 – 00:00</span></span>
+        <span class="sp-chip"><span class="sp-chip-icon">📍</span><span class="sp-chip-lbl">Địa chỉ</span><span class="sp-chip-val">38 Nguyễn Ư Dĩ, Phường Thảo Điền, TP. Thủ Đức</span></span>
+        <span class="sp-chip"><span class="sp-chip-icon">💰</span><span class="sp-chip-lbl">Mức giá</span><span class="sp-chip-val sp-price">500.000 – 1.500.000đ/người</span></span>
+        <span class="sp-chip"><span class="sp-chip-icon">🍝</span><span class="sp-chip-lbl">Loại quán</span><span class="sp-chip-val">Món Âu</span></span>
+      </div>
+    </section>
+
+    <section class="sp-section" id="sec-mon">
+      <h2 class="sp-section-title">🍽 Món nổi bật</h2>
+      <div class="dishes-grid">
+          <div class="dish-card"><div class="dish-info"><div class="dish-name">Cá hồi áp chảo sốt bơ chanh</div><div class="dish-price">480.000đ</div></div></div>
+          <div class="dish-card"><div class="dish-info"><div class="dish-name">Bò Úc nướng sốt vang đỏ</div><div class="dish-price">750.000đ</div></div></div>
+          <div class="dish-card"><div class="dish-info"><div class="dish-name">Mì Ý hải sản sốt cà chua tươi</div><div class="dish-price">350.000đ</div></div></div>
+          <div class="dish-card"><div class="dish-info"><div class="dish-name">Bánh ngọt tráng miệng</div><div class="dish-price">160.000đ</div></div></div>
+      </div>
+    </section>
+
+    <section class="sp-section" id="sec-danhgia">
+      <h2 class="sp-section-title">⭐ Đánh giá từ thực khách</h2>
+      <div class="rating-overview">
+        <div style="text-align:center;">
+          <div class="rating-big">4.3</div>
+          <div style="color:#e0a318;font-size:1.2rem;">★★★★☆</div>
+          <div style="font-size:.78rem;color:#aaa;margin-top:4px;">87 đánh giá</div>
+        </div>
+        <div class="rating-bars">
+            <div class="rating-bar-row"><span class="rating-bar-label">Đồ ăn</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:88%"></div></div><span class="rating-bar-value">4.4</span></div>
+            <div class="rating-bar-row"><span class="rating-bar-label">Không gian</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:70%"></div></div><span class="rating-bar-value">3.5</span></div>
+            <div class="rating-bar-row"><span class="rating-bar-label">Phục vụ</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:82%"></div></div><span class="rating-bar-value">4.1</span></div>
+            <div class="rating-bar-row"><span class="rating-bar-label">Giá cả</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:84%"></div></div><span class="rating-bar-value">4.2</span></div>
+        </div>
+      </div>
+        <div class="review-card"><div class="review-header"><div class="review-avatar">A</div><div><div class="review-name">Đặng An</div><div class="review-date">05/09/2025</div></div></div><div class="review-stars">★★★★★</div><p class="review-text">Nguyên liệu tươi, hương vị đậm đà, xứng đáng từng đồng.</p></div>
+        <div class="review-card"><div class="review-header"><div class="review-avatar">Q</div><div><div class="review-name">Lê Quang</div><div class="review-date">18/04/2025</div></div></div><div class="review-stars">★★★★☆</div><p class="review-text">Không gian đẹp, đồ ăn ngon — cuối tuần hơi đông nhưng vẫn đáng ghé.</p></div>
+        <div class="review-card"><div class="review-header"><div class="review-avatar">N</div><div><div class="review-name">Ngô Nhi</div><div class="review-date">28/10/2025</div></div></div><div class="review-stars">★★★★☆</div><p class="review-text">Nguyên liệu tươi, hương vị đậm đà, xứng đáng từng đồng.</p></div>
+    </section>
+
+    <section class="sp-section" id="sec-vitri">
+      <h2 class="sp-section-title">📍 Vị trí quán</h2>
+      <p style="color:#666;margin-bottom:.5rem;">38 Nguyễn Ư Dĩ, Phường Thảo Điền, TP. Thủ Đức</p>
+      <div id="minimap" class="sp-minimap"></div>
+      <a href="bando.html" class="sp-map-btn" style="margin-top:.9rem;">🗺 Xem trên bản đồ tổng</a>
+    </section>
+
+  </div>
+
+  <footer class="footer"><p>© 2025 How To Food Like A Saigonese | Made with ❤️ bởi Nhóm 4 — Lớp 10.1</p></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script>
+    (function(){var b=document.getElementById('hamburgerBtn'),l=document.getElementById('navLinks');b.addEventListener('click',function(){var o=l.classList.toggle('open');b.setAttribute('aria-expanded',o);b.classList.toggle('active',o);});})();
+    (function(){
+      var done=false;
+      function initMap(){
+        if(done)return; done=true;
+        var m=L.map('minimap',{scrollWheelZoom:false}).setView([10.8,106.7375],16);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap',maxZoom:19}).addTo(m);
+        L.marker([10.8,106.7375]).addTo(m).bindPopup('<strong>The Deck Saigon</strong><br>38 Nguyễn Ư Dĩ, Phường Thảo Điền, TP. Thủ Đức').openPopup();
+        setTimeout(function(){m.invalidateSize();},200);
+      }
+      if('IntersectionObserver' in window){
+        var obs=new IntersectionObserver(function(e){if(e[0].isIntersecting){initMap();obs.disconnect();}},{threshold:0.1});
+        obs.observe(document.getElementById('minimap'));
+      } else { initMap(); }
+    })();
+  </script>
+</body>
+</html>

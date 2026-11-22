@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How To Food Like A Saigonese | Gợi ý quán ăn</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">How To Food Like A Saigonese</a>
+      <button class="nav-hamburger" id="hamburgerBtn" aria-label="Mở menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="khampha.html">Khám phá</a></li>
+        <li><a href="bando.html">Bản đồ</a></li>
+        <li><a href="goiy.html" class="active">Gợi ý</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=60'); background-size:cover; background-position:center;">
+    <div style="position:absolute;inset:0;background:rgba(180,60,20,.75);"></div>
+    <div class="page-hero-content">
+      <h1>💌 Gợi ý quán ăn</h1>
+      <p>Chia sẻ quán ăn yêu thích của bạn với cộng đồng How To Food Like A Saigonese</p>
+    </div>
+  </div>
+
+  <!-- FORM WRAPPER -->
+  <div class="form-wrapper" id="formWrapper">
+
+    <!-- PROGRESS BAR -->
+    <div class="steps-progress">
+      <div class="step-dot active" id="dot1">
+        <div class="step-circle">1</div>
+        <span class="step-label">Về bạn</span>
+      </div>
+      <div class="step-line" id="line1"></div>
+      <div class="step-dot" id="dot2">
+        <div class="step-circle">2</div>
+        <span class="step-label">Thông tin quán</span>
+      </div>
+      <div class="step-line" id="line2"></div>
+      <div class="step-dot" id="dot3">
+        <div class="step-circle">3</div>
+        <span class="step-label">Đánh giá</span>
+      </div>
+      <div class="step-line" id="line3"></div>
+      <div class="step-dot" id="dot4">
+        <div class="step-circle">4</div>
+        <span class="step-label">Xem lại & Gửi</span>
+      </div>
+    </div>
+
+    <!-- STEP 1: Về bạn -->
+    <div class="form-step active" id="step1">
+      <h2 class="form-step-title">Xin chào! Bạn là ai? 👋</h2>
+      <p class="form-step-sub">Chúng tôi muốn biết thêm một chút về người gợi ý.</p>
+      <div class="form-group">
+        <label class="form-label" for="nickname">Tên / Nickname <span class="form-required">*</span></label>
+        <input type="text" id="nickname" class="form-input" placeholder="VD: Foodie Sài Gòn, Minh Hùng..." />
+        <p class="form-hint">Tên hiển thị trên website (không cần dùng tên thật).</p>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="email">Email <span style="color:#aaa;font-weight:400">(không bắt buộc)</span></label>
+        <input type="email" id="email" class="form-input" placeholder="email@example.com" />
+        <p class="form-hint">Để chúng tôi liên hệ khi quán của bạn được đăng tải.</p>
+      </div>
+      <div class="form-nav">
+        <span></span>
+        <button class="btn btn-primary" onclick="goStep(2)">Tiếp theo →</button>
+      </div>
+    </div>
+
+    <!-- STEP 2: Thông tin quán -->
+    <div class="form-step" id="step2">
+      <h2 class="form-step-title">Quán ăn bạn muốn gợi ý 🍽</h2>
+      <p class="form-step-sub">Cho chúng tôi biết tên và địa chỉ quán nhé.</p>
+      <div class="form-group">
+        <label class="form-label" for="storeName">Tên quán <span class="form-required">*</span></label>
+        <input type="text" id="storeName" class="form-input" placeholder="VD: Phở Dậu, Bún bò O Xuân..." />
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="storeDistrict">Khu vực <span class="form-required">*</span></label>
+          <select id="storeDistrict" class="form-input" style="appearance:auto;"><option value="">-- Chọn quận --</option><option>Bình Thạnh</option><option>Phú Nhuận</option><option>Quận 1</option><option>Quận 2</option><option>Quận 3</option><option>Quận 5</option></select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="storeType">Loại ẩm thực <span class="form-required">*</span></label>
+          <select id="storeType" class="form-input" style="appearance:auto;"><option value="">-- Chọn loại --</option><option>Món Việt</option><option>Món Hàn</option><option>Món Nhật</option><option>Món Âu</option><option>Món Thái</option><option>Món Ấn</option><option>Món Hoa</option><option>Pizza</option><option>Món Mỹ</option><option>Món Chay</option><option>Hải sản</option><option>Món khác</option><option>Khác</option></select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="storeAddress">Địa chỉ</label>
+        <input type="text" id="storeAddress" class="form-input" placeholder="Số nhà, tên đường..." />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="storeBudget">Khoảng giá trung bình / người</label>
+        <input type="range" id="storeBudget" class="range-slider" min="0" max="500" step="25" value="75" oninput="updateBudget(this)" style="--pct:15%" />
+        <div style="display:flex;justify-content:space-between;font-size:.78rem;color:#aaa;margin-top:4px;">
+          <span>0đ</span>
+          <span id="budgetLabel" style="font-weight:700;color:#cf3b1b;">~75,000đ</span>
+          <span>500k+</span>
+        </div>
+      </div>
+      <div class="form-nav">
+        <button class="btn btn-outline-dark" onclick="goStep(1)">← Quay lại</button>
+        <button class="btn btn-primary" onclick="goStep(3)">Tiếp theo →</button>
+      </div>
+    </div>
+
+    <!-- STEP 3: Đánh giá -->
+    <div class="form-step" id="step3">
+      <h2 class="form-step-title">Đánh giá của bạn ⭐</h2>
+      <p class="form-step-sub">Cho chúng tôi biết trải nghiệm của bạn tại quán nhé.</p>
+
+      <div class="form-group">
+        <label class="form-label">Đồ ăn</label>
+        <div class="star-group" data-key="food">
+          <button class="star-btn" data-val="1">★</button>
+          <button class="star-btn" data-val="2">★</button>
+          <button class="star-btn" data-val="3">★</button>
+          <button class="star-btn" data-val="4">★</button>
+          <button class="star-btn" data-val="5">★</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Không gian</label>
+        <div class="star-group" data-key="space">
+          <button class="star-btn" data-val="1">★</button>
+          <button class="star-btn" data-val="2">★</button>
+          <button class="star-btn" data-val="3">★</button>
+          <button class="star-btn" data-val="4">★</button>
+          <button class="star-btn" data-val="5">★</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Phục vụ</label>
+        <div class="star-group" data-key="service">
+          <button class="star-btn" data-val="1">★</button>
+          <button class="star-btn" data-val="2">★</button>
+          <button class="star-btn" data-val="3">★</button>
+          <button class="star-btn" data-val="4">★</button>
+          <button class="star-btn" data-val="5">★</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Giá cả</label>
+        <div class="star-group" data-key="price">
+          <button class="star-btn" data-val="1">★</button>
+          <button class="star-btn" data-val="2">★</button>
+          <button class="star-btn" data-val="3">★</button>
+          <button class="star-btn" data-val="4">★</button>
+          <button class="star-btn" data-val="5">★</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="storeReason">Lý do gợi ý <span class="form-required">*</span></label>
+        <textarea id="storeReason" class="form-textarea" maxlength="500" placeholder="Điều gì khiến bạn muốn gợi ý quán này? Hương vị, không gian, kỷ niệm đáng nhớ..."></textarea>
+        <p class="char-count"><span id="charLeft">500</span> ký tự còn lại</p>
+      </div>
+
+      <div class="form-nav">
+        <button class="btn btn-outline-dark" onclick="goStep(2)">← Quay lại</button>
+        <button class="btn btn-primary" onclick="goStep(4)">Xem lại →</button>
+      </div>
+    </div>
+
+    <!-- STEP 4: Xem lại & Gửi -->
+    <div class="form-step" id="step4">
+      <h2 class="form-step-title">Xem lại trước khi gửi 👀</h2>
+      <p class="form-step-sub">Kiểm tra lại thông tin bạn đã điền.</p>
+      <div class="review-summary" id="reviewSummary">
+        <!-- Populated by JS -->
+      </div>
+      <div class="form-nav">
+        <button class="btn btn-outline-dark" onclick="goStep(3)">← Sửa lại</button>
+        <button class="btn btn-primary" onclick="submitForm()">🚀 Gửi gợi ý</button>
+      </div>
+    </div>
+
+    <!-- THANK YOU -->
+    <div class="thank-you" id="thankYou">
+      <div class="thank-you-icon">🎉</div>
+      <h2>Cảm ơn bạn đã gợi ý!</h2>
+      <p>Chúng tôi sẽ xem xét và cập nhật quán của bạn sớm nhất có thể.<br>Hãy tiếp tục khám phá ẩm thực Sài Gòn cùng chúng tôi nhé!</p>
+      <a href="khampha.html" class="btn btn-primary">🍽 Khám phá thêm quán ăn</a>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 How To Food Like A Saigonese | Made with ❤️ bởi Nhóm 4 — Lớp 10.1</p>
+  </footer>
+
+  <script>
+    // Mobile nav
+    (function () {
+      var btn = document.getElementById('hamburgerBtn');
+      var links = document.getElementById('navLinks');
+      btn.addEventListener('click', function () {
+        var open = links.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+        btn.classList.toggle('active', open);
+      });
+    })();
+
+    // Budget slider
+    function updateBudget(el) {
+      var val = parseInt(el.value);
+      var pct = (val / 500 * 100);
+      el.style.setProperty('--pct', pct + '%');
+      document.getElementById('budgetLabel').textContent = val === 0 ? 'Dưới 25k' : val >= 500 ? '500k+' : '~' + val + ',000đ';
+    }
+
+    // Star ratings
+    var ratings = { food: 0, space: 0, service: 0, price: 0 };
+    document.querySelectorAll('.star-group').forEach(function (group) {
+      var key = group.dataset.key;
+      var btns = Array.from(group.querySelectorAll('.star-btn'));
+      btns.forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          var val = parseInt(btn.dataset.val);
+          ratings[key] = val;
+          btns.forEach(function (b, i) {
+            b.classList.toggle('selected', i < val);
+          });
+        });
+        btn.addEventListener('mouseover', function () {
+          var hval = parseInt(btn.dataset.val);
+          btns.forEach(function (b, i) { b.style.color = i < hval ? '#e0a318' : ''; });
+        });
+        btn.addEventListener('mouseout', function () {
+          btns.forEach(function (b, i) { b.style.color = ''; });
+        });
+      });
+    });
+
+    // Char counter
+    var textarea = document.getElementById('storeReason');
+    textarea.addEventListener('input', function () {
+      document.getElementById('charLeft').textContent = 500 - textarea.value.length;
+    });
+
+    // Step navigation
+    var currentStep = 1;
+    function goStep(n) {
+      // Validate current step
+      if (n > currentStep) {
+        if (currentStep === 1) {
+          var nick = document.getElementById('nickname').value.trim();
+          if (!nick) { alert('Vui lòng nhập tên / nickname của bạn.'); return; }
+        }
+        if (currentStep === 2) {
+          var name = document.getElementById('storeName').value.trim();
+          var dist = document.getElementById('storeDistrict').value;
+          var type = document.getElementById('storeType').value;
+          if (!name || !dist || !type) { alert('Vui lòng điền đầy đủ: Tên quán, Khu vực và Loại ẩm thực.'); return; }
+        }
+        if (currentStep === 3) {
+          var reason = document.getElementById('storeReason').value.trim();
+          if (!reason) { alert('Vui lòng nhập lý do gợi ý quán.'); return; }
+        }
+      }
+
+      // Update dots & lines
+      for (var i = 1; i <= 4; i++) {
+        var dot = document.getElementById('dot' + i);
+        dot.classList.remove('active', 'done');
+        if (i < n) dot.classList.add('done');
+        if (i === n) dot.classList.add('active');
+      }
+      for (var j = 1; j <= 3; j++) {
+        var line = document.getElementById('line' + j);
+        line.classList.toggle('done', j < n);
+      }
+
+      // Show/hide steps
+      for (var k = 1; k <= 4; k++) {
+        document.getElementById('step' + k).classList.toggle('active', k === n);
+      }
+
+      currentStep = n;
+      if (n === 4) buildReview();
+
+      // Scroll to top of form
+      document.getElementById('formWrapper').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function starsDisplay(val) {
+      var s = '';
+      for (var i = 1; i <= 5; i++) s += (i <= val ? '★' : '☆');
+      return s + ' (' + val + '/5)';
+    }
+
+    function buildReview() {
+      var budget = document.getElementById('storeBudget').value;
+      var budgetLabel = budget >= 500 ? '500k+' : '~' + budget + ',000đ';
+      var rows = [
+        ['Tên / Nickname',    document.getElementById('nickname').value],
+        ['Email',             document.getElementById('email').value || '(không cung cấp)'],
+        ['Tên quán',          document.getElementById('storeName').value],
+        ['Khu vực',           document.getElementById('storeDistrict').value],
+        ['Loại ẩm thực',      document.getElementById('storeType').value],
+        ['Địa chỉ',           document.getElementById('storeAddress').value || '(chưa điền)'],
+        ['Khoảng giá',        budgetLabel],
+        ['Đồ ăn',             starsDisplay(ratings.food)],
+        ['Không gian',        starsDisplay(ratings.space)],
+        ['Phục vụ',           starsDisplay(ratings.service)],
+        ['Giá cả',            starsDisplay(ratings.price)],
+        ['Lý do gợi ý',       document.getElementById('storeReason').value]
+      ];
+      var html = '<h3>📋 Tóm tắt gợi ý của bạn</h3>';
+      rows.forEach(function (row) {
+        html += '<div class="review-row"><span class="review-row-label">' + row[0] + '</span><span class="review-row-value">' + row[1] + '</span></div>';
+      });
+      document.getElementById('reviewSummary').innerHTML = html;
+    }
+
+    function submitForm() {
+      // Thu thập dữ liệu form
+      var budget = document.getElementById('storeBudget').value;
+      var budgetLabel = budget >= 500 ? '500k+' : '~' + budget + ',000đ';
+
+      var body = [
+        '=== GỢI Ý QUÁN ĂN MỚI ===',
+        '',
+        'Người gợi ý: '    + document.getElementById('nickname').value,
+        'Email liên hệ: '  + (document.getElementById('email').value || '(không cung cấp)'),
+        '',
+        '--- THÔNG TIN QUÁN ---',
+        'Tên quán: '        + document.getElementById('storeName').value,
+        'Khu vực: '         + document.getElementById('storeDistrict').value,
+        'Loại ẩm thực: '   + document.getElementById('storeType').value,
+        'Địa chỉ: '         + (document.getElementById('storeAddress').value || '(chưa điền)'),
+        'Khoảng giá: '      + budgetLabel,
+        '',
+        '--- ĐÁNH GIÁ ---',
+        'Đồ ăn: '           + starsDisplay(ratings.food),
+        'Không gian: '      + starsDisplay(ratings.space),
+        'Phục vụ: '         + starsDisplay(ratings.service),
+        'Giá cả: '          + starsDisplay(ratings.price),
+        '',
+        '--- LÝ DO GỢI Ý ---',
+        document.getElementById('storeReason').value
+      ].join('\n');
+
+      var subject = encodeURIComponent('[How To Food] Gợi ý quán: ' + document.getElementById('storeName').value);
+      var bodyEncoded = encodeURIComponent(body);
+      window.location.href = 'mailto:qnhu69203@gmail.com?subject=' + subject + '&body=' + bodyEncoded;
+
+      // Hiển thị màn hình cảm ơn
+      document.getElementById('step4').classList.remove('active');
+      document.getElementById('thankYou').style.display = 'block';
+      for (var i = 1; i <= 4; i++) {
+        var dot = document.getElementById('dot' + i);
+        dot.classList.remove('active');
+        dot.classList.add('done');
+      }
+      document.getElementById('line1').classList.add('done');
+      document.getElementById('line2').classList.add('done');
+      document.getElementById('line3').classList.add('done');
+    }
+  </script>
+</body>
+</html>
