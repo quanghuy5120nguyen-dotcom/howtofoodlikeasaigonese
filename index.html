@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How To Food Like A Saigonese | Khám phá ẩm thực TP.HCM</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">How To Food Like A Saigonese</a>
+      <button class="nav-hamburger" id="hamburgerBtn" aria-label="Mở menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Trang chủ</a></li>
+        <li><a href="khampha.html">Khám phá</a></li>
+        <li><a href="bando.html">Bản đồ</a></li>
+        <li><a href="goiy.html">Gợi ý</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO — background: ảnh ẩm thực do người dùng cung cấp -->
+  <header class="hero">
+    <div class="hero-bg" style="background-image:url('hinhanhquan/header-home.jpg');"></div>
+    <div class="hero-overlay" style="background:linear-gradient(160deg,rgba(8,3,1,.82) 0%,rgba(140,32,5,.42) 55%,rgba(8,3,1,.76) 100%);"></div>
+    <div class="hero-content">
+      <span class="hero-badge">🔥 Ẩm thực Sài Gòn</span>
+      <div class="hero-text-card">
+        <h1>How To Food<br>Like A Saigonese</h1>
+        <p class="hero-subtitle">Khám phá những quán ăn ngon, độc lạ, mới mẻ ở TP.HCM — được chọn lọc kỹ bởi những người thật sự đã đến, đã ăn, đã mê.</p>
+      </div>
+      <div class="hero-buttons">
+        <a href="khampha.html" class="btn btn-primary">🍽 Khám phá ngay</a>
+        <a href="bando.html" class="btn btn-hero-map">🗺 Xem bản đồ</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="container">
+      <div class="stat-item">
+        <span class="stat-icon">🍜</span>
+        <span class="stat-number">100</span>
+        <span class="stat-label">Quán được chọn lọc</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-icon">🗺</span>
+        <span class="stat-number">6</span>
+        <span class="stat-label">Quận / Khu vực</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ĐIỀU HƯỚNG -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Khám phá theo cách của bạn</h2>
+        <p class="section-subtitle">Ba cách để tìm quán ăn ngon ở Sài Gòn</p>
+        <span class="section-accent"></span>
+      </div>
+      <div class="nav-cards">
+        <a href="khampha.html" class="nav-card">
+          <span class="nav-card-icon">🔍</span>
+          <h3>Khám phá ẩm thực</h3>
+          <p>Tìm kiếm và lọc theo khu vực, loại món, ngân sách</p>
+        </a>
+        <a href="bando.html" class="nav-card">
+          <span class="nav-card-icon">🗺</span>
+          <h3>Bản đồ thực tế</h3>
+          <p>Xem vị trí các quán trên bản đồ tương tác</p>
+        </a>
+        <a href="goiy.html" class="nav-card">
+          <span class="nav-card-icon">💌</span>
+          <h3>Gợi ý quán ăn</h3>
+          <p>Chia sẻ quán ăn yêu thích của bạn với cộng đồng</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 How To Food Like A Saigonese | Made with ❤️ bởi Nhóm 4 — Lớp 10.1</p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('hamburgerBtn');
+      var links = document.getElementById('navLinks');
+      btn.addEventListener('click', function () {
+        var open = links.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+        btn.classList.toggle('active', open);
+      });
+      links.querySelectorAll('a').forEach(function (a) {
+        a.addEventListener('click', function () {
+          links.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+          btn.classList.remove('active');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

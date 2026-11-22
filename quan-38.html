@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>NOIR . Dining in the Dark Saigon | How To Food Like A Saigonese</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <style>
+    .sp-body{max-width:860px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+    .sp-section{margin-bottom:2.5rem;}
+    .sp-section-title{font-size:1.15rem;font-weight:800;color:#1a1a1a;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid #f0ede8;display:flex;align-items:center;gap:.45rem;}
+    .sp-desc{color:#555;line-height:1.85;margin-bottom:.75rem;font-size:.975rem;}
+    .sp-chips{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem;margin-top:1.25rem;}
+    @media(max-width:560px){.sp-chips{grid-template-columns:1fr;}}
+    .sp-chip{display:flex;align-items:flex-start;gap:.65rem;padding:.85rem 1rem;background:#faf9f7;border:1.5px solid #f0ede8;border-radius:10px;}
+    .sp-chip-icon{font-size:1.3rem;line-height:1;flex-shrink:0;margin-top:1px;}
+    .sp-chip-lbl{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#aaa;display:block;margin-bottom:2px;}
+    .sp-chip-val{font-size:.88rem;font-weight:600;color:#1a1a1a;display:block;line-height:1.4;}
+    .sp-chip-val.sp-price{color:#cf3b1b;}
+    .sp-map-btn{display:inline-flex;align-items:center;gap:.5rem;margin-top:.75rem;padding:.6rem 1.2rem;background:linear-gradient(135deg,#e8722a,#cf3b1b);color:#fff;border-radius:9px;font-size:.875rem;font-weight:700;text-decoration:none;}
+    .sp-minimap{width:100%;height:320px;border-radius:12px;overflow:hidden;border:1.5px solid #e8e0da;margin-top:.75rem;}
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">How To Food Like A Saigonese</a>
+      <button class="nav-hamburger" id="hamburgerBtn"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="khampha.html" class="active">Khám phá</a></li>
+        <li><a href="bando.html">Bản đồ</a></li>
+        <li><a href="goiy.html">Gợi ý</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="subpage-hero subpage-hero-gradient">
+    <div class="subpage-hero-overlay"></div>
+    <div class="subpage-hero-content">
+      <div class="subpage-badges">
+        <span class="subpage-badge">🌍 Ẩm thực phương Tây kết hợp Á Đông</span>
+        <span class="subpage-badge">📍 Bình Thạnh</span>
+        <span class="subpage-badge">⭐ 4.8 / 5</span>
+      </div>
+      <h1>NOIR . Dining in the Dark Saigon</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="index.html">Trang chủ</a><span>›</span>
+      <a href="khampha.html">Khám phá</a><span>›</span>
+      NOIR . Dining in the Dark Saigon
+    </nav>
+  </div>
+
+  <div class="sp-body">
+
+    <section class="sp-section" id="sec-cauchyen">
+      <h2 class="sp-section-title">📖 Câu chuyện quán</h2>
+      <p class="sp-desc">Đây là một trải nghiệm ẩm thực hoàn toàn khác biệt và độc đáo tại TP.HCM, nơi bạn sẽ thưởng thức bữa ăn trong một không gian tối đen như mực, tuyệt đối không có bất kỳ nguồn sáng nào — điện thoại và đồng hồ phát sáng đều phải gửi lại tủ đồ trước khi vào.</p>
+      <p class="sp-desc">Toàn bộ đội ngũ phục vụ trong phòng tối là những người khiếm thị hoặc thị lực kém. Họ sẽ là "đôi mắt" dẫn dắt và chăm sóc bạn suốt bữa ăn. Việc mất đi thị giác sẽ kích thích tối đa các giác quan còn lại như vị giác, khứu giác và xúc giác — bạn sẽ phải dùng tay và dụng cụ để cảm nhận, đoán xem mình đang thưởng thức nguyên liệu gì.</p>
+      <p class="sp-desc">Khi dùng bữa xong, bạn mới được xem lại hình ảnh thực tế của các món ăn để kiểm tra xem mình đoán đúng bao nhiêu phần trăm. Trải nghiệm này vừa mang tính giải trí, vừa gắn kết mọi người và mang ý nghĩa nhân văn sâu sắc.</p>
+      <div class="sp-chips">
+        <span class="sp-chip"><span class="sp-chip-icon">🕐</span><span class="sp-chip-lbl">Giờ mở cửa</span><span class="sp-chip-val">Thứ Ba – Chủ Nhật: 17:30 – 23:00</span></span>
+        <span class="sp-chip"><span class="sp-chip-icon">📍</span><span class="sp-chip-lbl">Địa chỉ</span><span class="sp-chip-val">40/8 Phạm Viết Chánh, P. 19, Q. Bình Thạnh</span></span>
+        <span class="sp-chip"><span class="sp-chip-icon">💰</span><span class="sp-chip-lbl">Mức giá</span><span class="sp-chip-val sp-price">600.000 – 1.000.000đ/người</span></span>
+        <span class="sp-chip"><span class="sp-chip-icon">🌍</span><span class="sp-chip-lbl">Loại quán</span><span class="sp-chip-val">Ẩm thực phương Tây kết hợp Á Đông</span></span>
+      </div>
+    </section>
+
+    <section class="sp-section" id="sec-mon">
+      <h2 class="sp-section-title">🍽 Món nổi bật</h2>
+      <div class="dishes-grid">
+        <div class="dish-card"><div class="dish-info"><div class="dish-name">Set Menu Chủ đề Thịt (Meat Set)</div><div class="dish-price">750.000 – 850.000đ</div></div></div>
+        <div class="dish-card"><div class="dish-info"><div class="dish-name">Set Menu Chủ đề Hải sản (Seafood Set)</div><div class="dish-price">750.000 – 850.000đ</div></div></div>
+        <div class="dish-card"><div class="dish-info"><div class="dish-name">Set Menu Chay (Vegetarian/Vegan Set)</div><div class="dish-price">650.000 – 750.000đ</div></div></div>
+        <div class="dish-card"><div class="dish-info"><div class="dish-name">Set Menu Đặc biệt của Bếp trưởng (Chef's Special Set)</div><div class="dish-price">950.000 – 1.100.000đ</div></div></div>
+      </div>
+    </section>
+
+    <section class="sp-section" id="sec-danhgia">
+      <h2 class="sp-section-title">⭐ Đánh giá từ thực khách</h2>
+      <div class="rating-overview">
+        <div style="text-align:center;">
+          <div class="rating-big">4.8</div>
+          <div style="color:#e0a318;font-size:1.2rem;">★★★★★</div>
+          <div style="font-size:.78rem;color:#aaa;margin-top:4px;">134 đánh giá</div>
+        </div>
+        <div class="rating-bars">
+          <div class="rating-bar-row"><span class="rating-bar-label">Đồ ăn</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:96%"></div></div><span class="rating-bar-value">4.8</span></div>
+          <div class="rating-bar-row"><span class="rating-bar-label">Không gian</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:100%"></div></div><span class="rating-bar-value">5.0</span></div>
+          <div class="rating-bar-row"><span class="rating-bar-label">Phục vụ</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:96%"></div></div><span class="rating-bar-value">4.8</span></div>
+          <div class="rating-bar-row"><span class="rating-bar-label">Giá cả</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:82%"></div></div><span class="rating-bar-value">4.1</span></div>
+        </div>
+      </div>
+      <div class="review-card"><div class="review-header"><div class="review-avatar">H</div><div><div class="review-name">Nguyễn Hoa</div><div class="review-date">18/06/2025</div></div></div><div class="review-stars">★★★★★</div><p class="review-text">Trải nghiệm không thể nào quên — ăn trong bóng tối hoàn toàn, mọi giác quan đều được đánh thức. Các bạn phục vụ khiếm thị cực kỳ chuyên nghiệp và ân cần.</p></div>
+      <div class="review-card"><div class="review-header"><div class="review-avatar">Q</div><div><div class="review-name">Trần Quang</div><div class="review-date">04/08/2025</div></div></div><div class="review-stars">★★★★★</div><p class="review-text">Mình đoán sai hơn một nửa số nguyên liệu! Đến lúc ra ngoài xem hình mới ngã ngửa. Vừa vui, vừa ý nghĩa, nhất định sẽ quay lại cùng cả nhóm.</p></div>
+    </section>
+
+    <section class="sp-section" id="sec-vitri">
+      <h2 class="sp-section-title">📍 Vị trí quán</h2>
+      <p style="color:#666;margin-bottom:.5rem;">40/8 Phạm Viết Chánh, P. 19, Q. Bình Thạnh</p>
+      <div id="minimap" class="sp-minimap"></div>
+      <a href="bando.html" class="sp-map-btn" style="margin-top:.9rem;">🗺 Xem trên bản đồ tổng</a>
+    </section>
+
+  </div>
+
+  <footer class="footer"><p>© 2025 How To Food Like A Saigonese | Made with ❤️ bởi Nhóm 4 — Lớp 10.1</p></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script>
+    (function(){var b=document.getElementById('hamburgerBtn'),l=document.getElementById('navLinks');b.addEventListener('click',function(){var o=l.classList.toggle('open');b.setAttribute('aria-expanded',o);b.classList.toggle('active',o);});})();
+    (function(){
+      var done=false;
+      function initMap(){
+        if(done)return; done=true;
+        var m=L.map('minimap',{scrollWheelZoom:false}).setView([10.795,106.7063],16);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap',maxZoom:19}).addTo(m);
+        L.marker([10.795,106.7063]).addTo(m).bindPopup('<strong>NOIR . Dining in the Dark Saigon</strong><br>40/8 Phạm Viết Chánh, P. 19, Q. Bình Thạnh').openPopup();
+        setTimeout(function(){m.invalidateSize();},200);
+      }
+      if('IntersectionObserver' in window){
+        var obs=new IntersectionObserver(function(e){if(e[0].isIntersecting){initMap();obs.disconnect();}},{threshold:0.1});
+        obs.observe(document.getElementById('minimap'));
+      } else { initMap(); }
+    })();
+  </script>
+</body>
+</html>

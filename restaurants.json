@@ -1,0 +1,3648 @@
+﻿[
+    {
+        "TypeRaw":  "Món Việt",
+        "Num":  1,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.5,
+                           "Không gian":  4.2,
+                           "Giá cả":  4.5
+                       },
+        "Address":  ". 165/50 Nguyễn Thái Bình, Q.1",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  74,
+        "Description":  "Một góc nhỏ dành cho những ai muốn tìm về hương vị Việt giữa nhịp sống phố thị. Tô phở nóng hổi, đĩa cơm thơm ngon cùng những món ăn truyền thống được chuẩn bị chỉn chu tạo nên trải nghiệm giản dị mà dễ chịu.",
+        "Lng":  106.701,
+        "Lat":  10.7791,
+        "Hours":  "10:30 - 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "219.000đ",
+                           "Name":  "Bánh xèo tôm thịt"
+                       },
+                       {
+                           "Price":  "139.000đ",
+                           "Name":  "Bún thịt nướng Mẹ Ỉn"
+                       },
+                       {
+                           "Price":  "179.000đ",
+                           "Name":  "Nem nướng Mẹ Ỉn"
+                       },
+                       {
+                           "Price":  "159.000đ",
+                           "Name":  "Bánh xèo nhân nấm chay"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "150.000 – 300.000đ/người",
+        "Name":  "Bếp mẹ ỉn"
+    },
+    {
+        "TypeRaw":  "Món Việt",
+        "Num":  2,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.4,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.1
+                       },
+        "Address":  ". 258 Đề Thám, Quận 1",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  135,
+        "Description":  "Mang nét mộc mạc của ẩm thực Việt, quán gây ấn tượng với những món ăn quen thuộc nhưng giàu sức gợi nhớ. Hương thơm của món ăn nóng, vị đậm đà của gia vị và sự phong phú trong thực đơn tạo nên điểm dừng chân đáng cân nhắc cho người yêu ẩm thực bản địa.",
+        "Lng":  106.7017,
+        "Lat":  10.7773,
+        "Hours":  "10:30 - 23:45",
+        "Dishes":  [
+                       {
+                           "Price":  "159.000đ",
+                           "Name":  "Bánh xèo"
+                       },
+                       {
+                           "Price":  "159.000đ",
+                           "Name":  "Bún chả"
+                       },
+                       {
+                           "Price":  "199.000đ",
+                           "Name":  "Chả cá"
+                       },
+                       {
+                           "Price":  "89.000 - 90.000đ",
+                           "Name":  "Chả giò"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "150.000 – 300.000đ/người",
+        "Name":  "De Tham Restaurant"
+    },
+    {
+        "TypeRaw":  "Món Việt",
+        "Num":  3,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.8,
+                           "Phục vụ":  4.5,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.2
+                       },
+        "Address":  ". 74/7 Hai Bà Trưng, Quận 1",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  196,
+        "Description":  "Giữa không gian thanh lịch, ẩm thực Việt khoác lên mình diện mạo mới đầy tinh tế. Những nguyên liệu quen thuộc được kết hợp hài hòa, trình bày đẹp mắt và chăm chút trong từng chi tiết, mang đến bữa ăn vừa giữ được hồn Việt vừa phảng phất hơi thở đương đại.",
+        "Lng":  106.7024,
+        "Lat":  10.7755,
+        "Hours":  "11:00 - 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "220.000đ",
+                           "Name":  "Bò cuốn lá lốt"
+                       },
+                       {
+                           "Price":  "200.000đ",
+                           "Name":  "Gỏi bưởi"
+                       },
+                       {
+                           "Price":  "320.000đ",
+                           "Name":  "Cua lột chiên giòn"
+                       },
+                       {
+                           "Price":  "250.000đ",
+                           "Name":  "Cổ heo nướng mật ong"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "300.000 – 600.000đ/người",
+        "Name":  "Hoa Túc"
+    },
+    {
+        "TypeRaw":  "Món Việt",
+        "Num":  4,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.5,
+                           "Phục vụ":  4.4,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.3
+                       },
+        "Address":  ". 14 Phạm Hồng Thái, Quận 1",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  68,
+        "Description":  "Một tô phở nóng hổi mở ra bản hòa âm của hương thơm và vị giác: nước dùng đậm đà, bánh phở mềm mại cùng thịt bò hấp dẫn. Lựa chọn phở thố đá giữ nhiệt lâu giúp thực khách thong thả thưởng thức từng thìa nước dùng trong trải nghiệm đậm chất Việt.",
+        "Lng":  106.7032,
+        "Lat":  10.7737,
+        "Hours":  "6:00 - 3:00 (hôm sau)",
+        "Dishes":  [
+                       {
+                           "Price":  "100.000đ - 150.000đ",
+                           "Name":  "Phở Thố Đá đặc biệt"
+                       },
+                       {
+                           "Price":  "70.000đ",
+                           "Name":  "Phở Gà tần/Gà trộn"
+                       },
+                       {
+                           "Price":  "70.000đ",
+                           "Name":  "Phở bắp tái/tái nạm"
+                       },
+                       {
+                           "Price":  "10.000đ - 15.000đ",
+                           "Name":  "Quẩy giòn \u0026 Trứng chèn"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "100.000 – 200.000đ/người",
+        "Name":  "Phở Việt Nam"
+    },
+    {
+        "TypeRaw":  "Món Âu",
+        "Num":  5,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.4,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.4
+                       },
+        "Address":  ". 136 Lê Thánh Tôn, Bến Thành",
+        "District":  "Quận 1",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  129,
+        "Description":  "Mang tinh thần của những quán bistro Pháp ấm cúng, Cocotte là nơi các món ăn được thưởng thức trong bầu không khí gần gũi và thư thái. Từ món hầm mềm thơm đến những phần thịt bò hấp dẫn, mỗi lựa chọn đều gợi lên nét quyến rũ giản dị của ẩm thực Pháp.",
+        "Lng":  106.7039,
+        "Lat":  10.7819,
+        "Hours":  "7:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "210.000đ",
+                           "Name":  "Duck Confit (Đùi vịt hầm giòn kiểu Pháp)"
+                       },
+                       {
+                           "Price":  "195.000đ",
+                           "Name":  "Boeuf Bourguignon (Bò hầm rượu vang đỏ)"
+                       },
+                       {
+                           "Price":  "140.000đ",
+                           "Name":  "Escargots Bourgogne (Ốc bươu nướng bơ tỏi Pháp)"
+                       },
+                       {
+                           "Price":  "75.000đ",
+                           "Name":  "Crème Brûlée (Bánh kem cháy truyền thống)"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "200.000 – 400.000đ/người",
+        "Name":  "Cocotte"
+    },
+    {
+        "TypeRaw":  "Món Việt",
+        "Num":  6,
+        "Rating":  4.3,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  3.8,
+                           "Không gian":  4,
+                           "Giá cả":  4
+                       },
+        "Address":  ". 185/4 Phạm Ngũ Lão, khu vực Bến Thành",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  190,
+        "Description":  "Ẩn mình trong con hẻm nhỏ giữa lòng Sài Gòn, quán mang dáng vẻ thân thuộc của một gian bếp gia đình. Những tô phở nóng hổi, phần cơm đậm vị và ly cà phê Việt thơm nồng tạo nên một bữa ăn giản dị, gần gũi mà vẫn mang đậm dấu ấn ẩm thực địa phương.",
+        "Lng":  106.7046,
+        "Lat":  10.7801,
+        "Hours":  "6:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "65.000đ",
+                           "Name":  "Cơm chiên hải sản"
+                       },
+                       {
+                           "Price":  "55.000đ",
+                           "Name":  "Bún thịt nướng chả giò"
+                       },
+                       {
+                           "Price":  "60.000đ",
+                           "Name":  "Phở bò"
+                       },
+                       {
+                           "Price":  "45.000đ - 55.000đ",
+                           "Name":  "Cà phê muối/Cà phê phin trứng"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "50.000 – 120.000đ/người",
+        "Name":  "Phin Saigon Vietnamese Food \u0026 Coffee"
+    },
+    {
+        "TypeRaw":  "Món Việt",
+        "Num":  7,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.3,
+                           "Không gian":  3.7,
+                           "Giá cả":  4.2
+                       },
+        "Address":  "93–97 Đồng Khởi, khu vực trung tâm",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  98,
+        "Description":  "Trong không gian thanh lịch mang dấu ấn kiến trúc cổ điển, những hương vị Việt quen thuộc được khoác lên diện mạo tinh tế hơn. Nguyên liệu truyền thống kết hợp cùng kỹ thuật chế biến hiện đại tạo nên trải nghiệm vừa lưu giữ bản sắc dân tộc, vừa thể hiện tinh thần sáng tạo của ẩm thực đương đại.",
+        "Lng":  106.6994,
+        "Lat":  10.7813,
+        "Hours":  "11:30 - 15:00; 17:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "280.000đ",
+                           "Name":  "Chả giò hải sản Vietnam House"
+                       },
+                       {
+                           "Price":  "480.000đ",
+                           "Name":  "Bò cúm lắc chảo xốt tiêu Phú Quốc"
+                       },
+                       {
+                           "Price":  "320.000đ",
+                           "Name":  "Cơm chiên hải sản trái dừa"
+                       },
+                       {
+                           "Price":  "260.000đ",
+                           "Name":  "Gỏi ngó sen tôm thịt"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "800.000 – 1.500.000đ/người",
+        "Name":  "Vietnam House Restaurant"
+    },
+    {
+        "TypeRaw":  "Món Việt",
+        "Num":  8,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.4,
+                           "Phục vụ":  3.7,
+                           "Không gian":  4,
+                           "Giá cả":  4.1
+                       },
+        "Address":  ". 18B/17 Nguyễn Thị Minh Khai",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  124,
+        "Description":  "Mang một chút hồn Hà Nội đến giữa lòng Sài Gòn, Hanoi Corner gợi nhớ những bữa ăn miền Bắc qua bún chả thơm mùi thịt nướng và nước chấm chua ngọt hài hòa. Từng phần ăn giản dị nhưng chỉn chu, như một lát cắt nhỏ của phố cổ được tái hiện giữa thành phố phương Nam.",
+        "Lng":  106.696,
+        "Lat":  10.7764,
+        "Hours":  "7:30 - 14:30",
+        "Dishes":  [
+                       {
+                           "Price":  "139.000đ",
+                           "Name":  "Bún chả Hà Nội"
+                       },
+                       {
+                           "Price":  "159.000đ",
+                           "Name":  "Chả cá Hà Nội"
+                       },
+                       {
+                           "Price":  "169.000đ",
+                           "Name":  "Cá basa kho tộ"
+                       },
+                       {
+                           "Price":  "149.000đ",
+                           "Name":  "Cơm rang hải sản"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "50.000 – 100.000đ/người",
+        "Name":  "Hanoi Corner"
+    },
+    {
+        "TypeRaw":  "Món Việt",
+        "Num":  9,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.5,
+                           "Phục vụ":  3.8,
+                           "Không gian":  4,
+                           "Giá cả":  3.8
+                       },
+        "Address":  "57 Hai Bà Trưng, khu vực Bến Nghé",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  185,
+        "Description":  "MANA Station đưa những hương vị ba miền về chung một bàn ăn, từ bún bò Huế cay thơm đến mì Quảng đậm đà và các món nước truyền thống. Không gian sạch sẽ, thoải mái giúp thực khách thong thả khám phá những nét riêng của ẩm thực Việt mà không cần rời khỏi trung tâm thành phố.",
+        "Lng":  106.6967,
+        "Lat":  10.7746,
+        "Hours":  "7:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "120.000đ",
+                           "Name":  "Nem cua bể"
+                       },
+                       {
+                           "Price":  "65.000đ",
+                           "Name":  "Bún đậu mắm tôm đầy đủ"
+                       },
+                       {
+                           "Price":  "95.000đ",
+                           "Name":  "Bún chả"
+                       },
+                       {
+                           "Price":  "55.000đ",
+                           "Name":  "Cơm thố xá xíu trứng ốp la"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "100.000 – 200.000đ/người",
+        "Name":  "MANA Station – Tiệm Ăn Món Việt"
+    },
+    {
+        "TypeRaw":  "Món Hàn",
+        "Num":  10,
+        "Rating":  4.1,
+        "SubRatings":  {
+                           "Đồ ăn":  4.2,
+                           "Phục vụ":  3.7,
+                           "Không gian":  3.9,
+                           "Giá cả":  3.9
+                       },
+        "Address":  ". 531 Điện Biên Phủ, khu vực Bàn Cờ",
+        "District":  "Quận 1",
+        "ImgId":  "7187423",
+        "Type":  "Món Hàn",
+        "ReviewCount":  57,
+        "Description":  "Hanuri mang đến không khí trẻ trung của những quán ăn Hàn Quốc quen thuộc với giới trẻ. Cơm trộn nhiều màu sắc, kimbap gọn gàng và tokbokki cay ngọt tạo nên một thực đơn vừa bắt mắt vừa đậm vị, thích hợp cho những buổi tụ họp sau giờ học.",
+        "Lng":  106.6974,
+        "Lat":  10.7728,
+        "Hours":  "9:00 - 21:30",
+        "Dishes":  [
+                       {
+                           "Price":  "53.000đ",
+                           "Name":  "Cơm trộn Hàn Quốc"
+                       },
+                       {
+                           "Price":  "55.000đ - 65.000đ",
+                           "Name":  "Lẩu kim chi Tokbokki"
+                       },
+                       {
+                           "Price":  "58.000đ",
+                           "Name":  "Gà rán sốt cực cay/sốt tỏi"
+                       },
+                       {
+                           "Price":  "53.000đ",
+                           "Name":  "Mì lạnh"
+                       }
+                   ],
+        "Emoji":  "🍖",
+        "Price":  "50.000 - 110.000đ/người",
+        "Name":  "Hanuri Korean Fast Food"
+    },
+    {
+        "TypeRaw":  "Món Hàn",
+        "Num":  11,
+        "Rating":  4.1,
+        "SubRatings":  {
+                           "Đồ ăn":  4.3,
+                           "Phục vụ":  3.7,
+                           "Không gian":  4,
+                           "Giá cả":  4
+                       },
+        "Address":  "19 Cao Thắng, khu vực Bàn Cờ",
+        "District":  "Quận 1",
+        "ImgId":  "7187423",
+        "Type":  "Món Hàn",
+        "ReviewCount":  118,
+        "Description":  "Lấy cảm hứng từ ẩm thực đường phố Hàn Quốc, Hankki Deli tập trung vào những món ăn nhanh gọn nhưng đầy sức hấp dẫn. Cơm phần, kimbap và gà sốt mang đến sự hòa quyện giữa vị mặn ngọt đậm đà và kết cấu giòn mềm thú vị.",
+        "Lng":  106.6981,
+        "Lat":  10.781,
+        "Hours":  "9:00 - 21:00",
+        "Dishes":  [
+                       {
+                           "Price":  "79.000đ",
+                           "Name":  "Cơm trộn Bibimbap"
+                       },
+                       {
+                           "Price":  "55.000đ - 65.000đ",
+                           "Name":  "Kimbap chiên giòn/Thịt nướng"
+                       },
+                       {
+                           "Price":  "69.000đ",
+                           "Name":  "Mì cay Tokbokki chả cá"
+                       },
+                       {
+                           "Price":  "89.000đ",
+                           "Name":  "Mì lạnh Hàn Quốc"
+                       }
+                   ],
+        "Emoji":  "🍖",
+        "Price":  "50.000 – 100.000đ/người",
+        "Name":  "Hankki Deli Cao Thắng"
+    },
+    {
+        "TypeRaw":  "Món Hàn",
+        "Num":  12,
+        "Rating":  4,
+        "SubRatings":  {
+                           "Đồ ăn":  4,
+                           "Phục vụ":  3.6,
+                           "Không gian":  3.9,
+                           "Giá cả":  4
+                       },
+        "Address":  ". 4C Võ Thị Sáu, khu vực Tân Định",
+        "District":  "Quận 1",
+        "ImgId":  "7187423",
+        "Type":  "Món Hàn",
+        "ReviewCount":  179,
+        "Description":  "Clover là điểm hẹn cho những ai yêu thích các món Hàn Quốc mang phong cách đời thường. Từ tô canh nóng đến phần cơm đầy đặn, thịt luộc ăn kèm kimchi và những cuộn kimbap nhỏ xinh, thực đơn tạo nên cảm giác ấm áp như một bữa ăn gia đình.",
+        "Lng":  106.6988,
+        "Lat":  10.7792,
+        "Hours":  "8:00 - 23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "250.000đ",
+                           "Name":  "Giò heo (jokbal)"
+                       },
+                       {
+                           "Price":  "90.000đ",
+                           "Name":  "Tokbokki ramen"
+                       },
+                       {
+                           "Price":  "55.000đ",
+                           "Name":  "Gimbap"
+                       },
+                       {
+                           "Price":  "70.000đ",
+                           "Name":  "Canh rong biển"
+                       }
+                   ],
+        "Emoji":  "🍖",
+        "Price":  "100.000 – 200.000đ/người",
+        "Name":  "Clover Korean House Food"
+    },
+    {
+        "TypeRaw":  "Món Hàn",
+        "Num":  13,
+        "Rating":  4.9,
+        "SubRatings":  {
+                           "Đồ ăn":  5,
+                           "Phục vụ":  4.5,
+                           "Không gian":  4.8,
+                           "Giá cả":  4.6
+                       },
+        "Address":  ". 605 Xô Viết Nghệ Tĩnh, khu vực Bình Thạnh",
+        "District":  "Bình Thạnh",
+        "ImgId":  "7187423",
+        "Type":  "Món Hàn",
+        "ReviewCount":  52,
+        "Description":  "Gà chiên vàng giòn, cơm nóng và những tô canh kim chi đậm vị tạo nên sức hấp dẫn của DOOBOO. Vị cay nồng của gia vị Hàn Quốc hòa cùng lớp sốt sánh quyện khiến bữa ăn trở nên đậm đà, đặc biệt phù hợp với những ngày muốn đổi khẩu vị.",
+        "Lng":  106.7086,
+        "Lat":  10.8004,
+        "Hours":  "10:00 - 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "69.000đ",
+                           "Name":  "Cơm gà sốt mayo"
+                       },
+                       {
+                           "Price":  "79.000đ",
+                           "Name":  "Canh kim chi"
+                       },
+                       {
+                           "Price":  "220.000đ",
+                           "Name":  "Thịt bò nướng sốt Bulgogi"
+                       },
+                       {
+                           "Price":  "130.000đ",
+                           "Name":  "Bánh kếp hải sản chiên giòn"
+                       }
+                   ],
+        "Emoji":  "🍖",
+        "Price":  "70.000 – 150.000đ/người",
+        "Name":  "DOOBOO Korean Kitchen"
+    },
+    {
+        "TypeRaw":  "Món Hàn",
+        "Num":  14,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  5,
+                           "Phục vụ":  4.5,
+                           "Không gian":  4.7,
+                           "Giá cả":  4.6
+                       },
+        "Address":  ". 237 Tô Hiến Thành, khu vực Hòa Hưng",
+        "District":  "Quận 1",
+        "ImgId":  "7187423",
+        "Type":  "Món Hàn",
+        "ReviewCount":  113,
+        "Description":  "Thực đơn phong phú từ kimbap, tokbokki đến cơm trộn và gà sốt giúp Korea House trở thành lựa chọn linh hoạt cho nhiều khẩu vị. Những phần ăn đầy đặn, món phụ đa dạng và không khí mang nét Hàn Quốc tạo nên bữa ăn phù hợp cho cả nhóm bạn lẫn gia đình.",
+        "Lng":  106.7002,
+        "Lat":  10.7755,
+        "Hours":  "10:00 - 23:30",
+        "Dishes":  [
+                       {
+                           "Price":  "150.000đ",
+                           "Name":  "Gà rán sốt cay tỏi Hàn Quốc"
+                       },
+                       {
+                           "Price":  "180.000đ - 250.000đ",
+                           "Name":  "Thịt ba chỉ heo nướng/bò nướng sốt Hàn"
+                       },
+                       {
+                           "Price":  "95.000đ",
+                           "Name":  "Tokbokki phủ phô mai"
+                       }
+                   ],
+        "Emoji":  "🍖",
+        "Price":  "100.000 – 200.000đ/người",
+        "Name":  "Korea House – Quán Ăn Hàn Quốc"
+    },
+    {
+        "TypeRaw":  "Món Hàn",
+        "Num":  15,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  4.8,
+                           "Phục vụ":  4.5,
+                           "Không gian":  4.8,
+                           "Giá cả":  4.8
+                       },
+        "Address":  ". 78A Lê Thị Riêng, khu vực Bến Thành",
+        "District":  "Quận 1",
+        "ImgId":  "7187423",
+        "Type":  "Món Hàn",
+        "ReviewCount":  174,
+        "Description":  "Một bàn ăn tại Bặp Đến Đây gợi lên hình ảnh bữa cơm Hàn Quốc đầy đặn với canh nóng, thịt nướng và nhiều món phụ bày cạnh nhau. Hương vị phong phú cùng cách phục vụ nhiều món để chia sẻ khiến nơi đây phù hợp cho những buổi gặp gỡ muốn kéo dài bên bàn ăn.",
+        "Lng":  106.7009,
+        "Lat":  10.7737,
+        "Hours":  "11:00 - 21:45",
+        "Dishes":  [
+                       {
+                           "Price":  "110.000đ",
+                           "Name":  "Set cơm bò xào sốt Bulgogi"
+                       },
+                       {
+                           "Price":  "100.000đ",
+                           "Name":  "Set cơm thịt heo ba chỉ nướng"
+                       },
+                       {
+                           "Price":  "100.000đ",
+                           "Name":  "Set cơm thịt heo xào cay"
+                       },
+                       {
+                           "Price":  "320.000đ",
+                           "Name":  "Set lẩu/thịt nướng Samhangdwae"
+                       }
+                   ],
+        "Emoji":  "🍖",
+        "Price":  "200.000 – 300.000đ/người",
+        "Name":  "Bặp Đến Đây (밥덴데이)"
+    },
+    {
+        "TypeRaw":  "Món Âu",
+        "Num":  16,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  4.8,
+                           "Phục vụ":  4.4,
+                           "Không gian":  3.9,
+                           "Giá cả":  4.4
+                       },
+        "Address":  ". Tầng 2, 151 Đồng Khởi, khu vực trung tâm",
+        "District":  "Quận 1",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  234,
+        "Description":  "Nằm trên tầng hai của một tòa nhà cũ giữa phố Đồng Khởi, The Olive mang nét quyến rũ kín đáo của một quán steak nhỏ. Những phần bò bít tết, burger và mì Ý tạo nên bữa ăn mang phong vị phương Tây trong không gian ấm cúng, phù hợp cho một buổi tối thư thả.",
+        "Lng":  106.7016,
+        "Lat":  10.7719,
+        "Hours":  "12:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "145.000đ",
+                           "Name":  "Mì Ý bò băm sốt cà (Spaghetti Bolognese)"
+                       },
+                       {
+                           "Price":  "95.000đ",
+                           "Name":  "Súp kem nấm truffle"
+                       },
+                       {
+                           "Price":  "165.000đ",
+                           "Name":  "Salad cá hồi hun khói \u0026 Olive"
+                       },
+                       {
+                           "Price":  "320.000đ - 450.000đ",
+                           "Name":  "Ribeye Steak (Bò Úc/200g)"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "150.000 – 300.000đ/người",
+        "Name":  "The Olive Steakhouse"
+    },
+    {
+        "TypeRaw":  "Món Âu",
+        "Num":  17,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  5,
+                           "Phục vụ":  4.4,
+                           "Không gian":  3.9,
+                           "Giá cả":  4.5
+                       },
+        "Address":  ". 11 Đông Du, khu vực Bến Nghé",
+        "District":  "Quận 1",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  107,
+        "Description":  "Ciao Bella mang đến bầu không khí của một nhà hàng Ý gần gũi, nơi pasta, pizza và các món ăn truyền thống được đặt lên bàn trong sự thoải mái. Hương thơm của sốt cà chua, thảo mộc và phô mai tạo nên cảm giác ấm áp, thích hợp cho bữa ăn cùng gia đình hoặc bạn bè.",
+        "Lng":  106.7023,
+        "Lat":  10.7801,
+        "Hours":  "11:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "320.000đ - 380.000đ",
+                           "Name":  "Mì ý hải sản nướng giấy bạc"
+                       },
+                       {
+                           "Price":  "350.000đ - 420.000đ",
+                           "Name":  "Sườn cốt lết heo chiên xù kiểu Ý"
+                       },
+                       {
+                           "Price":  "290.000đ - 360.000đ",
+                           "Name":  "Cơm Ý nấm \u0026 nấm truffle đen"
+                       },
+                       {
+                           "Price":  "140.000đ - 180.000đ",
+                           "Name":  "Bánh tiramisu"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "200.000 – 400.000đ/người",
+        "Name":  "Ciao Bella"
+    },
+    {
+        "TypeRaw":  "Món Âu",
+        "Num":  18,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.3,
+                           "Không gian":  3.9,
+                           "Giá cả":  4.5
+                       },
+        "Address":  "7 Đường số 41, khu dân cư An Phú Hưng, khu vực Tân Hưng",
+        "District":  "Quận 1",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  168,
+        "Description":  "Những phần steak được chế biến theo độ chín yêu cầu kết hợp cùng pasta và món ăn kèm tạo nên bữa ăn đậm chất Âu hiện đại. Không gian ấm áp và các set món đa dạng khiến nơi đây phù hợp cho một buổi hẹn hoặc dịp tụ họp muốn thưởng thức món ngon trong không khí chỉn chu.",
+        "Lng":  106.7031,
+        "Lat":  10.7783,
+        "Hours":  "11:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "720.000đ",
+                           "Name":  "Combo Rib Eyes Steak"
+                       },
+                       {
+                           "Price":  "670.000đ",
+                           "Name":  "Combo Striploin Steak"
+                       },
+                       {
+                           "Price":  "340.000đ - 520.000đ",
+                           "Name":  "Mì ý tôm \u0026 bò bulgogi sốt kem rose"
+                       },
+                       {
+                           "Price":  "250.000đ - 380.000đ",
+                           "Name":  "Cơm chiên Kkim chi sốt kem"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "200.000 – 400.000đ/người",
+        "Name":  "CHIIK Steak \u0026 Pasta"
+    },
+    {
+        "TypeRaw":  "Món Âu",
+        "Num":  19,
+        "Rating":  4.9,
+        "SubRatings":  {
+                           "Đồ ăn":  5,
+                           "Phục vụ":  4.4,
+                           "Không gian":  4.5,
+                           "Giá cả":  4.7
+                       },
+        "Address":  ". Tầng 3, 68 Nguyễn Huệ, khu vực trung tâm",
+        "District":  "Quận 1",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  153,
+        "Description":  "B3 Steakhouse là điểm hẹn dành cho những người yêu thích thịt bò chất lượng cao và phong cách phục vụ chỉn chu. Những lát steak được nướng trên lửa, dùng cùng sốt đậm vị và món ăn kèm tinh tế, tạo nên trải nghiệm sang trọng nhưng vẫn giữ được sự ấm cúng.",
+        "Lng":  106.7029,
+        "Lat":  10.7798,
+        "Hours":  "15:00 - 23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "490.000đ",
+                           "Name":  "Grass-Fed Black Angus Ribeye (Dẻ sườn bò Black Angus ăn cỏ/200g)"
+                       },
+                       {
+                           "Price":  "420.000đ",
+                           "Name":  "Striploin Steak (Thăn ngoại nướng/200g)"
+                       },
+                       {
+                           "Price":  "260.000đ",
+                           "Name":  "B3 Beef Burger (Burger bò kèm khoai tây chiên)"
+                       },
+                       {
+                           "Price":  "180.000đ",
+                           "Name":  "Tuỷ bò nướng bơ garlic"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "500.000 – 1.000.000đ/người",
+        "Name":  "B3 Steakhouse"
+    },
+    {
+        "TypeRaw":  "Pizza",
+        "Num":  20,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.8,
+                           "Phục vụ":  4.3,
+                           "Không gian":  3.8,
+                           "Giá cả":  4.2
+                       },
+        "Address":  "27 Hoa Sứ, khu vực Cầu Kiệu",
+        "District":  "Quận 1",
+        "ImgId":  "7083528",
+        "Type":  "Pizza",
+        "ReviewCount":  102,
+        "Description":  "Pizza Chất mang đến cảm giác thân thuộc của một tiệm bánh nhỏ, nơi pizza được nướng nóng và phục vụ trong phong cách giản dị. Lớp đế thơm giòn, phô mai tan chảy và phần topping đậm vị tạo nên lựa chọn dễ tiếp cận cho những buổi ăn cùng bạn bè.",
+        "Lng":  106.7045,
+        "Lat":  10.7746,
+        "Hours":  "17:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "139.000đ - 199.000đ",
+                           "Name":  "Pizza hải sản sốt Pesto"
+                       },
+                       {
+                           "Price":  "129.000đ - 189.000đ",
+                           "Name":  "Pizza Bò sốt BBQ"
+                       },
+                       {
+                           "Price":  "89.000đ",
+                           "Name":  "Mì ý hải sản đút lò phô mai"
+                       },
+                       {
+                           "Price":  "69.000đ",
+                           "Name":  "Cánh gà chiên sốt Sweet Chili"
+                       }
+                   ],
+        "Emoji":  "🍕",
+        "Price":  "100.000 – 150.000đ/người",
+        "Name":  "Pizza Chất"
+    },
+    {
+        "TypeRaw":  "Pizza",
+        "Num":  21,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.3,
+                           "Không gian":  3.8,
+                           "Giá cả":  4.4
+                       },
+        "Address":  "Hẻm 8/15 Lê Thánh Tôn, khu vực trung tâm (nhiều chi nhánh khác)",
+        "District":  "Quận 1",
+        "ImgId":  "7083528",
+        "Type":  "Pizza",
+        "ReviewCount":  163,
+        "Description":  "Pizza 4P\u0027s kết hợp tinh thần pizza Ý với những sáng tạo mang dấu ấn Nhật Bản, nổi bật ở phô mai tươi và các loại topping đặc biệt. Khi chiếc bánh vừa ra lò, lớp đế thơm giòn cùng phô mai mềm béo tạo nên trải nghiệm phù hợp cho người muốn thưởng thức pizza trong không gian chỉn chu hơn.",
+        "Lng":  106.7052,
+        "Lat":  10.7728,
+        "Hours":  "10:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "298.000đ",
+                           "Name":  "Pizza 5 phô mai"
+                       },
+                       {
+                           "Price":  "298.000đ",
+                           "Name":  "Pizza Burrata parma ham"
+                       },
+                       {
+                           "Price":  "254.000đ",
+                           "Name":  "Spaghetti cua sốt cà kem"
+                       },
+                       {
+                           "Price":  "128.000đ",
+                           "Name":  "Cheese fondue"
+                       }
+                   ],
+        "Emoji":  "🍕",
+        "Price":  "250.000 – 450.000đ/người",
+        "Name":  "Pizza 4P\u0027s"
+    },
+    {
+        "TypeRaw":  "Pizza",
+        "Num":  22,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.2,
+                           "Không gian":  3.8,
+                           "Giá cả":  4.4
+                       },
+        "Address":  "200/25 Lê Thánh Tôn, khu vực Bến Thành",
+        "District":  "Quận 1",
+        "ImgId":  "7083528",
+        "Type":  "Pizza",
+        "ReviewCount":  223,
+        "Description":  "Amano Local Eatery kết hợp phong cách pizza Napoli với những biến tấu sáng tạo mang dấu ấn địa phương. Từ pasta thủ công đến pizza với topping mới lạ, thực đơn tạo nên cuộc gặp gỡ thú vị giữa tinh thần ẩm thực Ý và khẩu vị Việt.",
+        "Lng":  106.7059,
+        "Lat":  10.781,
+        "Hours":  "10:00 - 14:00; 17:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "210.000đ",
+                           "Name":  "Mì ý thủ công bò hầm"
+                       },
+                       {
+                           "Price":  "290.000đ",
+                           "Name":  "Cá hồi nướng áp chảo sốt bơ chanh"
+                       },
+                       {
+                           "Price":  "190.000đ",
+                           "Name":  "Salad Burrata \u0026 cà rốt nướng"
+                       },
+                       {
+                           "Price":  "95.000đ",
+                           "Name":  "Bánh tiramisu truyền thống"
+                       }
+                   ],
+        "Emoji":  "🍕",
+        "Price":  "200.000 – 300.000đ/người",
+        "Name":  "Amano Local Eatery"
+    },
+    {
+        "TypeRaw":  "Pizza",
+        "Num":  23,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.2,
+                           "Không gian":  3.8,
+                           "Giá cả":  4.1
+                       },
+        "Address":  ". Hẻm 85 Phạm Viết Chánh, khu vực Thạnh Mỹ Tây",
+        "District":  "Quận 1",
+        "ImgId":  "7083528",
+        "Type":  "Pizza",
+        "ReviewCount":  96,
+        "Description":  "Oliver\u0027s Pizza mang phong cách pizza La Mã với những miếng bánh hình chữ nhật, lớp đế giòn nhẹ và topping đa dạng. Không gian trong hẻm đem đến cảm giác yên tĩnh, như một góc nhỏ để thực khách ngồi lại, chọn vài vị bánh rồi cùng nhau chia sẻ.",
+        "Lng":  106.6966,
+        "Lat":  10.7792,
+        "Hours":  "11:00 - 2:00 (hôm sau)",
+        "Dishes":  [
+                       {
+                           "Price":  "160.000đ",
+                           "Name":  "Pizza Margherita"
+                       },
+                       {
+                           "Price":  "190.000đ",
+                           "Name":  "Pizza Pepperoni \u0026 nấm"
+                       },
+                       {
+                           "Price":  "150.000đ",
+                           "Name":  "Mì ý sốt cream carbonara"
+                       },
+                       {
+                           "Price":  "120.000đ",
+                           "Name":  "Salad Ceasar gà nướng"
+                       }
+                   ],
+        "Emoji":  "🍕",
+        "Price":  "100.000 – 200.000đ/người",
+        "Name":  "Oliver\u0027s Pizza"
+    },
+    {
+        "TypeRaw":  "Món Nhật",
+        "Num":  24,
+        "Rating":  4.3,
+        "SubRatings":  {
+                           "Đồ ăn":  4.4,
+                           "Phục vụ":  4.1,
+                           "Không gian":  3.7,
+                           "Giá cả":  4.1
+                       },
+        "Address":  ". 65B Hồ Xuân Hương, khu vực Xuân Hòa",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Nhật",
+        "ReviewCount":  157,
+        "Description":  "Sushi 79 hướng đến những món Nhật gần gũi với mức giá dễ tiếp cận, từ sushi nhiều màu sắc đến các phần cơm và món ăn nóng. Thực đơn đa dạng giúp thực khách dễ dàng tìm được bữa ăn phù hợp, dù chỉ ghé nhanh để ăn sushi hay muốn ngồi lại lâu hơn cùng bạn bè.",
+        "Lng":  106.6973,
+        "Lat":  10.7774,
+        "Hours":  "11:00 - 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "49.000đ",
+                           "Name":  "Mì udon tôm"
+                       },
+                       {
+                           "Price":  "49.000đ",
+                           "Name":  "Salad da cá hồi chiên giòn"
+                       },
+                       {
+                           "Price":  "55.000đ",
+                           "Name":  "Maki cá hồi phô mai"
+                       },
+                       {
+                           "Price":  "100.000đ",
+                           "Name":  "Sashimi cá hồi"
+                       }
+                   ],
+        "Emoji":  "🍣",
+        "Price":  "100.000 – 200.000đ/người",
+        "Name":  "Sushi 79 – Hồ Xuân Hương"
+    },
+    {
+        "TypeRaw":  "Món Nhật",
+        "Num":  25,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.4,
+                           "Phục vụ":  4.1,
+                           "Không gian":  3.7,
+                           "Giá cả":  4.1
+                       },
+        "Address":  ". 3A1 Ngô Văn Năm, khu vực Bến Nghé",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Nhật",
+        "ReviewCount":  218,
+        "Description":  "Một tô ramen nóng hổi là sự kết hợp của sợi mì dai, nước dùng đậm vị và những lát thịt mềm thơm. Shoday Ramen mang đến cảm giác ấm áp của một quán mì Nhật nhỏ, nơi hương thơm của nước dùng và vị umami lưu lại trong từng thìa súp.",
+        "Lng":  106.698,
+        "Lat":  10.7756,
+        "Hours":  "11:00 - 21:30",
+        "Dishes":  [
+                       {
+                           "Price":  "150.000đ",
+                           "Name":  "Ramen gà nướng ngọt mặn"
+                       },
+                       {
+                           "Price":  "150.000đ",
+                           "Name":  "Ramen miso"
+                       },
+                       {
+                           "Price":  "90.000đ",
+                           "Name":  "Mực chiên"
+                       }
+                   ],
+        "Emoji":  "🍣",
+        "Price":  "100.000 – 200.000đ/người",
+        "Name":  "Shoday Ramen"
+    },
+    {
+        "TypeRaw":  "Món Nhật",
+        "Num":  26,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.2,
+                           "Phục vụ":  4.1,
+                           "Không gian":  3.7,
+                           "Giá cả":  3.9
+                       },
+        "Address":  ". 12/6 Cù Lao, khu vực Cầu Kiệu",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Nhật",
+        "ReviewCount":  91,
+        "Description":  "Fast Sushi đem đến thực đơn phong phú từ sushi, sashimi đến những món cơm Nhật và mì mang phong cách hiện đại. Sự kết hợp giữa nguyên liệu tươi, cách trình bày gọn gàng và những món ăn no bụng khiến nơi đây phù hợp cho cả người mê sushi lẫn người muốn đổi vị với một bữa ăn kiểu Nhật.",
+        "Lng":  106.6987,
+        "Lat":  10.7737,
+        "Hours":  "10:00 - 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "50.000đ",
+                           "Name":  "Bụng cá hồi"
+                       },
+                       {
+                           "Price":  "130.000đ",
+                           "Name":  "Mì ý cua"
+                       },
+                       {
+                           "Price":  "100.000đ",
+                           "Name":  "Cơm omurice bò sốt trứng muối"
+                       }
+                   ],
+        "Emoji":  "🍣",
+        "Price":  "200.000 – 350.000đ/người",
+        "Name":  "Fast Sushi"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  27,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  4.2,
+                           "Phục vụ":  4,
+                           "Không gian":  3.6,
+                           "Giá cả":  3.9
+                       },
+        "Address":  ":30; Tối: 18:00 - 22:15 Omakase Course (set Omakase theo mùa): 1.800.000đ - 3.500.000đ; A5 Wagyu Uni Roll: 380.000đ; Sashimi bụng cá hồi \u0026 cá ngừ truffle: 420.000đ; Foie Gras Nigiri (Sushi gan ngỗng á",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Nhật",
+        "ReviewCount":  152,
+        "Description":  "Yuzu Omakase biến bữa ăn thành hành trình được dẫn dắt bởi đầu bếp, với những món ăn lần lượt xuất hiện theo nhịp điệu và ý đồ riêng. Hải sản cao cấp, cách chế biến tinh tế và phần trình bày giàu tính nghệ thuật tạo nên trải nghiệm dành cho những dịp đặc biệt. 1.000.000đ/người trở lên 34 Thủ Khoa Huân, khu vực Bến Thành Món Nhật Sáng: 12:",
+        "Lng":  106.6994,
+        "Lat":  10.7719,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍣",
+        "Price":  "00 - 13",
+        "Name":  "Yuzu Omakase"
+    },
+    {
+        "TypeRaw":  "Pizza",
+        "Num":  28,
+        "Rating":  4.1,
+        "SubRatings":  {
+                           "Đồ ăn":  4.3,
+                           "Phục vụ":  4,
+                           "Không gian":  3.6,
+                           "Giá cả":  4
+                       },
+        "Address":  ". 549 Tạ Quang Bửu (Parc mall)",
+        "District":  "Quận 1",
+        "ImgId":  "7083528",
+        "Type":  "Pizza",
+        "ReviewCount":  212,
+        "Description":  "Mang tinh thần của ẩm thực Ý cổ điển, Italiani\u0027s Pizza hấp dẫn với những chiếc pizza phủ phô mai tan chảy và các loại topping đậm vị. Hương thơm của lớp đế bánh, sốt cà chua và nguyên liệu hòa quyện tạo nên bữa ăn thoải mái cùng bạn bè.",
+        "Lng":  106.7001,
+        "Lat":  10.7801,
+        "Hours":  "10:30 - 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "150.000 - 220.000đ",
+                           "Name":  "Set Sushi mix"
+                       },
+                       {
+                           "Price":  "95.000đ",
+                           "Name":  "Sashimi cá hồi tươi"
+                       },
+                       {
+                           "Price":  "85.000đ",
+                           "Name":  "Roll cá hồi phô mai nướng"
+                       },
+                       {
+                           "Price":  "75.000đ",
+                           "Name":  "Cơm dừa cá ngừ sốt spicy"
+                       }
+                   ],
+        "Emoji":  "🍕",
+        "Price":  "200.000 – 400.000đ/người",
+        "Name":  "Italiani\u0027s Pizza"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Việt Nam",
+        "Num":  29,
+        "Rating":  4,
+        "SubRatings":  {
+                           "Đồ ăn":  4,
+                           "Phục vụ":  3.9,
+                           "Không gian":  3.6,
+                           "Giá cả":  3.6
+                       },
+        "Address":  "27 Tú Xương, P. Võ Thị Sáu, Quận 3, TP.HCM",
+        "District":  "Quận 3",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  85,
+        "Description":  "Nằm trong không gian biệt thự sân vườn xanh mát và hoài cổ giữa lòng Quận 3, Cơm Niêu Sài Gòn là biểu tượng ẩm thực truyền thống lâu đời của thành phố. Quán tái hiện trọn vẹn mâm cơm gia đình 3 miền Bắc - Trung - Nam với điểm nhấn đặc trưng nhất là màn biểu diễn \"đập niêu và tung đớp cơm\" đầy kịch tính ngay tại bàn. Không gian ấm cúng, đậm chất dân dã Việt Nam cực kỳ phù hợp cho các bữa ăn sum họp gia đình nhiều thế hệ, đón tiếp bạn bè phương xa hoặc đối tác quốc tế muốn khám phá văn hóa Việt.",
+        "Lng":  106.6899,
+        "Lat":  10.7812,
+        "Hours":  "08:00 – 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "45.000 VNĐ",
+                           "Name":  "Cơm niêu đập"
+                       },
+                       {
+                           "Price":  "140.000 VNĐ",
+                           "Name":  "Cá kho tộ"
+                       },
+                       {
+                           "Price":  "130.000 VNĐ",
+                           "Name":  "Canh chua cá lóc"
+                       },
+                       {
+                           "Price":  "155.000 VNĐ",
+                           "Name":  "Sườn non rim mặn"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "150.000 – 350.000 VNĐ/người",
+        "Name":  "Cơm Niêu Sài Gòn"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Trung Hoa (Quảng Đông)",
+        "Num":  30,
+        "Rating":  4.9,
+        "SubRatings":  {
+                           "Đồ ăn":  5,
+                           "Phục vụ":  4.9,
+                           "Không gian":  4.5,
+                           "Giá cả":  4.6
+                       },
+        "Address":  "195-197 Phan Xích Long, P. 2, Q. Phú Nhuận, TP.HCM",
+        "District":  "Phú Nhuận",
+        "ImgId":  "1683809",
+        "Type":  "Món Hoa",
+        "ReviewCount":  146,
+        "Description":  "San Fu Lou ghi dấu ấn với phong cách thiết kế kết hợp hoàn hảo giữa nét cổ điển Á Đông rực rỡ (điểm xuyết bằng những chiếc lồng đèn đỏ rực) và tinh thần hiện đại, trang nhã. Với tiêu chí \"Ngon lành, bổ dưỡng, an toàn\", nhà hàng sở hữu căn bếp mở kính trong suốt cho phép thực khách tận mắt chiêm ngưỡng các đầu bếp thao tác làm dimsum tươi và quay nướng công phu. Đây là không gian lý tưởng cho các buổi điểm tâm sáng, tiệc gia đình, tụ họp bạn bè hoặc tiếp đón đối tác sang trọng.",
+        "Lng":  106.6706,
+        "Lat":  10.7996,
+        "Hours":  "07:00 – 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "68.000 VNĐ",
+                           "Name":  "Há cảo tôm sò điệp"
+                       },
+                       {
+                           "Price":  "58.000 VNĐ",
+                           "Name":  "Bánh bao kim sa"
+                       },
+                       {
+                           "Price":  "320.000 VNĐ",
+                           "Name":  "Vịt quay Quảng Đông"
+                       },
+                       {
+                           "Price":  "145.000 VNĐ",
+                           "Name":  "Mì xào giòn hải sản"
+                       }
+                   ],
+        "Emoji":  "🥟",
+        "Price":  "200.000 – 400.000 VNĐ/người",
+        "Name":  "San Fu Lou"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Hàn Quốc",
+        "Num":  31,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  5,
+                           "Phục vụ":  4.8,
+                           "Không gian":  4.4,
+                           "Giá cả":  4.7
+                       },
+        "Address":  "Tầng 75 \u0026 76, Landmark 81, 208 Nguyễn Hữu Cảnh, Q. Bình Thạnh",
+        "District":  "Bình Thạnh",
+        "ImgId":  "7187423",
+        "Type":  "Món Âu",
+        "ReviewCount":  207,
+        "Description":  "Blank Lounge nằm ở tầng 75 và 76 của tòa tháp Landmark 81, giữ kỷ lục là lounge và quán cà phê cao nhất Đông Nam Á. Trải nghiệm độc lạ ở đây chính là cảm giác ngồi nhâm nhi đồ uống ở độ cao hơn 300 mét so với mặt đất, nhìn toàn cảnh Sài Gòn thu nhỏ qua lớp kính suốt từ trần đến sàn.",
+        "Lng":  106.722,
+        "Lat":  10.7977,
+        "Hours":  "09:30 – 23:30",
+        "Dishes":  [
+                       {
+                           "Price":  "280.000 VNĐ",
+                           "Name":  "Dẻ sườn bò Mỹ sốt Galbi"
+                       },
+                       {
+                           "Price":  "180.000 VNĐ",
+                           "Name":  "Thịt ba chỉ heo sốt cay"
+                       },
+                       {
+                           "Price":  "120.000 VNĐ",
+                           "Name":  "Canh kim chi thịt heo"
+                       },
+                       {
+                           "Price":  "135.000 VNĐ",
+                           "Name":  "Cơm trộn thố đá (Bibimbap)"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "200.000 – 600.000đ/người",
+        "Name":  "Blank Lounge"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Ý (Âu)",
+        "Num":  32,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  4.9,
+                           "Phục vụ":  4.8,
+                           "Không gian":  4.5,
+                           "Giá cả":  4.8
+                       },
+        "Address":  "36 Tống Hữu Định, P. Thảo Điền, TP. Thủ Đức (Quận 2), TP.HCM",
+        "District":  "Quận 2",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  80,
+        "Description":  "Là một trong những nhà hàng Ý lâu đời và uy tín nhất tại TP.HCM, Pendolasco mang đến không gian sân vườn xanh mát, lãng mạn và đậm chất Địa Trung Hải giữa lòng Thảo Điền. Nhà hàng thu hút thực khách nhờ lò nướng pizza bằng củi truyền thống ngay tại chỗ cùng các loại mì Ý làm thủ công tươi mới mỗi ngày. Với không gian yên bình, tinh tế và riêng tư, Pendolasco là sự lựa chọn hàng đầu cho các buổi hẹn hò lãng mạn của cặp đôi, tiệc gia đình cuối tuần hoặc thưởng thức rượu vang cùng bạn bè.",
+        "Lng":  106.7421,
+        "Lat":  10.7959,
+        "Hours":  "11:00 – 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "190.000 VNĐ",
+                           "Name":  "Pizza Margherita lò củi"
+                       },
+                       {
+                           "Price":  "220.000 VNĐ",
+                           "Name":  "Spaghetti Carbonara"
+                       },
+                       {
+                           "Price":  "280.000 VNĐ",
+                           "Name":  "Mì Ý sốt kem nấm Truffle"
+                       },
+                       {
+                           "Price":  "110.000 VNĐ",
+                           "Name":  "Bánh Tiramisu Ý"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "300.000 – 600.000 VNĐ/người",
+        "Name":  "Pendolasco"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Pháp / Âu",
+        "Num":  33,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  4.8,
+                           "Phục vụ":  4.3,
+                           "Không gian":  3.9,
+                           "Giá cả":  4.3
+                       },
+        "Address":  "5D Nguyễn Siêu, P. Bến Nghé, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  154,
+        "Description":  "Nằm yên bình trên con đường Nguyễn Siêu ngay trung tâm Quận 1, Le Corto là nhà hàng Pháp cao cấp do chính Chef Sakal Phoeung (Đầu bếp nổi tiếng người Pháp gốc Việt) sáng lập và trực tiếp điều hành. Nhà hàng sở hữu thiết kế kết hợp hoàn hảo giữa nét cổ điển Châu Âu quý phái và không gian ấm cúng, tinh tế với tone màu trầm ấm, ánh sáng dịu nhẹ cùng quầy bar hiện đại.",
+        "Lng":  106.7004,
+        "Lat":  10.7797,
+        "Hours":  "11:15 – 15:00; 17:30 – 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "420.000 VNĐ",
+                           "Name":  "Gan ngỗng áp chảo (Foie Gras)"
+                       },
+                       {
+                           "Price":  "650.000 VNĐ",
+                           "Name":  "Thăn nội bò Úc sốt tiêu"
+                       },
+                       {
+                           "Price":  "210.000 VNĐ",
+                           "Name":  "Súp hành tây kiểu Pháp"
+                       },
+                       {
+                           "Price":  "580.000 VNĐ",
+                           "Name":  "Sườn cừu nướng thảo mộc"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "800.000 – 1.500.000 VNĐ/người",
+        "Name":  "Le Corto"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Việt Nam",
+        "Num":  34,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  5,
+                           "Phục vụ":  4.2,
+                           "Không gian":  4.4,
+                           "Giá cả":  4.5
+                       },
+        "Address":  "19 Ngô Văn Cầm, P. 9, Quận 3, TP.HCM",
+        "District":  "Quận 3",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  201,
+        "Description":  "Tọa lạc trong biệt thự hoài cổ yên bình, Quán Bụi mang đến không gian ẩm thực Đông Dương mộc mạc với nội thất gỗ xưa, đèn mây tre và hoa tươi. Quán chuyên tái hiện mâm cơm gia đình Việt Nam thuần túy với các món ăn 3 miền không sử dụng mì chính (bột ngọt), rất thích hợp cho những bữa ăn sum họp gia đình, đón tiếp bạn bè quốc tế hoặc đối tác muốn tìm kiếm sự thanh tịnh giữa lòng phố thị.",
+        "Lng":  106.6935,
+        "Lat":  10.7821,
+        "Hours":  "07:00 – 23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "145.000 VNĐ",
+                           "Name":  "Cơm chiên Quán Bụi"
+                       },
+                       {
+                           "Price":  "135.000 VNĐ",
+                           "Name":  "Thịt kho tộ"
+                       },
+                       {
+                           "Price":  "120.000 VNĐ",
+                           "Name":  "Chả giò Quán Bụi"
+                       },
+                       {
+                           "Price":  "95.000 VNĐ",
+                           "Name":  "Rau luộc chấm kho quẹt"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "150.000 – 300.000 VNĐ/người",
+        "Name":  "Quán Bụi"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Nam Bộ (Việt Nam)",
+        "Num":  35,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.2,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.5
+                       },
+        "Address":  "37 Nam Kỳ Khởi Nghĩa, P. Nguyễn Thái Bình, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  74,
+        "Description":  "Nằm ngay trung tâm Quận 1 nhưng Bếp Nhà Lục Tỉnh lại mở ra một khoảng trời Miền Tây sông nước rộng lớn, trữ tình với hồ cá xóm nhỏ, giàn bầu bí, rơm rạ và hàng chuối xanh. Thực đơn tập trung hoàn toàn vào hương vị đồng quê Nam Bộ chân chất, tái hiện lại những món ăn tuổi thơ chuẩn vị truyền thống. Quán là địa điểm hoàn hảo cho các đại gia đình, nhóm bạn đông người hoặc du khách muốn trải nghiệm văn hóa sông nước.",
+        "Lng":  106.7051,
+        "Lat":  10.7774,
+        "Hours":  "10:00 – 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "160.000 VNĐ",
+                           "Name":  "Bánh xèo miền Tây"
+                       },
+                       {
+                           "Price":  "380.000 VNĐ",
+                           "Name":  "Lẩu mắm lục tỉnh"
+                       },
+                       {
+                           "Price":  "250.000 VNĐ",
+                           "Name":  "Cá lóc nướng trui"
+                       },
+                       {
+                           "Price":  "130.000 VNĐ",
+                           "Name":  "Bánh khọt tôm nhảy"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "200.000 – 400.000 VNĐ/người",
+        "Name":  "Bếp Nhà Lục Tỉnh"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Trung Hoa",
+        "Num":  36,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.8,
+                           "Phục vụ":  4.2,
+                           "Không gian":  4.4,
+                           "Giá cả":  4.2
+                       },
+        "Address":  "55 Đông Du, P. Bến Nghé, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1683809",
+        "Type":  "Món Hoa",
+        "ReviewCount":  135,
+        "Description":  "Nhà hàng Quảng Đông hiện đại sang trọng với thiết kế kết hợp hài hòa giữa nét cổ điển Á Đông và sự tinh tế đương đại. Với đội ngũ bếp trưởng bản địa giàu kinh nghiệm, Dim Tu Tac nổi tiếng với kỹ thuật chế biến Dimsum tươi thủ công chuẩn vị Hồng Kông và các món quay nướng công phu. Không gian rộng rãi, trang nhã cùng các phòng riêng biệt rất lý tưởng cho các buổi tiệc gia đình, gặp gỡ đối tác kinh doanh hoặc tiệc kỷ niệm.",
+        "Lng":  106.7058,
+        "Lat":  10.7756,
+        "Hours":  "10:00 – 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "490.000 VNĐ",
+                           "Name":  "Vịt quay Bắc Kinh (nửa con)"
+                       },
+                       {
+                           "Price":  "78.000 VNĐ",
+                           "Name":  "Há cảo tôm tươi"
+                       },
+                       {
+                           "Price":  "75.000 VNĐ",
+                           "Name":  "Xíu mại gạch cua"
+                       },
+                       {
+                           "Price":  "68.000 VNĐ",
+                           "Name":  "Chân gà hấp tương X.O"
+                       }
+                   ],
+        "Emoji":  "🥟",
+        "Price":  "300.000 – 600.000 VNĐ/người",
+        "Name":  "Dim Tu Tac"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Đài Loan / Á Hiện Đại",
+        "Num":  37,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.8,
+                           "Phục vụ":  4.1,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.3
+                       },
+        "Address":  "106 Hai Bà Trưng, P. Đa Kao, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1683809",
+        "Type":  "Món Hoa",
+        "ReviewCount":  196,
+        "Description":  "Baozi sở hữu phong cách thiết kế không gian hiện đại, phá cách đậm chất Neo-Asian với tông màu trầm ấm, ánh đèn neon ấn tượng và âm nhạc sôi động. Quán tiên phong trong việc nâng tầm món bánh bao kẹp (Gua Bao) đường phố Đài Loan kết hợp cùng kỹ thuật nấu nướng hiện đại. Đây là điểm đến cực kỳ quen thuộc của giới trẻ, các nhóm bạn tụ tập cuối tuần hoặc những ai yêu thích sự đổi mới trong ẩm thực Á Đông.",
+        "Lng":  106.6965,
+        "Lat":  10.7738,
+        "Hours":  "10:00 – 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "85.000 VNĐ",
+                           "Name":  "Bánh bao thịt kho tàu"
+                       },
+                       {
+                           "Price":  "145.000 VNĐ",
+                           "Name":  "Mì bò Đài Loan"
+                       },
+                       {
+                           "Price":  "110.000 VNĐ",
+                           "Name":  "Cánh gà chiên giòn sốt cay"
+                       },
+                       {
+                           "Price":  "55.000 VNĐ",
+                           "Name":  "Trà sữa trân châu Baozi"
+                       }
+                   ],
+        "Emoji":  "🥟",
+        "Price":  "150.000 – 300.000 VNĐ/người",
+        "Name":  "Baozi"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Hàn Quốc",
+        "Num":  38,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.1,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.4
+                       },
+        "Address":  "40/8 Phạm Viết Chánh, P. 19, Q. Bình Thạnh",
+        "District":  "Bình Thạnh",
+        "ImgId":  "7187423",
+        "Type":  "Món khác",
+        "ReviewCount":  69,
+        "Description":  "Trải nghiệm ẩm thực hoàn toàn khác biệt tại TP.HCM — bữa ăn diễn ra trong không gian tối đen như mực, tuyệt đối không có bất kỳ nguồn sáng nào. Đội ngũ phục vụ là những người khiếm thị, họ sẽ dẫn dắt và chăm sóc bạn suốt bữa ăn. Việc mất đi thị giác kích thích tối đa vị giác, khứu giác và xúc giác — bạn phải đoán xem mình đang thưởng thức nguyên liệu gì, và sau bữa ăn mới được xem lại hình ảnh thực tế các món.",
+        "Lng":  106.7063,
+        "Lat":  10.795,
+        "Hours":  "Thứ Ba – Chủ Nhật: 17:30 – 23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "220.000 VNĐ",
+                           "Name":  "Thịt ba chỉ bò Mỹ sốt nướng"
+                       },
+                       {
+                           "Price":  "290.000 VNĐ",
+                           "Name":  "Lẩu kim chi quân đội (Budae Jjigae)"
+                       },
+                       {
+                           "Price":  "160.000 VNĐ",
+                           "Name":  "Gà chiên sốt cay ngọt"
+                       },
+                       {
+                           "Price":  "130.000 VNĐ",
+                           "Name":  "Tteokbokki phủ phô mai"
+                       }
+                   ],
+        "Emoji":  "🌍",
+        "Price":  "600.000 – 1.000.000đ/người",
+        "Name":  "NOIR . Dining in the Dark Saigon"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Hàn Quốc",
+        "Num":  39,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.4
+                       },
+        "Address":  "47 Nguyễn Thị Diệu, P. Võ Thị Sáu, Quận 3, TP.HCM",
+        "District":  "Quận 3",
+        "ImgId":  "7187423",
+        "Type":  "Món Hàn",
+        "ReviewCount":  130,
+        "Description":  "Tái hiện nguyên vẹn mô hình quán nướng thùng phuy nhộn nhịp đặc trưng trên các con phố đường phố Seoul, Bros BBQ mang không gian trẻ trung, cá tính với hệ thống hút khói hiện đại. Thịt ở đây được tẩm ướp đậm đà, nướng trên bếp than hồng kết hợp cùng dàn món phụ (panchan) phong phú refill không giới hạn. Quán là địa điểm lý tưởng cho các buổi liên hoan, tụ họp bạn bè náo nhiệt.",
+        "Lng":  106.687,
+        "Lat":  10.783,
+        "Hours":  "11:00 – 23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "290.000 VNĐ",
+                           "Name":  "Dẻ sườn bò sốt Marinated Galbi"
+                       },
+                       {
+                           "Price":  "195.000 VNĐ",
+                           "Name":  "Thịt ba chỉ heo dày nướng"
+                       },
+                       {
+                           "Price":  "130.000 VNĐ",
+                           "Name":  "Canh tương đậu hải sản"
+                       },
+                       {
+                           "Price":  "140.000 VNĐ",
+                           "Name":  "Cơm chiên kim chi phô mai"
+                       }
+                   ],
+        "Emoji":  "🍖",
+        "Price":  "250.000 – 450.000 VNĐ/người",
+        "Name":  "Bros BBQ"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Nhật Bản / Âu",
+        "Num":  40,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  4.8,
+                           "Phục vụ":  4.4,
+                           "Không gian":  4.2,
+                           "Giá cả":  4.5
+                       },
+        "Address":  "Tầng 79 Landmark 81, 720A Điện Biên Phủ, P. 22, Q. Bình Thạnh, TP.HCM",
+        "District":  "Bình Thạnh",
+        "ImgId":  "2098086",
+        "Type":  "Món Nhật",
+        "ReviewCount":  60,
+        "Description":  "Tọa lạc tại tầng 79 tòa nhà Landmark 81, Miwaku Premium là một trong những nhà hàng cao nhất Việt Nam, sở hữu tầm nhìn 360 độ ngắm trọn vẹn vẻ đẹp lung linh của TP.HCM về đêm. Thực đơn ẩm thực Fusion đẳng cấp kết hợp giữa nguyên liệu cao cấp bậc nhất Nhật Bản (Wagyu A5, Truffle, Cua Tuyết) với phong cách chế biến Pháp xa hoa. Nơi đây tuyệt đối lý tưởng cho các buổi cầu hôn, kỷ niệm ngày cưới hoặc tiệc thượng lưu cao cấp.",
+        "Lng":  106.7132,
+        "Lat":  10.7977,
+        "Hours":  "17:00 – 23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "1.850.000 VNĐ",
+                           "Name":  "Bò Wagyu A5 áp chảo"
+                       },
+                       {
+                           "Price":  "1.200.000 VNĐ",
+                           "Name":  "Sashimi tổng hợp cao cấp"
+                       },
+                       {
+                           "Price":  "650.000 VNĐ",
+                           "Name":  "Cua tuyết hấp trứng Truffle"
+                       },
+                       {
+                           "Price":  "520.000 VNĐ",
+                           "Name":  "Gan ngỗng sốt mận Nhật"
+                       }
+                   ],
+        "Emoji":  "🍣",
+        "Price":  "1.500.000 – 3.500.000 VNĐ/người",
+        "Name":  "Miwaku Premium"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Nhật Bản",
+        "Num":  41,
+        "Rating":  4.3,
+        "SubRatings":  {
+                           "Đồ ăn":  4.4,
+                           "Phục vụ":  4,
+                           "Không gian":  4.2,
+                           "Giá cả":  4.1
+                       },
+        "Address":  "15C Lê Thánh Tôn, P. Bến Nghé, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Nhật",
+        "ReviewCount":  63,
+        "Description":  "Mang đậm không gian Izakaya (quán nhắm) truyền thống Nhật Bản với tone màu gỗ trầm, lồng đèn giấy đỏ và quầy bếp mở Robatayaki trung tâm. Tại đây, thực khách có thể trực tiếp quan sát các đầu bếp nướng tươi sống nguyên liệu hải sản, rau củ trên than hồng. Bầu không khí ấm cúng, gần gũi rất thích hợp để xả stress cùng đồng nghiệp sau giờ làm hoặc tụ tập nhóm bạn yêu thích văn hóa Nhật Bản.",
+        "Lng":  106.6993,
+        "Lat":  10.7765,
+        "Hours":  "11:30 – 14:00; 17:00 – 23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "180.000 VNĐ",
+                           "Name":  "Cá thu đao nướng muối"
+                       },
+                       {
+                           "Price":  "210.000 VNĐ",
+                           "Name":  "Xiên nướng tổng hợp (Yakitori)"
+                       },
+                       {
+                           "Price":  "195.000 VNĐ",
+                           "Name":  "Sashimi cá hồi tươi"
+                       },
+                       {
+                           "Price":  "140.000 VNĐ",
+                           "Name":  "Mì Udon nước dùng Dashi"
+                       }
+                   ],
+        "Emoji":  "🍣",
+        "Price":  "300.000 – 600.000 VNĐ/người",
+        "Name":  "Robata An Yokocho"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Tây Bán Cầu (Âu / Mỹ)",
+        "Num":  42,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.6,
+                           "Không gian":  4.2,
+                           "Giá cả":  4.6
+                       },
+        "Address":  "74/1 Hai Bà Trưng, P. Bến Nghé, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  195,
+        "Description":  "Thương hiệu bít tết Nam Mỹ đẳng cấp quốc tế với không gian sang trọng, cổ điển pha lẫn nét bụi bợm, phóng khoáng đậm chất Nam Mỹ. El Gaucho nổi tiếng bởi quy trình tuyển chọn các phần thịt bò nhập khẩu hảo hạng từ Mỹ và Úc, được nướng trực tiếp trên than củi nướng chuyên dụng để giữ trọn vị mọng nước tự nhiên. Quán là lựa chọn hàng đầu cho các buổi tiếp khách sang trọng, tiệc gia đình thượng lưu hoặc tín đồ sành bít tết.",
+        "Lng":  106.698,
+        "Lat":  10.776,
+        "Hours":  "11:00 – 23:30",
+        "Dishes":  [
+                       {
+                           "Price":  "1.150.000 VNĐ",
+                           "Name":  "Bít tết Thăn nội (Ribeye Black Angus 250g)"
+                       },
+                       {
+                           "Price":  "980.000 VNĐ",
+                           "Name":  "Bít tết Thăn ngoại (Striploin 250g)"
+                       },
+                       {
+                           "Price":  "280.000 VNĐ",
+                           "Name":  "Xúc xích Chorizo Argentina"
+                       },
+                       {
+                           "Price":  "160.000 VNĐ",
+                           "Name":  "Khoai tây chiên sốt Truffle"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "1.000.000 – 2.500.000 VNĐ/người",
+        "Name":  "El Gaucho Argentinian Steakhouse"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Pháp / Âu (Burger)",
+        "Num":  43,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.2,
+                           "Phục vụ":  3.9,
+                           "Không gian":  4.2,
+                           "Giá cả":  3.9
+                       },
+        "Address":  "28 Ngô Quang Huy, P. Thảo Điền, TP. Thủ Đức (Quận 2), TP.HCM",
+        "District":  "Quận 2",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  185,
+        "Description":  "Mang đậm phong cách Modern Bistro của nước Pháp, Marcel Gourmet Burger nâng tầm món burger quen thuộc thành một trải nghiệm ẩm thực tinh tế. Thịt bò Pháp được xay tươi mỗi ngày kết hợp với các loại phô mai nhập khẩu chính gốc (Reblochon, Raclette) và vỏ bánh Brioche nướng bơ thơm lừng. Không gian tươi sáng, mang nét hoài cổ Pháp rất thích hợp cho các buổi hẹn hò nhẹ nhàng hoặc bữa trưa thư giãn.",
+        "Lng":  106.7398,
+        "Lat":  10.796,
+        "Hours":  "11:00 – 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "210.000 VNĐ",
+                           "Name":  "Le Marcel Burger (Thịt bò \u0026 phô mai Reblochon)"
+                       },
+                       {
+                           "Price":  "225.000 VNĐ",
+                           "Name":  "Le Frenchie Burger (Sốt kem nấm \u0026 bò)"
+                       },
+                       {
+                           "Price":  "65.000 VNĐ",
+                           "Name":  "Khoai tây chiên giòn lắc muối biển"
+                       },
+                       {
+                           "Price":  "85.000 VNĐ",
+                           "Name":  "Bánh Tart kem chanh Pháp"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "200.000 – 350.000 VNĐ/người",
+        "Name":  "Marcel Gourmet Burger"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Thái Lan",
+        "Num":  44,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.3,
+                           "Phục vụ":  3.9,
+                           "Không gian":  4.2,
+                           "Giá cả":  4
+                       },
+        "Address":  "178 Lê Thánh Tôn, P. Bến Thành, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "8472992",
+        "Type":  "Món Thái",
+        "ReviewCount":  58,
+        "Description":  "TukTuk Thai Bistro mang đến làn gió mới cho ẩm thực Thái Lan tại Sài Gòn với phong cách Bistro hiện đại, thanh lịch và thời thượng. Không gian thiết kế tinh tế với gam màu tối tối giản, làm nổi bật lên nét ẩm thực Bangkok đầy màu sắc: sự kết hợp bùng nổ của các vị chua, cay, mặn, ngọt và thảo mộc tươi. Địa điểm cực kỳ lý tưởng cho giới văn phòng, nhóm bạn trẻ hoặc những buổi gặp mặt ấm cúng.",
+        "Lng":  106.7014,
+        "Lat":  10.781,
+        "Hours":  "10:00 – 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "210.000 VNĐ",
+                           "Name":  "Súp Tomyum tôm càng"
+                       },
+                       {
+                           "Price":  "125.000 VNĐ",
+                           "Name":  "Gỏi đu đủ ba khía (Somtum)"
+                       },
+                       {
+                           "Price":  "155.000 VNĐ",
+                           "Name":  "Pad Thai tôm tươi"
+                       },
+                       {
+                           "Price":  "95.000 VNĐ",
+                           "Name":  "Xôi xoài nước cốt dừa"
+                       }
+                   ],
+        "Emoji":  "🥘",
+        "Price":  "200.000 – 400.000 VNĐ/người",
+        "Name":  "TukTuk Thai Bistro"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Thái Lan",
+        "Num":  45,
+        "Rating":  4.9,
+        "SubRatings":  {
+                           "Đồ ăn":  4.4,
+                           "Phục vụ":  3.8,
+                           "Không gian":  3.5,
+                           "Giá cả":  4
+                       },
+        "Address":  "89 Tôn Thất Đạm, Phường Bến Nghé, Quận 1",
+        "District":  "Quận 1",
+        "ImgId":  "8472992",
+        "Type":  "Món Âu",
+        "ReviewCount":  119,
+        "Description":  "Nhà hàng nằm trong căn nhà ống thiết kế hiện đại ngay giữa Chợ Cũ Tôn Thất Đạm. Để vào quán, bạn phải bước qua những sạp hàng rau, cá, gia vị nhộn nhịp. Anan Saigon nâng tầm ẩm thực đường phố Việt Nam thành Fine Dining bằng kỹ thuật hiện đại và nguyên liệu xa xỉ.",
+        "Lng":  106.7018,
+        "Lat":  10.772,
+        "Hours":  "Thứ Ba – Chủ Nhật: 17:00 – 23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "320.000 VNĐ",
+                           "Name":  "Tháp sườn cay khổng lồ"
+                       },
+                       {
+                           "Price":  "145.000 VNĐ",
+                           "Name":  "Cơm chiên trái thơm hải sản"
+                       },
+                       {
+                           "Price":  "180.000 VNĐ",
+                           "Name":  "Mực sốt chanh ớt Thái"
+                       },
+                       {
+                           "Price":  "40.000 VNĐ",
+                           "Name":  "Trà sữa Thái xanh/đỏ"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "1.500.000 – 3.500.000đ/người",
+        "Name":  "Anan Saigon"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Ấn Độ",
+        "Num":  46,
+        "Rating":  4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.1,
+                           "Phục vụ":  3.8,
+                           "Không gian":  3.5,
+                           "Giá cả":  3.6
+                       },
+        "Address":  "227 Bùi Viện, P. Phạm Ngũ Lão, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1560694",
+        "Type":  "Món Ấn",
+        "ReviewCount":  179,
+        "Description":  "Tọa lạc tại khu phố tây sầm uất, Baba\u0027s Kitchen là điểm đến nổi tiếng bậc nhất dành cho những ai muốn khám phá văn hóa ẩm thực Nam \u0026 Bắc Ấn Độ. Không gian tràn ngập màu sắc văn hóa Ấn với phong cách phục vụ cực kỳ nồng hậu, thân thiện. Các món ăn được chế biến từ gia vị nhập khẩu trực tiếp, giữ nguyên độ béo ngậy đặc trưng của sữa chua, bơ ghee và mùi thơm quyến rũ từ lò nướng Tandoor. Phù hợp cho du khách nước ngoài, gia đình và nhóm bạn sành ăn.",
+        "Lng":  106.7029,
+        "Lat":  10.7774,
+        "Hours":  "11:00 – 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "165.000 VNĐ",
+                           "Name":  "Cà ri gà Butter Chicken"
+                       },
+                       {
+                           "Price":  "45.000 VNĐ",
+                           "Name":  "Bánh Naan tỏi nướng lò đất"
+                       },
+                       {
+                           "Price":  "195.000 VNĐ",
+                           "Name":  "Cơm Biryani dẻo đùi cừu"
+                       },
+                       {
+                           "Price":  "175.000 VNĐ",
+                           "Name":  "Gà nướng Tandoori Tikka"
+                       }
+                   ],
+        "Emoji":  "🍛",
+        "Price":  "150.000 – 300.000 VNĐ/người",
+        "Name":  "Baba\u0027s Kitchen"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Địa Trung Hải / Mỹ La-tinh",
+        "Num":  47,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.1,
+                           "Không gian":  4,
+                           "Giá cả":  4.3
+                       },
+        "Address":  "115 Lý Tự Trọng, P. Bến Thành, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  155,
+        "Description":  "Mang phong cách thiết kế Địa Trung Hải khoáng đạt với tone màu trắng - mây tre chủ đạo kết hợp quầy bar hiện đại, Sol Kitchen \u0026 Bar tái hiện trọn vẹn tinh thần phóng khoáng, ẩm thực rực rỡ của vùng biển Mỹ La-tinh. Các món ăn chú trọng vào kỹ thuật nướng than tươi nguyên bản kết hợp sốt tươi mát, thích hợp cho các buổi tiệc tối hẹn hò chill out, gặp gỡ bạn bè và thưởng thức món ăn cùng cocktail ngon.",
+        "Lng":  106.6978,
+        "Lat":  10.7796,
+        "Hours":  "17:00 – 23:30",
+        "Dishes":  [
+                       {
+                           "Price":  "210.000 VNĐ",
+                           "Name":  "Bánh Tacos nhân bít tết bò"
+                       },
+                       {
+                           "Price":  "380.000 VNĐ",
+                           "Name":  "Sườn heo nướng sốt Chimichurri"
+                       },
+                       {
+                           "Price":  "240.000 VNĐ",
+                           "Name":  "Gỏi hải sản ngâm chanh Ceviche"
+                       },
+                       {
+                           "Price":  "260.000 VNĐ",
+                           "Name":  "Mực ống nướng bơ tỏi Địa Trung Hải"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "400.000 – 800.000 VNĐ/người",
+        "Name":  "Sol Kitchen \u0026 Bar"
+    },
+    {
+        "TypeRaw":  "Ẩm thực Âu (Tráng miệng \u0026 Không gian Cafe)",
+        "Num":  48,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  5,
+                           "Phục vụ":  4.6,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.7
+                       },
+        "Address":  "168 Calmette, P. Nguyễn Thái Bình, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  113,
+        "Description":  "Là nhà xưởng sản xuất và không gian thưởng thức socola thủ công hàng đầu Việt Nam, Maison Marou Flagship sở hữu không gian rộng lớn mang phong cách công nghiệp Pháp sang trọng. Thực khách có thể trực tiếp quan sát quy trình rang xay hạt ca cao nguyên bản và chế biến bánh. Nơi đây là điểm dừng chân hoàn hảo cho những buổi hẹn hò cà phê, thưởng thức bánh ngọt cao cấp hoặc mua quà tặng tinh tế.",
+        "Lng":  106.7043,
+        "Lat":  10.7738,
+        "Hours":  "09:00 – 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "115.000 VNĐ",
+                           "Name":  "Bánh Tart Socola Marou 70%"
+                       },
+                       {
+                           "Price":  "95.000 VNĐ",
+                           "Name":  "Socola nóng chảy Signature"
+                       },
+                       {
+                           "Price":  "55.000 VNĐ",
+                           "Name":  "Bánh Croissant Bơ Pháp"
+                       },
+                       {
+                           "Price":  "75.000 VNĐ",
+                           "Name":  "Kem Gelato Socola nguyên chất"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "100.000 – 250.000 VNĐ/người",
+        "Name":  "Maison Marou Flagship"
+    },
+    {
+        "TypeRaw":  "Món Việt",
+        "Num":  49,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  4.9,
+                           "Phục vụ":  4.6,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.8
+                       },
+        "Address":  "21 Hàn Thuyên, Phường Bến Nghé, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  174,
+        "Description":  "Nhà hàng mang phong cách hiện đại kết hợp nghệ thuật đường phố Việt Nam với những bức tranh tường rực rỡ, sắc màu. Đây là điểm đến yêu thích của cả người dân địa phương lẫn du khách quốc tế muốn thưởng thức ẩm thực Việt Nam được cách điệu tinh tế.",
+        "Lng":  106.705,
+        "Lat":  10.772,
+        "Hours":  "07:30 – 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "95.000đ",
+                           "Name":  "Gỏi cuốn tôm thịt"
+                       },
+                       {
+                           "Price":  "145.000đ",
+                           "Name":  "Cơm tấm sườn nướng đặc biệt"
+                       },
+                       {
+                           "Price":  "185.000đ",
+                           "Name":  "Bò lúc lắc"
+                       },
+                       {
+                           "Price":  "110.000đ",
+                           "Name":  "Chả giò truyền thống"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "150.000 – 300.000 VNĐ/người",
+        "Name":  "Propaganda Bistro"
+    },
+    {
+        "TypeRaw":  "Món Việt",
+        "Num":  50,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  4.9,
+                           "Phục vụ":  4.5,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.4
+                       },
+        "Address":  "158 Pasteur, Phường Bến Nghé, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  235,
+        "Description":  "Nằm trên tầng thượng của một chung cư cũ mang đậm nét hoài cổ, quán tái hiện không gian mộc mạc của làng quê Nam Bộ với cây xanh, bàn ghế gỗ và đèn lồng vàng ấm áp.",
+        "Lng":  106.7057,
+        "Lat":  10.7802,
+        "Hours":  "10:00 – 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "30.000đ",
+                           "Name":  "Cơm niêm"
+                       },
+                       {
+                           "Price":  "120.000đ",
+                           "Name":  "Thịt kho tộ"
+                       },
+                       {
+                           "Price":  "135.000đ",
+                           "Name":  "Canh chua cá lóc"
+                       },
+                       {
+                           "Price":  "85.000đ",
+                           "Name":  "Rau luộc kho quẹt"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "150.000 – 250.000 VNĐ/người",
+        "Name":  "Secret Garden - Cơm Niêm Việt Nam"
+    },
+    {
+        "TypeRaw":  "Món Mỹ / BBQ",
+        "Num":  51,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.3,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.2
+                       },
+        "Address":  "168 Võ Văn Kiệt, Phường Cầu Ông Lãnh, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1633578",
+        "Type":  "Món Mỹ",
+        "ReviewCount":  48,
+        "Description":  "Quán mang phong cách nhà hàng nướng kiểu Mỹ (American BBQ) sôi động, trẻ trung. Thịt được hun khói chậm nhiều giờ bằng gỗ tự nhiên, mang lại hương vị đậm đà và mềm tan khó cưỡng.",
+        "Lng":  106.7057,
+        "Lat":  10.7724,
+        "Hours":  "11:00 – 23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "380.000đ",
+                           "Name":  "Sườn heo hun khói nguyên dải"
+                       },
+                       {
+                           "Price":  "220.000đ",
+                           "Name":  "Burger bò thượng hạng"
+                       },
+                       {
+                           "Price":  "190.000đ",
+                           "Name":  "Gà nướng Cajun"
+                       },
+                       {
+                           "Price":  "160.000đ",
+                           "Name":  "Xúc xích thủ công"
+                       }
+                   ],
+        "Emoji":  "🍔",
+        "Price":  "250.000 – 500.000 VNĐ/người",
+        "Name":  "Ụt Ụt - The Ox Not Burger"
+    },
+    {
+        "TypeRaw":  "Món Chay",
+        "Num":  52,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.5,
+                           "Không gian":  4,
+                           "Giá cả":  4.5
+                       },
+        "Address":  "32 Thi Sách, Phường Bến Nghé, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1640777",
+        "Type":  "Món Chay",
+        "ReviewCount":  168,
+        "Description":  "Nhà hàng món chay cao cấp nổi tiếng với không gian yên tĩnh, ngập tràn cây xanh và âm nhạc thiền định nhẹ nhàng. Các món ăn được chế biến tỉ mỉ từ nguyên liệu tự nhiên, giữ nguyên hương vị thanh tao và tốt cho sức khỏe.",
+        "Lng":  106.6971,
+        "Lat":  10.7765,
+        "Hours":  "10:00 – 22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "110.000đ",
+                           "Name":  "Đậu hũ sốt me"
+                       },
+                       {
+                           "Price":  "95.000đ",
+                           "Name":  "Gỏi cuốn chay Hum"
+                       },
+                       {
+                           "Price":  "130.000đ",
+                           "Name":  "Cơm chiên trái dứa"
+                       },
+                       {
+                           "Price":  "260.000đ",
+                           "Name":  "Lẩu nấm thanh vị"
+                       }
+                   ],
+        "Emoji":  "🥗",
+        "Price":  "150.000 – 330.000 VNĐ/người",
+        "Name":  "Hum Vegetarian, Café \u0026 Restaurant"
+    },
+    {
+        "TypeRaw":  "Hải sản / Món Âu - Á",
+        "Num":  53,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.8,
+                           "Phục vụ":  4.5,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.3
+                       },
+        "Address":  "12 Võ Văn Kiệt, Phường Nguyễn Thái Bình, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "699953",
+        "Type":  "Hải sản",
+        "ReviewCount":  229,
+        "Description":  "Nhà hàng chuyên các món hải sản sốt phong cách Cajun và Singapore sôi động, hấp dẫn. Không gian rộng rãi, thiết kế trẻ trung rất hợp cho các buổi tiệc họp mặt gia đình hay bạn bè.",
+        "Lng":  106.6978,
+        "Lat":  10.7747,
+        "Hours":  "10:30 – 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "450.000đ",
+                           "Name":  "Cua sốt ớt Singapore"
+                       },
+                       {
+                           "Price":  "680.000đ",
+                           "Name":  "Tôm hùm sốt Cajun"
+                       },
+                       {
+                           "Price":  "220.000đ",
+                           "Name":  "Vẹm xanh sốt bơ tỏi"
+                       },
+                       {
+                           "Price":  "95.000đ",
+                           "Name":  "Khoai tây chiên sốt trứng muối"
+                       }
+                   ],
+        "Emoji":  "🦐",
+        "Price":  "300.000 – 600.000 VNĐ/người",
+        "Name":  "Crab Shack"
+    },
+    {
+        "TypeRaw":  "Món Âu / Fine Dining",
+        "Num":  54,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.2,
+                           "Không gian":  4.4,
+                           "Giá cả":  4.5
+                       },
+        "Address":  "Tầng 23, Centec Tower, 72 Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+        "District":  "Quận 3",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  61,
+        "Description":  "Nhà hàng nằm trên tầng thượng tòa nhà cao cấp, mang lại tầm nhìn toàn cảnh thành phố lung linh về đêm. Không gian lãng mạn, sang trọng với khu vực ăn uống trong nhà và ngoài trời cực kỳ thoáng đãng.",
+        "Lng":  106.6907,
+        "Lat":  10.7774,
+        "Hours":  "11:30 – 00:00",
+        "Dishes":  [
+                       {
+                           "Price":  "950.000đ",
+                           "Name":  "Bò bít tết Wagyu nướng than"
+                       },
+                       {
+                           "Price":  "420.000đ",
+                           "Name":  "Cá hồi áp chảo sốt chanh leo"
+                       },
+                       {
+                           "Price":  "580.000đ",
+                           "Name":  "Mì Ý sốt tôm hùm"
+                       },
+                       {
+                           "Price":  "210.000đ",
+                           "Name":  "Bánh sô-cô-la tan chảy"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "500.000 – 1.200.000 VNĐ/người",
+        "Name":  "Shri Restaurant \u0026 Lounge"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  55,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.4,
+                           "Không gian":  4,
+                           "Giá cả":  4.4
+                       },
+        "Address":  ":30 Gà nướng mắm nhĩ: 220.000đ; Lẩu cá kèo lá giang: 180.000đ; Sụn gà rang muối: 95.000đ; Bắp bò ngâm mắm: 120.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  163,
+        "Description":  "Quán ăn bình dân mang phong cách hoài cổ, chuyên phục vụ các món nhậu và món ăn gia đình đậm chất miền Nam. Không gian giản dị, gần gũi với bàn ghế tre và ánh đèn vàng ấm áp. 100.000đ – 200.000đ/người 32 Nguyễn Hữu Cầu, Phường Tân Định, Quận 1, TP.HCM Món Việt / Đồ nhậu 16:",
+        "Lng":  106.6992,
+        "Lat":  10.7811,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00 – 23",
+        "Name":  "Quán Lủi"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  56,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.3,
+                           "Không gian":  3.9,
+                           "Giá cả":  4
+                       },
+        "Address":  ":30 Thịt luộc cà phua mắm tôm: 120.000đ; Canh cua rau đay: 90.000đ; Chả cá Lã Vọng: 180.000đ; Nem cua bể: 110.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  224,
+        "Description":  "Nhà hàng tái hiện hương vị mâm cơm truyền thống ba miền Việt Nam trong không gian mang hơi thở hiện đại kết hợp truyền thống. Các món ăn được chế biến chăm chút, giữ nguyên nét đặc trưng quê hương. 200.000đ – 400.000đ/người 39 Ngô Đức Kế, Phường Bến Nghé, Quận 1, TP.HCM Món Việt truyền thống 07:",
+        "Lng":  106.6999,
+        "Lat":  10.7793,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00 – 22",
+        "Name":  "Mặn Mòi"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  57,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.4,
+                           "Phục vụ":  4.4,
+                           "Không gian":  4,
+                           "Giá cả":  4.1
+                       },
+        "Address":  ":00 Thịt kho tiêu trong niêm đất: 95.000đ; Đậu hũ nhồi thịt sốt cà chua: 85.000đ; Canh khổ qua dồn thịt: 80.000đ; Mực xào chua ngọt: 130.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  97,
+        "Description":  "Nằm trong một con hẻm nhỏ yên tĩnh, quán mang lại cảm giác ấm cúng như đang dùng bữa tại nhà với những món ăn gia đình Việt Nam truyền thống được nấu rất khéo léo. 100.000đ – 250.000đ/người 130/2 Ngô Đức Kế, Phường Bến Nghé, Quận 1, TP.HCM Món Việt gia đình 11:",
+        "Lng":  106.7006,
+        "Lat":  10.7774,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00 – 22",
+        "Name":  "Den Long - Home Cooked Vietnamese Restaurant"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  58,
+        "Rating":  4.3,
+        "SubRatings":  {
+                           "Đồ ăn":  4.5,
+                           "Phục vụ":  4.3,
+                           "Không gian":  3.9,
+                           "Giá cả":  4.2
+                       },
+        "Address":  ":00 Cá hồi áp chảo sốt bơ chanh: 480.000đ; Bò Úc nướng sốt vang đỏ: 750.000đ; Mì Ý hải sản sốt cà chua tươi: 350.000đ; Bánh ngọt tráng miệng: 160.000đ",
+        "District":  "Quận 2",
+        "ImgId":  "2098086",
+        "Type":  "Món Âu",
+        "ReviewCount":  157,
+        "Description":  "Nhà hàng ven sông sang trọng nằm tại khu Thảo Điền, sở hữu không gian mở lãng mạn hướng thẳng ra sông Sài Gòn. Đây là địa điểm lý tưởng để ngắm hoàng hôn và thưởng thức ẩm thực cao cấp. 500.000đ – 1.500.000đ/người 38 Nguyễn Ư Dĩ, Phường Thảo Điền, TP. Thủ Đức, TP.HCM Món Âu - Á / Ven sông 08:",
+        "Lng":  106.7014,
+        "Lat":  10.7756,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍝",
+        "Price":  "00 – 00",
+        "Name":  "The Deck Saigon"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  59,
+        "Rating":  4.3,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  3.8,
+                           "Không gian":  3.9,
+                           "Giá cả":  4.3
+                       },
+        "Address":  ":00 sáng hôm sau Mực chiên giòn kiểu Hy Lạp: 170.000đ; Bánh mì dẹt nướng phô mai: 140.000đ; Xiên thịt cừu nướng thảo mộc: 210.000đ; Khoai tây nướng sốt tỏi: 90.000đ",
+        "District":  "Quận 3",
+        "ImgId":  "2098086",
+        "Type":  "Món Âu",
+        "ReviewCount":  218,
+        "Description":  "Quán ăn kết hợp lounge phong cách Địa Trung Hải đầy màu sắc và cá tính. Quán phục vụ các món tapas nhỏ gọn, độc đáo cùng nhiều loại cocktail sáng tạo. 200.000đ – 450.000đ/người 8 Bis Công Trường Quốc Tế, Phường 6, Quận 3, TP.HCM Món Địa Trung Hải / Tapas 16:",
+        "Lng":  106.7021,
+        "Lat":  10.7738,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍝",
+        "Price":  "00 – 01",
+        "Name":  "Octobar"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  60,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.3,
+                           "Phục vụ":  3.7,
+                           "Không gian":  3.9,
+                           "Giá cả":  3.9
+                       },
+        "Address":  ":00 Bánh canh ghẹ nguyên con: 110.000đ; Bánh canh tôm thịt đặc biệt: 75.000đ; Chả cá thác lác chiên: 45.000đ; Quẩy giòn: 15.000đ",
+        "District":  "Gò Vấp",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  91,
+        "Description":  "Quán ăn chuyên món bánh canh ghẹ nổi tiếng với nước dùng sánh mịn, thơm đậm vị ngọt từ hải sản tươi. Ghẹ chắc thịt, được làm sạch và chuẩn bị kỹ lưỡng mỗi ngày. 50.000đ – 120.000đ/người 91 Nguyễn Thái Sơn, Phường 4, Quận Gò Vấp, TP.HCM Món Việt / Bánh canh 07:",
+        "Lng":  106.7028,
+        "Lat":  10.772,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00 – 22",
+        "Name":  "Bánh Canh Ghẹ Ngọc Hương"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  61,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.4,
+                           "Phục vụ":  3.7,
+                           "Không gian":  3.9,
+                           "Giá cả":  4
+                       },
+        "Address":  ":00 Phần chả cá Lã Vọng đặc biệt: 160.000đ/người; Lòng cá xào thì là: 120.000đ; Canh đầu cá nấu dọc mùng: 110.000đ; Chả cá viên chiên: 80.000đ",
+        "District":  "Quận 3",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  152,
+        "Description":  "Quán chuyên phục vụ đặc sản chả cá Lã Vọng trứ danh đất Bắc ngay giữa lòng Sài Gòn. Miếng cá lăng tẩm nghệ nướng thơm lứt ăn kèm bún, rau thơm, đậu phộng và mắm tôm đậm đà. 150.000đ – 300.000đ/người 3 Hồ Xuân Hương, Phường Võ Thị Sáu, Quận 3, TP.HCM Món Bắc truyền thống 0:",
+        "Lng":  106.7035,
+        "Lat":  10.7802,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00 – 22",
+        "Name":  "Chả Cá Lã Vọng Hà Nội"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  62,
+        "Rating":  4.1,
+        "SubRatings":  {
+                           "Đồ ăn":  4.4,
+                           "Phục vụ":  3.7,
+                           "Không gian":  3.8,
+                           "Giá cả":  4
+                       },
+        "Address":  ":00 Mì cay bò hải sản: 75.000đ; Kimbap truyền thống: 55.000đ; Tokbokki phô mai: 65.000đ; Gà rán sốt cay: 80.000đ",
+        "District":  "Quận 10",
+        "ImgId":  "2098086",
+        "Type":  "Món Hàn",
+        "ReviewCount":  213,
+        "Description":  "Thương hiệu mì cay 7 cấp độ quen thuộc của giới trẻ, mang đến không gian năng động, trẻ trung và các món ăn đậm đà phong cách Hàn Quốc. 50.000đ – 100.000đ/người 11 Tô Hiến Thành, Phường 13, Quận 10, TP.HCM Món Hàn / Mì cay 09:",
+        "Lng":  106.7042,
+        "Lat":  10.7784,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍖",
+        "Price":  "00 – 22",
+        "Name":  "Mì Cay Sasin"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  63,
+        "Rating":  4.1,
+        "SubRatings":  {
+                           "Đồ ăn":  4.2,
+                           "Phục vụ":  3.7,
+                           "Không gian":  3.8,
+                           "Giá cả":  3.7
+                       },
+        "Address":  ":00 Lẩu bò thập cẩm: 200.000đ; Bắp bò nhúng dấm: 180.000đ; Đuôi bò hầm sả: 150.000đ; Gân bò xào sa tế: 110.000đ",
+        "District":  "Bình Thạnh",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  86,
+        "Description":  "Quán lẩu bò quen thuộc với không gian bình dân, rộng rãi và thoáng mát. Nước dùng hầm từ xương bò và thuốc bắc ngọt thanh, ăn kèm thịt bò tươi mềm và các loại rau nhúng đa dạng. 150.000đ – 250.000đ/người 56 Nguyễn Văn Đậu, Phường 6, Quận Bình Thạnh, TP.HCM Món Việt / Lẩu bò 15:",
+        "Lng":  106.7049,
+        "Lat":  10.7765,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00 – 23",
+        "Name":  "Lẩu Bò Tươi Sài Gòn"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  64,
+        "Rating":  4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.2,
+                           "Phục vụ":  3.6,
+                           "Không gian":  3.8,
+                           "Giá cả":  3.8
+                       },
+        "Address":  ":00 Bánh mì đặc biệt thập cẩm: 68.000đ; Bánh mì bơ pate thêm chả: 65.000đ; Pate gan heo hũ: 85.000đ/hũ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  146,
+        "Description":  "Tiệm bánh mì nổi tiếng bậc nhất Sài Gòn với chiếc bánh mì \"siêu nhân\" ngập tràn các loại chả lụa, thịt nguội, bơ béo ngậy và pate thơm lừng đặc trưng. 50.000đ – 75.000đ/phần 26 Lê Thị Riêng, Phường Bến Thành, Quận 1, TP.HCM Thức ăn đường phố / Bánh mì 06:",
+        "Lng":  106.7056,
+        "Lat":  10.7747,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00 – 21",
+        "Name":  "Bánh Mì Huỳnh Hoa"
+    },
+    {
+        "TypeRaw":  "Quán ốc / Món Việt",
+        "Num":  65,
+        "Rating":  4.9,
+        "SubRatings":  {
+                           "Đồ ăn":  4.9,
+                           "Phục vụ":  4.5,
+                           "Không gian":  4.7,
+                           "Giá cả":  4.8
+                       },
+        "Address":  "Hẻm 212B Nguyễn Trãi, Phường Nguyễn Cư Trinh, Quận 1, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  207,
+        "Description":  "Quán ốc đêm đông đúc và nổi tiếng hàng đầu Sài Gòn. Quán có đủ loại ốc tươi sống được chế biến đậm đà như sốt bơ tỏi, xào sa tế, rang muối ớt.",
+        "Lng":  106.6963,
+        "Lat":  10.7729,
+        "Hours":  "10:00 – 22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "140.000 VNĐ",
+                           "Name":  "Ốc hương sốt bơ tỏi"
+                       },
+                       {
+                           "Price":  "130.000 VNĐ",
+                           "Name":  "Càng ghẹ rang muối ớt"
+                       },
+                       {
+                           "Price":  "110.000 VNĐ",
+                           "Name":  "Ốc mỡ xào me"
+                       },
+                       {
+                           "Price":  "80.000 VNĐ",
+                           "Name":  "Nghêu hấp sả"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "100.000 – 250.000đ/người",
+        "Name":  "Quán Ốc Đào"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  66,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  4.9,
+                           "Phục vụ":  4.4,
+                           "Không gian":  4.6,
+                           "Giá cả":  4.8
+                       },
+        "Address":  ":00 Nấm Gan Bò Mỹ: 185.000đ/phần; Thịt bò Wagyu nhúng lẩu: 420.000đ; Nước lẩu bổ dưỡng Ashima: 150.000đ; Nem nấm hải sản: 120.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Hải sản",
+        "ReviewCount":  80,
+        "Description":  "Chuỗi nhà hàng lẩu nấm thiên nhiên cao cấp. Không gian thiết kế đậm chất Á Đông ấm cúng, sang trọng, chuyên phục vụ các loại nấm quý hiếm cùng nước lèo bổ dưỡng. 350.000đ – 600.000đ/người 35A Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, TP.HCM Món Á / Lẩu Nấm 10:",
+        "Lng":  106.697,
+        "Lat":  10.7811,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🦐",
+        "Price":  "00 – 22",
+        "Name":  "Lẩu Nấm Ashima"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  67,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  4.9,
+                           "Phục vụ":  4.4,
+                           "Không gian":  4.6,
+                           "Giá cả":  4.4
+                       },
+        "Address":  "Liên hệ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  141,
+        "Description":  "Thương hiệu hủ tiếu Nam Vang bán xuyên đêm cực nổi tiếng ở Sài Gòn. Tô hủ tiếu trộn sốt đậm đà, nước súp trong vắt ngọt thanh từ xương tủy hầm nhiều giờ. 50.000đ – 85.000đ/người 34 Nguyễn Huy Tự, Phườ",
+        "Lng":  106.6977,
+        "Lat":  10.7793,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "Liên hệ",
+        "Name":  "Hủ Tiếu Nam Vang Thành Đạt"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  68,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.4,
+                           "Không gian":  4.6,
+                           "Giá cả":  4.5
+                       },
+        "Address":  ":30 Cơm hấp lá sen: 110.000đ; Lẩu nấm Tib: 280.000đ; Bánh cuốn chay Huế: 75.000đ; Vịt quay chay sốt nấm: 135.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Chay",
+        "ReviewCount":  202,
+        "Description":  "Nhà hàng chay mang phong cách hoài cổ, thanh lịch với không gian mang đậm dấu ấn Huế cổ kính. Món ăn thanh nhẹ, trình bày đẹp mắt và chuẩn vị. 150.000đ – 300.000đ/người 170 Trần Quang Khải, Phường Tân Định, Quận 1, TP.HCM Ẩm thực Chay 08:",
+        "Lng":  106.6984,
+        "Lat":  10.7775,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🥗",
+        "Price":  "30 – 21",
+        "Name":  "Nhà Hàng Chay Tib"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  69,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.3,
+                           "Không gian":  4.5,
+                           "Giá cả":  4.6
+                       },
+        "Address":  ":30 Bún bò đặc biệt đầy đủ: 85.000đ; Bún bò nạm gân chả: 70.000đ; Bánh bèo chén Huế: 50.000đ/khay; Bánh nít ram: 50.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  75,
+        "Description":  "Quán bún bò lâu đời chuẩn hương vị xứ Huế giữa trung tâm Quận 1. Nước dùng trong nhưng thơm lừng mùi mắm ruốc sả, giò heo ninh mềm và chả quết dai giòn. 60.000đ – 100.000đ/người 207 Nguyễn Trãi, Phường Nguyễn Cư Trinh, Quận 1, TP.HCM Món Huế / Bún bò 06:",
+        "Lng":  106.6991,
+        "Lat":  10.7756,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00 – 22",
+        "Name":  "Bún Bò Huế Đông Ba"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  70,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.8,
+                           "Phục vụ":  4.3,
+                           "Không gian":  4.5,
+                           "Giá cả":  4.3
+                       },
+        "Address":  ":00 \u0026 16:00 – 21:00 Mì khô xá xíu sườn kho: 75.000đ; Mì hoành thánh tôm tươi: 65.000đ; Hủ tiếu mì thập cẩm: 70.000đ; Hoành thánh chiên: 50.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Hoa",
+        "ReviewCount":  135,
+        "Description":  "Quán mì gia truyền phong cách Chợ Lớn. Sợi mì trứng tự làm dai ngon đặc trưng, trộn cùng sốt đậm đà, ăn kèm xá xíu mềm thơm và tô nước lèo sườn kho đậm vị. 50.000đ – 90.000đ/người 114 Ký Con, Phường Nguyễn Thái Bình, Quận 1, TP.HCM Món Hoa / Mì gia 06:",
+        "Lng":  106.6998,
+        "Lat":  10.7738,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🥟",
+        "Price":  "00 – 13",
+        "Name":  "Mì Cạch Ký (Mì Khô Thượng Hải)"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  71,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.5,
+                           "Phục vụ":  4.2,
+                           "Không gian":  4.5,
+                           "Giá cả":  4.3
+                       },
+        "Address":  ":30 Thịt heo xiên nướng (pork shashlyk): 195.000đ; Bò hầm kiểu Nga (beef goulash): 167.000đ; Gà xiên nướng (chicken shashlyk): 144.000đ; Súp củ dền Borscht: 64.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món khác",
+        "ReviewCount":  196,
+        "Description":  "Nhà hàng chuyên món Nga và Đông Âu, có không gian hoài cổ gợi nhớ những ngôi nhà thời Liên Xô. Thực đơn gồm súp, thịt nướng và các món ăn truyền thống. 200.000đ - 300.000đ/người 48A Nguyễn Bỉnh Khiêm, phường Tân Định, TP.HCM Món Nga/Ukraine Hằng ngày 10:",
+        "Lng":  106.7006,
+        "Lat":  10.772,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🌍",
+        "Price":  "30–21",
+        "Name":  "CCCP Saigon"
+    },
+    {
+        "TypeRaw":  "Pizza",
+        "Num":  72,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.3,
+                           "Không gian":  4.5,
+                           "Giá cả":  4.4
+                       },
+        "Address":  ":00",
+        "District":  "Quận 1",
+        "ImgId":  "7083528",
+        "Type":  "Pizza",
+        "ReviewCount":  69,
+        "Description":  "Quán cocktail và đồ ăn được thiết kế theo phong cách steampunk, lấy cảm hứng từ máy móc và công nghiệp thế kỷ XIX. Không gian huyền bí kết hợp với nhạc jazz và các loại pizza sáng tạo. 200.000đ – 400.000đ/người 178/1 Pasteur, phường Sài Gòn, TP.HCM Món pizza Hằng ngày 18:",
+        "Lng":  106.7013,
+        "Lat":  10.7802,
+        "Hours":  "Liên hệ",
+        "Dishes":  [
+                       {
+                           "Price":  "220.000đ",
+                           "Name":  "bò lá lốt"
+                       },
+                       {
+                           "Price":  "250.000đ",
+                           "Name":  "Pizza hải sản"
+                       },
+                       {
+                           "Price":  "150.000đ",
+                           "Name":  "Cánh gà chiên giòn"
+                       },
+                       {
+                           "Price":  "120.000đ",
+                           "Name":  "Khoai tây chiên sốt nấm truffle"
+                       }
+                   ],
+        "Emoji":  "🍕",
+        "Price":  "00–01",
+        "Name":  "House of Merlin"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  73,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.2,
+                           "Không gian":  3.6,
+                           "Giá cả":  4
+                       },
+        "Address":  ":00; thứ Tư–Bảy 17:30–23:00; Chủ nhật 17:30–22:00; thứ Ba chưa xác minh Phở bò tartare: 240.000đ; Thai grilled okra: 160.000đ; Duck tacos (2 pieces): 210.000đ; Grilled octopus: 340.000đ",
+        "District":  "Quận 2",
+        "ImgId":  "2098086",
+        "Type":  "Món khác",
+        "ReviewCount":  130,
+        "Description":  "Nhà hàng phục vụ món ăn sáng tạo kết hợp nhiều nền ẩm thực quốc tế. Quán chú trọng nguyên liệu địa phương, cách chế biến mới lạ và không gian ấm cúng. 300.000đ – 600.000đ/người 2 Lê Văn Miến, phường An Khánh, TP.HCM Món Mexico, hải sản Thứ Hai 17:",
+        "Lng":  106.702,
+        "Lat":  10.7784,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🌍",
+        "Price":  "30–22",
+        "Name":  "OKRA FoodBar"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  74,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.5,
+                           "Phục vụ":  4.2,
+                           "Không gian":  3.6,
+                           "Giá cả":  4.1
+                       },
+        "Address":  ":00 Beef Burger (burger bò Úc, bacon, cheddar và khoai tây chiên): 175.000đ; Truffle Beef Burger (burger bò sốt truffle và nấm): 185.000đ; Duck Confit Burger (burger vịt confit, cheddar và khoai tây):",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Mỹ",
+        "ReviewCount":  191,
+        "Description":  "Nhà hàng có cách phục vụ độc đáo, trong đó món ăn được chuyển đến khách qua hệ thống giống máy bán hàng tự động. Thực đơn gồm burger, pizza, mì Ý và các món phương Tây. 150.000đ – 200.000đ/người 252 Lý Tự Trọng, phường Bến Thành, TP.HCM Bánh burger Hằng ngày 10:",
+        "Lng":  106.7027,
+        "Lat":  10.7766,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍔",
+        "Price":  "00–00",
+        "Name":  "SOLOBOX"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  75,
+        "Rating":  4.3,
+        "SubRatings":  {
+                           "Đồ ăn":  4.5,
+                           "Phục vụ":  4.1,
+                           "Không gian":  3.6,
+                           "Giá cả":  4.2
+                       },
+        "Address":  ":30 Baby jackfruit salad with boiled pork: 85.000đ; Bánh bèo chén: 12.000đ/bowl; Roasted black bean drink: 35.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  64,
+        "Description":  "Nhà hàng mang hương vị ẩm thực miền Trung, đặc biệt là các món đặc sản Quảng Ngãi. Không gian gần gũi, phù hợp với những người muốn thưởng thức món Việt truyền thống. 100.000đ – 200.000đ/người 35 Lý Tự Trọng, phường Sài Gòn, TP.HCM Món Việt Hằng ngày 10:",
+        "Lng":  106.7034,
+        "Lat":  10.7747,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00–21",
+        "Name":  "Xóm Chợ Cũ"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  76,
+        "Rating":  4.3,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.1,
+                           "Không gian":  3.6,
+                           "Giá cả":  4.3
+                       },
+        "Address":  ":00 Ba chỉ bò nướng: 89.000đ; Ba chỉ heo nướng: 79.000đ; Chân gà nướng: 59.000đ; Bạch tuộc nướng: 129.000đ",
+        "District":  "Thủ Đức",
+        "ImgId":  "2098086",
+        "Type":  "Món Mỹ",
+        "ReviewCount":  124,
+        "Description":  "Quán nướng và lẩu có chủ đề tàu hỏa, nằm gần đường ray. Thực khách có thể tự nướng thịt bằng than và trải nghiệm ngắm tàu chạy ngang qua. 100.000đ – 200.000đ/người 28 Đ. Linh Đông, Hiệp Bình, TP.HCM Món Barbecue, đồ nướng Hằng ngày 15:",
+        "Lng":  106.7041,
+        "Lat":  10.7729,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍔",
+        "Price":  "00–00",
+        "Name":  "Tiệm Nướng Tàu Lửa"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  77,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.3,
+                           "Phục vụ":  4,
+                           "Không gian":  3.5,
+                           "Giá cả":  3.9
+                       },
+        "Address":  ":00, 17:00–21:00; thứ Hai có thể nghỉ Trứng chiên ngải cứu: 65.000đ; Ngọn su su xào tỏi: 75.000đ; Cá rô phi chiên giòn: 150.000đ; Ba chỉ kho: 120.000đ",
+        "District":  "Quận 3",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  185,
+        "Description":  "Quán ăn Việt Nam nhỏ nằm trong hẻm, nổi bật với không gian mang cảm giác như dùng bữa tại nhà. Quán hướng đến những món ăn gia đình được chế biến cẩn thận. 200.000đ – 300.000đ/người 27/27 Huỳnh Tịnh Của, phường Xuân Hòa, TP.HCM Món Việt 10:",
+        "Lng":  106.7048,
+        "Lat":  10.7811,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "30–15",
+        "Name":  "Đào Liễu"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  78,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.4,
+                           "Phục vụ":  4.1,
+                           "Không gian":  3.6,
+                           "Giá cả":  4
+                       },
+        "Address":  ":00 Cà phê trứng: 55.000đ; Cà phê chồn: 90.000đ; Thịt trâu gác bếp: 150.000đ; Gà nướng kiểu vùng cao: 180.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  58,
+        "Description":  "Quán kết hợp ẩm thực Việt Nam với cà phê trứng và đồ uống thủ công. Nơi đây nổi bật nhờ những món đặc sản vùng miền tương đối độc đáo. 100.000đ– 250.000đ/người 68/3 Nguyễn Thái Bình, TP.HCM Món Việt Hằng ngày 10:",
+        "Lng":  106.7055,
+        "Lat":  10.7793,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00–23",
+        "Name":  "An House Craft Beer \u0026 Egg Coffee"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  79,
+        "Rating":  4.1,
+        "SubRatings":  {
+                           "Đồ ăn":  4.1,
+                           "Phục vụ":  4,
+                           "Không gian":  3.5,
+                           "Giá cả":  4
+                       },
+        "Address":  ":00 Cơm chiên bò Wagyu: 180.000đ; Bò Wagyu nướng: 250.000đ; Cánh gà chiên: 100.000đ; Gỏi bò: 120.000đ",
+        "District":  "Quận 3",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  119,
+        "Description":  "Nhà hàng chuyên các món cơm nhà Việt Nam với hương vị thân thuộc. Không gian ấm cúng và thực đơn kết hợp món ăn gia đình với một số lựa chọn thịt bò cao cấp. 100.000đ– 200.000đ/người 206 Pasteur, phường Xuân Hòa, TP.HCM Món Việt Hằng ngày 10:",
+        "Lng":  106.6962,
+        "Lat":  10.7775,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00–22",
+        "Name":  "Nhà Anh"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  80,
+        "Rating":  4.1,
+        "SubRatings":  {
+                           "Đồ ăn":  4.2,
+                           "Phục vụ":  4,
+                           "Không gian":  3.5,
+                           "Giá cả":  3.8
+                       },
+        "Address":  ":00; Chủ nhật chưa xác minh Gỏi cuốn: 40.000đ/phần; Bánh mì Việt Nam: 35.000đ; Cơm món Việt: 65.000đ; Cà phê sữa đá: 30.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  180,
+        "Description":  "Quán ăn Việt Nam nhỏ, nằm trong hẻm ở khu vực trung tâm thành phố. Nơi đây tạo cảm giác bình dị, thân thiện và được biết đến với các món ăn quen thuộc cùng cà phê sữa. 100.000đ– 200.000đ/người 5/5 Nguyễn Siêu, phường Sài Gòn, TP.HCM Món Việt 06:",
+        "Lng":  106.6969,
+        "Lat":  10.7757,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00–22",
+        "Name":  "Quán Ân Điển"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  81,
+        "Rating":  4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.2,
+                           "Phục vụ":  3.9,
+                           "Không gian":  3.5,
+                           "Giá cả":  3.8
+                       },
+        "Address":  ":00, 16:09–22:00 Chả ốc: 90.000đ; Ốc xào me: 100.000đ; Gỏi ốc: 100.000đ; Lẩu ốc: 200.000đ/nồi",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  53,
+        "Description":  "Quán chuyên các món ốc và lẩu mang phong cách ẩm thực Việt Nam, đặc biệt là những món có vị chua cay. Đây là lựa chọn phù hợp cho những người thích khám phá các món ốc truyền thống. 100.000đ – 200.000đ/người 150/39 Nguyễn Trãi, phường Bến Thành, TP.HCM Món Việt, hotpot 08:",
+        "Lng":  106.6976,
+        "Lat":  10.7738,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "30–14",
+        "Name":  "Con Ốc Quán"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  82,
+        "Rating":  4.9,
+        "SubRatings":  {
+                           "Đồ ăn":  4.9,
+                           "Phục vụ":  4.8,
+                           "Không gian":  4.4,
+                           "Giá cả":  4.8
+                       },
+        "Address":  ":00; Chủ nhật chưa xác minh Bún đậu hũ nước tương: 45.000đ; Bún ba rọi sốt cay: 65.000đ; Bún thịt nướng: 55.000đ; Đậu hũ nhà làm sốt tiêu: 60.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Việt",
+        "ReviewCount":  113,
+        "Description":  "Quán ăn Việt Nam quy mô nhỏ, nằm trong hẻm và hướng đến các bữa ăn giản dị với mức giá bình dân. Không gian không quá cầu kỳ, phù hợp với thực khách yêu thích món ăn gia đình. 50.000đ – 100.000đ/người 36/3 Lê Lợi, phường Sài Gòn, TP.HCM Món Việt 10:",
+        "Lng":  106.6983,
+        "Lat":  10.772,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍜",
+        "Price":  "00–21",
+        "Name":  "Quán Bấc"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  83,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  4.9,
+                           "Phục vụ":  4.8,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.4
+                       },
+        "Address":  ":00; nghỉ thứ Hai Gà nướng: 180.000đ; Sườn ăn kèm cơm chiên: 220.000đ; Bạch tuộc nướng xiên: 180.000đ; Bánh croquette: 100.000đ",
+        "District":  "Quận 3",
+        "ImgId":  "2098086",
+        "Type":  "Món Âu",
+        "ReviewCount":  174,
+        "Description":  "Nhà hàng theo phong cách ẩm thực kết hợp hiện đại, phục vụ các món nhỏ để thực khách chia sẻ. Quán gây chú ý nhờ cách kết hợp hương vị bất ngờ và không gian phù hợp cho những buổi gặp gỡ. 300.000đ – 400.000đ/người 39 Nguyễn Thị Diệu, phường Xuân Hòa, TP.HCM Đồ nướng Thứ Ba–Chủ nhật 17:",
+        "Lng":  106.699,
+        "Lat":  10.7802,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍝",
+        "Price":  "00–23",
+        "Name":  "Fluid Saigon"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  84,
+        "Rating":  4.8,
+        "SubRatings":  {
+                           "Đồ ăn":  5,
+                           "Phục vụ":  4.8,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.5
+                       },
+        "Address":  ":00; nghỉ thứ Hai Khai vị theo mùa: 180.000đ; Salad hải sản: 250.000đ; Món chính thịt bò: 450.000đ; Tráng miệng chocolate: 150.000đ",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Âu",
+        "ReviewCount":  235,
+        "Description":  "Nhà hàng ẩm thực kết hợp cao cấp, nổi bật với trải nghiệm giao tiếp bằng ngôn ngữ ký hiệu cùng đội ngũ nhân viên khiếm thính hoặc khó nghe. Không gian yên tĩnh và cách phục vụ độc đáo giúp nhà hàng trở nên khác biệt. 500.000đ – 1.000.000đ/người 178/180D Hai Bà Trưng, phường Tân Định, TP.HCM Món Châu Á Thứ Ba–Chủ nhật 17:",
+        "Lng":  106.6997,
+        "Lat":  10.7784,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🍝",
+        "Price":  "30–23",
+        "Name":  "Blanc. Restaurant"
+    },
+    {
+        "TypeRaw":  "Món hải sản",
+        "Num":  85,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.7,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.6
+                       },
+        "Address":  "Hồ Tùng Mậu, phường Sài Gòn, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "699953",
+        "Type":  "Hải sản",
+        "ReviewCount":  108,
+        "Description":  "Nhà hàng kết hợp ẩm thực hiện đại với cảm hứng nghệ thuật, có không gian tinh tế và quầy bar phục vụ cocktail. Quán chú trọng cách trình bày món ăn và trải nghiệm thưởng thức ẩm thực sáng tạo. 350.000đ – 700.000đ/người Tầng trệt và lửng (G \u0026 M),",
+        "Lng":  106.7005,
+        "Lat":  10.7766,
+        "Hours":  "06:30–23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "160.000đ",
+                           "Name":  "Seasonal salad"
+                       },
+                       {
+                           "Price":  "220.000đ",
+                           "Name":  "Grilled eel parfait"
+                       },
+                       {
+                           "Price":  "240.000đ",
+                           "Name":  "Long An duck leg"
+                       },
+                       {
+                           "Price":  "240.000đ",
+                           "Name":  "Lâm Đồng chocolate mousse"
+                       }
+                   ],
+        "Emoji":  "🦐",
+        "Price":  "43–45",
+        "Name":  "ÚNU Art inspired Eatery \u0026 Bar"
+    },
+    {
+        "TypeRaw":  "Thái Lan",
+        "Num":  86,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  4.9,
+                           "Phục vụ":  4.2,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.7
+                       },
+        "Address":  "Khu vực trung tâm TP.HCM; nên xác nhận địa chỉ chi nhánh khi đặt bàn",
+        "District":  "Quận 1",
+        "ImgId":  "8472992",
+        "Type":  "Món Thái",
+        "ReviewCount":  169,
+        "Description":  "Nhà hàng Thái Lan hoạt động lâu năm, nổi bật với sự kết hợp hài hòa giữa vị chua, cay, mặn, ngọt và các loại thảo mộc đặc trưng.",
+        "Lng":  106.7012,
+        "Lat":  10.7748,
+        "Hours":  "Liên hệ",
+        "Dishes":  [
+                       {
+                           "Price":  "220.000đ",
+                           "Name":  "Cần xác nhận giờ hiện tại Cá trê chiên sốt gỏi xoài"
+                       },
+                       {
+                           "Price":  "195.000đ",
+                           "Name":  "Gỏi đu đủ tôm khô và ba khía"
+                       },
+                       {
+                           "Price":  "250.000đ",
+                           "Name":  "Canh chua tôm"
+                       },
+                       {
+                           "Price":  "250.000đ",
+                           "Name":  "Hủ tiếu xào kiểu Thái"
+                       },
+                       {
+                           "Price":  "95.000đ",
+                           "Name":  "Xôi xoài"
+                       }
+                   ],
+        "Emoji":  "🥘",
+        "Price":  "200.000 - 400.000đ/người",
+        "Name":  "Lạc Thái"
+    },
+    {
+        "TypeRaw":  "Thái Lan",
+        "Num":  87,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.9,
+                           "Phục vụ":  4.1,
+                           "Không gian":  4.2,
+                           "Giá cả":  4.3
+                       },
+        "Address":  "40–42 Bùi Thị Xuân, khu vực Bến Thành, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "8472992",
+        "Type":  "Món Thái",
+        "ReviewCount":  230,
+        "Description":  "Nhà hàng chuyên món Thái với không gian chỉn chu, thực đơn tập trung vào các món truyền thống và gia vị đặc trưng của Thái Lan.",
+        "Lng":  106.7019,
+        "Lat":  10.773,
+        "Hours":  "10:30–23:00",
+        "Dishes":  [
+                       {
+                           "Price":  "khoảng 150.000–220.000đ",
+                           "Name":  "Pad Thai tôm"
+                       },
+                       {
+                           "Price":  "100.000–160.000đ",
+                           "Name":  "Gỏi đu đủ"
+                       },
+                       {
+                           "Price":  "150.000 - 220.000đ",
+                           "Name":  "Cà ri xanh"
+                       },
+                       {
+                           "Price":  "120.000–180.000đ",
+                           "Name":  "Cơm chiên kiểu Thái"
+                       }
+                   ],
+        "Emoji":  "🥘",
+        "Price":  "200.000 - 400.000đ/người",
+        "Name":  "Tien Tien Thai Cuisine"
+    },
+    {
+        "TypeRaw":  "Thái Lan, Isan",
+        "Num":  88,
+        "Rating":  4.5,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.1,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.3
+                       },
+        "Address":  "136 Pasteur, khu vực trung tâm TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "8472992",
+        "Type":  "Món Thái",
+        "ReviewCount":  102,
+        "Description":  "Nhà hàng chuyên ẩm thực Thái vùng Isan, nổi bật với món gỏi đu đủ, các món nướng và hương vị cay nồng đặc trưng.",
+        "Lng":  106.7026,
+        "Lat":  10.7811,
+        "Hours":  "10:30–14:30; 17:00–22:45",
+        "Dishes":  [
+                       {
+                           "Price":  "khoảng 90.000–150.000đ",
+                           "Name":  "Gỏi đu đủ Thái"
+                       },
+                       {
+                           "Price":  "100.000 - 160.000đ",
+                           "Name":  "Gỏi đu đủ ba khía"
+                       },
+                       {
+                           "Price":  "150.000–230.000đ",
+                           "Name":  "Gà nướng"
+                       },
+                       {
+                           "Price":  "40.000–70.000đ",
+                           "Name":  "Xôi Thái"
+                       }
+                   ],
+        "Emoji":  "🥘",
+        "Price":  "150.000 - 300.000đ/người",
+        "Name":  "Somtam ZAAP"
+    },
+    {
+        "TypeRaw":  "Ấn Độ",
+        "Num":  89,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.5,
+                           "Không gian":  3.9,
+                           "Giá cả":  4.3
+                       },
+        "Address":  "39A Ngô Đức Kế, khu vực trung tâm TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1560694",
+        "Type":  "Món Ấn",
+        "ReviewCount":  158,
+        "Description":  "Nhà hàng Ấn Độ lâu năm, phục vụ món cà ri, bánh mì naan và các món nướng lò đất truyền thống; có lựa chọn chay.",
+        "Lng":  106.7002,
+        "Lat":  10.7793,
+        "Hours":  "10:30–22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "khoảng 250.000 - 350.000đ",
+                           "Name":  "Gà nướng Tandoori"
+                       },
+                       {
+                           "Price":  "180.000–250.000đ",
+                           "Name":  "Chicken tikka"
+                       },
+                       {
+                           "Price":  "150.000–220.000đ",
+                           "Name":  "Cà ri gà"
+                       },
+                       {
+                           "Price":  "45.000 - 70.000đ",
+                           "Name":  "Bánh naan tỏi"
+                       }
+                   ],
+        "Emoji":  "🍛",
+        "Price":  "200.000 - 500.000đ/người",
+        "Name":  "Tandoor Indian Restaurant"
+    },
+    {
+        "TypeRaw":  "Ấn Độ",
+        "Num":  90,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4,
+                           "Không gian":  4.1,
+                           "Giá cả":  4
+                       },
+        "Address":  "188–190 Bùi Viện, khu vực Phạm Ngũ Lão, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1560694",
+        "Type":  "Món Ấn",
+        "ReviewCount":  224,
+        "Description":  "Quán Ấn Độ với thực đơn đa dạng từ cà ri, cơm Biryani đến các set cơm truyền thống, phù hợp người muốn khám phá nhiều món trong cùng một bữa.",
+        "Lng":  106.704,
+        "Lat":  10.7775,
+        "Hours":  "10:30–22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "130.000đ",
+                           "Name":  "Cơm gà Biryani"
+                       },
+                       {
+                           "Price":  "140.000đ",
+                           "Name":  "Cơm tôm Biryani"
+                       },
+                       {
+                           "Price":  "140.000đ",
+                           "Name":  "Cơm cừu Biryani"
+                       },
+                       {
+                           "Price":  "120.000đ",
+                           "Name":  "Set cơm chay"
+                       }
+                   ],
+        "Emoji":  "🍛",
+        "Price":  "120.000 - 250.000đ/người",
+        "Name":  "Namaste India"
+    },
+    {
+        "TypeRaw":  "Ấn Độ",
+        "Num":  91,
+        "Rating":  4.4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.5,
+                           "Phục vụ":  4,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.2
+                       },
+        "Address":  "234 Bùi Viện, khu vực Phạm Ngũ Lão, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1560694",
+        "Type":  "Món Ấn",
+        "ReviewCount":  97,
+        "Description":  "Nhà hàng phục vụ các món Ấn Độ với gia vị đậm đà, nhiều lựa chọn cà ri, cơm Biryani và set cơm gồm món chính cùng bánh mì.",
+        "Lng":  106.7047,
+        "Lat":  10.7757,
+        "Hours":  "11:00–23:30",
+        "Dishes":  [
+                       {
+                           "Price":  "160.000đ",
+                           "Name":  "Set cơm chay"
+                       },
+                       {
+                           "Price":  "175.000đ",
+                           "Name":  "Set cơm gà"
+                       },
+                       {
+                           "Price":  "180.000đ",
+                           "Name":  "Set cơm cá"
+                       },
+                       {
+                           "Price":  "185.000đ",
+                           "Name":  "Set cơm tôm"
+                       }
+                   ],
+        "Emoji":  "🍛",
+        "Price":  "120.000 - 250.000đ/người",
+        "Name":  "Halen\u0027s Indian Curry"
+    },
+    {
+        "TypeRaw":  "Ấn Độ",
+        "Num":  92,
+        "Rating":  4.3,
+        "SubRatings":  {
+                           "Đồ ăn":  4.5,
+                           "Phục vụ":  3.9,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.2
+                       },
+        "Address":  ", ước tính 41 Bùi Thị Xuân, khu vực Bến Thành, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1560694",
+        "Type":  "Món Ấn",
+        "ReviewCount":  158,
+        "Description":  "Nhà hàng chuyên món Bắc và Nam Ấn Độ, có các món cà ri, cơm gia vị, bánh dosa và những món nướng truyền thống.",
+        "Lng":  106.7054,
+        "Lat":  10.7739,
+        "Hours":  "10:00–22:30",
+        "Dishes":  [
+                       {
+                           "Price":  "khoảng 140.000 - 200.000đ",
+                           "Name":  "Cà ri gà"
+                       },
+                       {
+                           "Price":  "180.000–280.000đ",
+                           "Name":  "Gà Tandoori"
+                       },
+                       {
+                           "Price":  "120.000 - 180.000đ",
+                           "Name":  "Cơm Biryani"
+                       },
+                       {
+                           "Price":  "35.000–60.000đ",
+                           "Name":  "Bánh naan"
+                       }
+                   ],
+        "Emoji":  "🍛",
+        "Price":  "150.000 - 300.000đ/người",
+        "Name":  "Natraj Indian Cuisine Restaurant"
+    },
+    {
+        "TypeRaw":  "Pháp, fine dining",
+        "Num":  93,
+        "Rating":  4.9,
+        "SubRatings":  {
+                           "Đồ ăn":  5,
+                           "Phục vụ":  4.9,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.9
+                       },
+        "Address":  ", ước tính 14 Ngô Quang Huy, khu vực An Khánh, TP.HCM",
+        "District":  "Quận 2",
+        "ImgId":  "1640777",
+        "Type":  "Món Âu",
+        "ReviewCount":  50,
+        "Description":  "Nhà hàng Pháp cao cấp trong không gian biệt thự, nổi bật với kỹ thuật chế biến tinh tế, nguyên liệu cao cấp và thực đơn theo mùa.",
+        "Lng":  106.698,
+        "Lat":  10.7721,
+        "Hours":  "Liên hệ",
+        "Dishes":  [
+                       {
+                           "Price":  "Liên hệ",
+                           "Name":  "Bữa trưa từ thứ Năm đến Chủ nhật"
+                       },
+                       {
+                           "Price":  "1.990.000đ",
+                           "Name":  "bữa tối từ thứ Ba đến Chủ nhật. Giờ nhận khách tùy khung đặt bàn. Thăn nội bò Black Angus"
+                       },
+                       {
+                           "Price":  "1.990.000đ",
+                           "Name":  "Sườn cừu New Zealand"
+                       },
+                       {
+                           "Price":  "3.090.000đ",
+                           "Name":  "Thăn nội bò Wagyu A5+"
+                       },
+                       {
+                           "Price":  "490.000đ",
+                           "Name":  "Bánh táo Apple Tart"
+                       }
+                   ],
+        "Emoji":  "🍝",
+        "Price":  "1.500.000 - 3.500.000đ/người",
+        "Name":  "La Villa French Restaurant"
+    },
+    {
+        "TypeRaw":  "Trung Hoa, Quảng Đông",
+        "Num":  94,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.2,
+                           "Không gian":  4.1,
+                           "Giá cả":  4.3
+                       },
+        "Address":  ", ước tính Tầng 1, Renaissance Riverside Hotel Saigon, 8–15 Tôn Đức Thắng, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1683809",
+        "Type":  "Món Hoa",
+        "ReviewCount":  118,
+        "Description":  "Nhà hàng Quảng Đông trong khách sạn, nổi bật với dimsum thủ công, món quay và các món ăn truyền thống được trình bày theo phong cách cao cấp.",
+        "Lng":  106.7,
+        "Lat":  10.7728,
+        "Hours":  "11:30–14:30; 18:00–22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "288.000đ++ theo chương trình menu",
+                           "Name":  "Gà Quý Phi"
+                       },
+                       {
+                           "Price":  "188.000đ++",
+                           "Name":  "Bánh bao mực than tre"
+                       },
+                       {
+                           "Price":  "288.000đ++",
+                           "Name":  "Món cua sốt trứng cua"
+                       },
+                       {
+                           "Price":  "giá tùy món",
+                           "Name":  "Dimsum gọi món"
+                       }
+                   ],
+        "Emoji":  "🥟",
+        "Price":  "500.000 - 1.000.000đ/người",
+        "Name":  "Kabin – Saigon"
+    },
+    {
+        "TypeRaw":  "",
+        "Num":  95,
+        "Rating":  4.2,
+        "SubRatings":  {
+                           "Đồ ăn":  4.4,
+                           "Phục vụ":  3.9,
+                           "Không gian":  4,
+                           "Giá cả":  4
+                       },
+        "Address":  ", ước tính 57–59 Phù Đổng Thiên Vương, khu vực Quận 5, TP.HCM Trung Hoa 7:00–14:00 và 17:00–21:00 Há cảo tôm: khoảng 50.000–80.000đ/phần; Xíu mại: 45.000 - 70.000đ/phần; Bánh bao kim sa: 35.000 - 55.0",
+        "District":  "Quận 5",
+        "ImgId":  "2098086",
+        "Type":  "Món Hoa",
+        "ReviewCount":  152,
+        "Description":  "Quán chuyên dimsum kiểu Hong Kong và các món xào Trung Hoa, phù hợp cho bữa sáng, bữa trưa hoặc bữa tối nhẹ.",
+        "Lng":  106.6576,
+        "Lat":  10.7535,
+        "Hours":  "Liên hệ",
+        "Dishes":  {
+
+                   },
+        "Emoji":  "🥟",
+        "Price":  "100.000 - 250.000đ/người",
+        "Name":  "Shan Dimsum"
+    },
+    {
+        "TypeRaw":  "Nhật Bản",
+        "Num":  96,
+        "Rating":  4.1,
+        "SubRatings":  {
+                           "Đồ ăn":  4.1,
+                           "Phục vụ":  3.8,
+                           "Không gian":  4,
+                           "Giá cả":  4.1
+                       },
+        "Address":  ", ước tính 232 Nguyễn Đình Chiểu, TP.HCM",
+        "District":  "Quận 3",
+        "ImgId":  "2098086",
+        "Type":  "Món Nhật",
+        "ReviewCount":  213,
+        "Description":  "Nhà hàng Nhật phục vụ sushi, sashimi, tempura và các món cơm, mì; có không gian phù hợp cho nhóm nhỏ và bữa ăn gia đình.",
+        "Lng":  106.6982,
+        "Lat":  10.7766,
+        "Hours":  "11:00–14:00; 17:00–22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "165.000đ",
+                           "Name":  "nghỉ trưa Chủ nhật Tôm chiên xù sốt tartar"
+                       },
+                       {
+                           "Price":  "159.000đ",
+                           "Name":  "Tempura tôm và rau củ"
+                       },
+                       {
+                           "Price":  "120.000đ",
+                           "Name":  "Bạch tuộc chiên giòn"
+                       },
+                       {
+                           "Price":  "75.000đ",
+                           "Name":  "Đậu phụ chiên sốt nấm"
+                       }
+                   ],
+        "Emoji":  "🍣",
+        "Price":  "200.000 - 400.000đ/người",
+        "Name":  "Indigo Japanese Restaurant"
+    },
+    {
+        "TypeRaw":  "Nhật Bản",
+        "Num":  97,
+        "Rating":  4.1,
+        "SubRatings":  {
+                           "Đồ ăn":  4.2,
+                           "Phục vụ":  3.8,
+                           "Không gian":  4,
+                           "Giá cả":  3.8
+                       },
+        "Address":  "Số 2 đường số 2, khu vực An Khánh, TP.HCM (địa chỉ tham chiếu: 40 Thảo Điền)",
+        "District":  "Quận 2",
+        "ImgId":  "2098086",
+        "Type":  "Món Nhật",
+        "ReviewCount":  86,
+        "Description":  "Tiệm chuyên cơm nắm Nhật Bản, phục vụ các loại nhân truyền thống và biến tấu phù hợp khẩu vị Việt Nam; thích hợp cho bữa ăn nhanh.",
+        "Lng":  106.6989,
+        "Lat":  10.7748,
+        "Hours":  "7:00–20:00",
+        "Dishes":  [
+                       {
+                           "Price":  "45.000đ",
+                           "Name":  "hằng ngày Cơm nắm cá hồi nướng"
+                       },
+                       {
+                           "Price":  "45.000đ",
+                           "Name":  "Cơm nắm mơ muối"
+                       },
+                       {
+                           "Price":  "45.000đ",
+                           "Name":  "Cơm nắm cá ngừ mayonnaise"
+                       },
+                       {
+                           "Price":  "60.000đ",
+                           "Name":  "Cơm nắm tôm tempura"
+                       }
+                   ],
+        "Emoji":  "🍣",
+        "Price":  "50.000 - 100.000đ/người",
+        "Name":  "Onigiriya En"
+    },
+    {
+        "TypeRaw":  "Việt Nam, có món chay",
+        "Num":  98,
+        "Rating":  4,
+        "SubRatings":  {
+                           "Đồ ăn":  4.2,
+                           "Phục vụ":  3.7,
+                           "Không gian":  3.9,
+                           "Giá cả":  3.8
+                       },
+        "Address":  ", ước tính 257 Lý Tự Trọng, khu vực Bến Thành, TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "1775043",
+        "Type":  "Món Việt",
+        "ReviewCount":  147,
+        "Description":  "Nhà hàng Việt Nam phục vụ các món truyền thống, món cuốn, phở và các lựa chọn chay; thực đơn có cả đồ uống và món tráng miệng.",
+        "Lng":  106.6997,
+        "Lat":  10.773,
+        "Hours":  "10:00–23:30",
+        "Dishes":  [
+                       {
+                           "Price":  "139.000đ",
+                           "Name":  "Phở bò"
+                       },
+                       {
+                           "Price":  "219.000đ",
+                           "Name":  "Vịt quay"
+                       },
+                       {
+                           "Price":  "195.000đ",
+                           "Name":  "Bò lúc lắc kiểu Việt"
+                       },
+                       {
+                           "Price":  "171.000đ",
+                           "Name":  "Phở xào hải sản"
+                       }
+                   ],
+        "Emoji":  "🍜",
+        "Price":  "150.000 - 300.000đ/người",
+        "Name":  "Hai\u0027s Restaurant"
+    },
+    {
+        "TypeRaw":  "Hải sản, Trung Hoa, Nhật Bản",
+        "Num":  99,
+        "Rating":  4.7,
+        "SubRatings":  {
+                           "Đồ ăn":  4.7,
+                           "Phục vụ":  4.6,
+                           "Không gian":  4.3,
+                           "Giá cả":  4.3
+                       },
+        "Address":  ", ước tính; món cao cấp có thể cao hơn 261–263 An Dương Vương, khu vực Chợ Quán, TP.HCM",
+        "District":  "Quận 5",
+        "ImgId":  "699953",
+        "Type":  "Hải sản",
+        "ReviewCount":  78,
+        "Description":  "Nhà hàng quy mô lớn chuyên hải sản tươi sống, món Hoa, món Nhật, lẩu và các món thịt nướng, thích hợp cho nhóm đông và tiệc gia đình.",
+        "Lng":  106.6998,
+        "Lat":  10.7764,
+        "Hours":  "10:00–24:00",
+        "Dishes":  [
+                       {
+                           "Price":  "300.000đ",
+                           "Name":  "Bụng cá hồi"
+                       },
+                       {
+                           "Price":  "750.000đ",
+                           "Name":  "Cá ngừ vây xanh Nhật Bản"
+                       },
+                       {
+                           "Price":  "120.000đ/2 miếng",
+                           "Name":  "Cá hồi nigiri"
+                       },
+                       {
+                           "Price":  "250.000đ",
+                           "Name":  "Cơm chiên tỏi"
+                       }
+                   ],
+        "Emoji":  "🦐",
+        "Price":  "300.000 - 800.000đ/người",
+        "Name":  "Nhà hàng Bê Vàng"
+    },
+    {
+        "TypeRaw":  "Nhật Bản, hải sản, omakase",
+        "Num":  100,
+        "Rating":  4.6,
+        "SubRatings":  {
+                           "Đồ ăn":  4.6,
+                           "Phục vụ":  4.1,
+                           "Không gian":  4.2,
+                           "Giá cả":  4.3
+                       },
+        "Address":  ", ước tính 38 Thái Văn Lung, khu vực trung tâm TP.HCM",
+        "District":  "Quận 1",
+        "ImgId":  "2098086",
+        "Type":  "Món Nhật",
+        "ReviewCount":  145,
+        "Description":  "Nhà hàng Nhật có phong cách nướng hải sản kết hợp omakase, tập trung vào cá và hải sản thay cho mô hình nướng thịt thông thường.",
+        "Lng":  106.7018,
+        "Lat":  10.7771,
+        "Hours":  "11:00–14:00; 18:00–22:00",
+        "Dishes":  [
+                       {
+                           "Price":  "khoảng 200.000 - 400.000đ",
+                           "Name":  "nên xác nhận trước khi đến Cá theo mùa nướng kiểu Nhật"
+                       },
+                       {
+                           "Price":  "300.000–600.000đ",
+                           "Name":  "Sashimi tổng hợp"
+                       },
+                       {
+                           "Price":  "250.000 - 500.000đ",
+                           "Name":  "Hải sản nướng"
+                       },
+                       {
+                           "Price":  "khoảng 1.000.000 - 2.000.000đ",
+                           "Name":  "Set omakase"
+                       }
+                   ],
+        "Emoji":  "🍣",
+        "Price":  "800.000 - 2.000.000đ/người",
+        "Name":  "Yakiuo Ishikawa Saigon"
+    }
+]
